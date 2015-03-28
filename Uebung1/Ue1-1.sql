@@ -1,7 +1,9 @@
-SELECT XMLSERIALIZE( 
-           XMLELEMENT( NAME "Participant", XMLATTRIBUTES(tnnr AS "PNr"), 
-                  XMLELEMENT(NAME "Name", t.name),
-                  XMLELEMENT(NAME "loc", ort)
-           ) 
-       AS CLOB INCLUDING XMLDECLARATION) "XML Output"
-FROM teilnehmer AS t
+CREATE TABLE "A" (B VARCHAR(6));
+INSERT INTO A VALUES ('value‘);
+SELECT XMLSERIALIZE(
+           XMLELEMENT (NAME "A",
+               XMLELEMENT(NAME "B", A.b)
+           ) AS CLOB INCLUDING XMLDECLARATION
+       ) AS "XML Output"
+FROM A
+
