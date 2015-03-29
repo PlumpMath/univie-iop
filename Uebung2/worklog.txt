@@ -1,0 +1,13 @@
+VU Interoperabilität Übung 2
+Rainer Hörbe, a7901955 Gruppe 13
+Arbeitsprotokoll
+
+- Die für Gruppe 13 angegebenen Daten sind fast leer. Als Alternative wird die Abfrage auf kapitel=706 geändert.
+- Die von der Webseite geladene Datenbasis ist valides XML, das Encoding ist jedoch falsch und muss auf UTF-8 geändert werden
+- Basex installiert:
+brew install basex
+
+- Konvertierung Input in streng hierarchische Struktur
+-- Auswahl des Werkzeugs: XSLT oder Parser in prozeduraler Sprache? Beispiele für ähnlich Aufgaben (z.B. http://www.oxygenxml.com/archives/xsl-list/200505/msg01139.html) zeigen einen schwer lesbaren Code. Daher: Python. 
+-- Erstellung einer Teilmenge des Inputs (< 20%) für schnelleres Arbeiten
+

@@ -1,3 +1,4 @@
+ -- ohne Gruppierung nach Kurs, diese ist in 2e umgesetzt
  SELECT XMLSERIALIZE(
      CONTENT XMLELEMENT(
      NAME "Kurs", XMLATTRIBUTES(
