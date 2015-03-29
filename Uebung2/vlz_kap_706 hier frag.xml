@@ -1,0 +1,69 @@
+<level2>
+  <level3>
+    <chapter3 titel="7.6.1 MA Geschichte 2014" id="706_2"/>
+    <level4>
+      <chapter4 titel="Pflichtmodul 1: Einführung in die Schwerpunkte" id="706_3"/>
+      <level5>
+        <chapter5 titel="Schwerpunkt-Einführung: Vorlesungen" id="706_4"/></level5>
+      <level5>
+        <chapter5 titel="Schwerpunkt-Einführung: Lektürekurse" id="706_5"/></level5>
+    </level4>
+    <level4>
+      <chapter4 titel="Pflichtmodul 2: Einführung in den Forschungsprozess. Design und Methoden" id="706_6"/>
+      <level5>
+        <chapter5 titel="Proseminare" id="706_7"/></level5>
+      <level5>
+        <chapter5 titel="Methodenkurse" id="706_8"/></level5>
+      <level5>
+        <chapter5 titel="Methodenworkshops" id="706_9"/></level5>
+    </level4>
+    <level4>
+      <level5>
+        <chapter5 titel="Forschungsseminare" id="706_11"/></level5>
+      <level5>
+        <chapter5 titel="Projektkurse" id="706_12"/></level5>
+      <level5>
+        <chapter5 titel="Proposal-Workshops" id="706_13"/></level5>
+    </level4>
+    <level4>
+      <chapter4 titel="Pflichtmodul 4: Wahlbereich" id="706_14"/></level4>
+    <level4>
+      <chapter4 titel="Pflichtmodul 5: Masterseminar" id="706_15"/></level4>
+  </level3>
+  <level3>
+    <chapter3 titel="7.6.2 MA Geschichtsforschung, Historische Hilfswissenschaften und Archivwissenschaft" id="706_16"/>
+    <level4>
+      <level5>
+        <chapter5 titel="PM Aufbaumodul Geschichtswissenchaftliches Denken und Arbeiten" id="706_18"/></level5>
+    </level4>
+    <level4>
+      <level5>
+        <chapter5 titel="PM Grundmodul 1" id="706_20"/></level5>
+      <level5>
+        <chapter5 titel="PM Grundmodul 2" id="706_21"/></level5>
+      <level5>
+        <chapter5 titel="PM Grundmodul 3" id="706_22"/></level5>
+      <level5>
+        <chapter5 titel="PM Grundmodul 4" id="706_23"/></level5>
+      <level5>
+        <chapter5 titel="PM Grundmodul 5" id="706_24"/></level5>
+      <level5>
+        <chapter5 titel="PM Grundmodul 6" id="706_25"/></level5>
+      <level5>
+        <chapter5 titel="PM Archivpraktikum" id="706_26"/></level5>
+    </level4>
+    <level4>
+      <level5>
+        <chapter5 titel="APM Geschichtsforschung 1" id="706_28"/></level5>
+  </level4>
+  </level3>
+  <level3>
+    <chapter5 titel="APM Geschichtsforschung 2" id="706_29"/></level4>
+    <level4>
+      <chapter5 titel="APM Archivwissenschaft und Medienarchive 3" id="706_34"/>
+      <level5>
+        <chapter5 titel="APM Archivwissenschaft und Medienarchive 4" id="706_35"/></level5>
+    </level4>
+    <level4>    </level4>
+  </level3>
+</level2>

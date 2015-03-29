@@ -12,7 +12,8 @@ def close_level(l, indent):
     print("%s</level%s>" % (indent, l))
 
 def new_level(e, indent=''):
-    print("%s<%s anchor=%s>" % (indent, e.tag, e.attrib['anker']), end="")
+    #print("%s<%s anchor=%s>" % (indent, e.tag, e.attrib['anker']), end="")
+    print("%s<%s>" % (indent, e.tag), end="")
     anchor = e.attrib['anker'][1:]
     xpath = ('.//*[@id="%s"]' % anchor)
     #print(xpath, end="")
