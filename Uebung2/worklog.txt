@@ -11,5 +11,4 @@ brew install basex
 -- Auswahl des Werkzeugs: XSLT oder Parser in prozeduraler Sprache? Beispiele für ähnlich Aufgaben (z.B. http://www.oxygenxml.com/archives/xsl-list/200505/msg01139.html) zeigen einen schwer lesbaren Code. Daher: Python. 
 -- Erstellung einer Teilmenge des Inputs (< 20%) für schnelleres Arbeiten "vlz_kap_706 frag.xml"
 -- einfache Hierarchie erstellt.
--- Problem: Module sind nicht eindeutig einem Level zugeordnet. Zuordnung über Textmatch??
-
+-- Modulgruppen sind durch den nicht eindeutig einem Level zugeordnet, sondern können level4 oder 5 haben, je nachdem ob es einen level6 gibt.
