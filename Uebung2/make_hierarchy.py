@@ -54,14 +54,15 @@ for pos, e in enumerate(levelList):
     currLevel = int(e.tag[-1])  # get last char - lt 10 levels in input
     nextLevelTag = levelList[pos+1].tag
     nextLevel = int(nextLevelTag[-1])
-    ##print ("%s c=%s, N=%s" % (e.tag, currLevel, nextLevel))
-    # if currLevel == 5 and nextLevel != 6:
-    #     #e.tag = renameTag['level6']  # no modulesubgroup
-    #     prevLevel5Type = 'leaf'
-    # elif currLevel == 5 and nextLevel == 6:
-    #     prevLevel5Type = 'node'
-    # else:
-    #     e.tag = renameTag[e.tag]
+    #print ("%s c=%s, N=%s" % (e.tag, currLevel, nextLevel))
+    if currLevel == 5 and nextLevel != 6:
+        e.tag = renameTag['level6']  # no modulesubgroup
+        prevLevel5Type = 'leaf'
+    elif currLevel == 5 and nextLevel == 6:
+        e.tag = renameTag['level5']
+        prevLevel5Type = 'node'
+    else:
+        e.tag = renameTag[e.tag]
     indent = ('  ' * (currLevel - 2))
     prevLevel = int(levelStack[-1]) # get last element in list
     if currLevel == prevLevel:
