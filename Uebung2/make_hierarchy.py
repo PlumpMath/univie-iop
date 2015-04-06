@@ -1,6 +1,13 @@
 __author__ = 'r2h2'
 # convert <vorleseungsverzeichnis> into proper hirarchcal structure
-import xml.etree.ElementTree
+
+from xml.etree import ElementTree
+from xml.dom import minidom
+
+def prettifyXML(elem):
+    rough_string = ElementTree.tostring(elem, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent=" ")
 
 renameTag = {
     'level2' : 'studybranch',
@@ -9,35 +16,33 @@ renameTag = {
     'level5' : 'modulesubgroup',  # module if no subsequent level6
     'level6' : 'module',
 }
-prevLevel5Type = None  # either leaf or node
+currentLevel5Type = None  # either leaf or node
 
-def close_level(l, indent, prevLevel5Type):
-    #if l == 4 and prevLevel5Type == 'leaf':
-    #    print("%s</level%s>" % (indent, 6))
-    print("%s</level%s>" % (indent, l))
-
-def add_contents(e, indent=''):
-    anchor = e.attrib['anker'][1:]
-    xpath = ('.//*[@id="%s"]' % anchor)
+outroot = ElementTree.Element('lectureindex')
+currentElem = [outroot] # stack mirrors hierarchy of current hierarchy
+def add_contents(e):
+    anchor = e.attrib['anker']
+    #if anchor:
+    #    e.set('anchor1', anchor)
+    xpath = ('.//*[@id="%s"]' % anchor[1:])
     ##print(xpath, end="")
     chap = rootElem.find(xpath)
-    if chap:
-        print("\n  %s<%s" % (indent, chap.tag), end="")
-        for k, v in chap.attrib.items():
-            print(' %s="%s"' %(k, v), end="")
-        print("/>", end="")
+    #if chap:
+    #    e.append(chap)
 
-def new_level(e, indent=''):
+def new_level(e):
     ##print("%s<%s anchor=%s>" % (indent, e.tag, e.attrib['anker']), end="")
-    print("%s<%s>" % (indent, e.tag), end="")
-    #add_contents(e, indent)
+    currentElem[-1].append(e)  # append to xml (etree)
+    #ElementTree.SubElement(currentElem[-1], e.tag) # append empty element to xml (etree)
+    currentElem.append(e)  # append to level stack
+    add_contents(e)
 
 levelList = []
-rootElem = xml.etree.ElementTree.parse('vlz_kap_706 frag.xml').getroot()
+rootElem = ElementTree.parse('vlz_kap_706 frag.xml').getroot()
 for e in rootElem.findall('*'):
     if e.tag.startswith('level'):
         levelList.append(e)
-levelList.append(xml.etree.ElementTree.Element('level0')) # terminating element
+levelList.append(ElementTree.Element('level0')) # terminating element
     
 ''' 3 jobs in one:
 1. create hierarchy from linear list by inserting close tags at the appropriate location
@@ -48,41 +53,33 @@ levelList.append(xml.etree.ElementTree.Element('level0')) # terminating element
 '''
 levelStack = [0]
 prevLevel = 0
-prevLevel5Type = None
+currentLevel5Type = None
 for pos, e in enumerate(levelList):
     if pos == len(levelList) - 1: break
     currLevel = int(e.tag[-1])  # get last char - lt 10 levels in input
-    nextLevelTag = levelList[pos+1].tag
-    nextLevel = int(nextLevelTag[-1])
-    #print ("%s c=%s, N=%s" % (e.tag, currLevel, nextLevel))
+    nextLevel = int(levelList[pos+1].tag[-1])
     if currLevel == 5 and nextLevel != 6:
         e.tag = renameTag['level6']  # no modulesubgroup
-        prevLevel5Type = 'leaf'
+        currentLevel5Type = 'leaf'
     elif currLevel == 5 and nextLevel == 6:
         e.tag = renameTag['level5']
-        prevLevel5Type = 'node'
+        currentLevel5Type = 'node'
     else:
         e.tag = renameTag[e.tag]
-    indent = ('  ' * (currLevel - 2))
     prevLevel = int(levelStack[-1]) # get last element in list
     if currLevel == prevLevel:
-        close_level(prevLevel, '', prevLevel5Type)
-        new_level(e, indent)
+        currentElem.pop()
+        new_level(e)
     elif currLevel > prevLevel:
         levelStack.append(currLevel)
-        print("")
-        new_level(e, indent)
+        new_level(e)
     elif currLevel < prevLevel:
-        close_level(prevLevel, '', prevLevel5Type)
+        currentElem.pop()
         levelStack.pop()
         for d in reversed(range(currLevel, prevLevel)):
-            close_level(d, indent, prevLevel5Type)
-        new_level(e, indent)
+            currentElem.pop()
+        new_level(e)
 
-# print outstanding close tags
-print("")
-for i in reversed(levelStack):
-    currLevel = i
-    indent = ('  ' * (currLevel - 2))
-    if i > 0:
-        close_level(i, indent, prevLevel5Type)
+outTree = ElementTree.ElementTree(outroot)
+outTree.write('z.xml', encoding='utf-8')
+print(prettifyXML(outroot))
