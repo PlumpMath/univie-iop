@@ -151,5 +151,5 @@ for pos, e in enumerate(levelList):
         new_level(e)
 
 outTree = ElementTree.ElementTree(outRoot)
-outTree.write('z.xml', encoding='utf-8')
+outTree.write('vlz_kap_706_clean.xml', encoding='utf-8')
 print(prettifyXML(outRoot))
