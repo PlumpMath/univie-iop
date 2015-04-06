@@ -12,3 +12,4 @@ brew install basex
 -- Erstellung einer Teilmenge des Inputs (< 20%) für schnelleres Arbeiten "vlz_kap_706 frag.xml"
 -- einfache Hierarchie erstellt.
 -- Modulgruppen sind durch den nicht eindeutig einem Level zugeordnet, sondern können level4 oder 5 haben, je nachdem ob es einen level6 gibt.
+-- Annahme auf Basis diese Daten: ein Level 4 hat keine Mischung von Modulgruppen mit und ohne Mudolsubgruppen

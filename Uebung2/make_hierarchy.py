@@ -25,38 +25,92 @@ def rename_element(e, currLevel, nextLevel):
     else:
         e.tag = renameTag[e.tag]
 
+def new_level(e):
+    newElem = ElementTree.Element(e.tag)
+    currentElem[-1].append(newElem)  # append to xml (etree)
+    currentElem.append(newElem)  # append to level stack
+    add_attr_and_children(newElem, e)
+
 def add_attr_and_children(newElem, e):
     anchor = e.attrib['anker'][1:]
     if anchor:
         newElem.set('id', anchor)
     newElem.set('name', e.attrib.get('name', '?'))
     if e.tag == 'module':
-        xpath = ('.//*[@id="%s"]/vlvz' % anchor)
-        vlvz = inRoot.find(xpath)
-        if vlvz:
-            ElementTree.SubElement(newElem, 'course')
-            course = newElem[0]
-            course.set('id', vlvz.attrib.get('lvnr', '?'))
-            course.set('type', vlvz.attrib.get('typ', '?'))
-            course.set('ects', re.sub('\\s', '', vlvz.attrib.get('ects', '?')))
-            course.set('hoursPerWeek', vlvz.attrib.get('wochenstunden', '?'))
-            x = {'N':'No', 'Y':'Yes', '?':''}
-            course.set('pruefungsimmanent', x[vlvz.attrib.get('pruefungsimmanent', '?')])
-            course.set('title', vlvz.attrib.get('kurztitel', '?'))
-            xpath = ('.//*[@id="%s"]/vlvz/gruppen' % anchor)
-            gruppen = inRoot.find(xpath)
+        add_course(newElem, e, anchor)
+
+def add_course(newElem, e, anchor):
+    xpath = ('.//*[@id="%s"]/vlvz' % anchor)
+    vlvz = inRoot.findall(xpath)
+    for i, v in enumerate(vlvz):
+        ElementTree.SubElement(newElem, 'course')
+        course = newElem[i]
+        lvnr = v.attrib.get('lvnr', '?')
+        course.set('id', lvnr)
+        course.set('type', v.attrib.get('typ', '?'))
+        course.set('ects', re.sub('\\s', '', v.attrib.get('ects', '?')))
+        course.set('hoursPerWeek', v.attrib.get('wochenstunden', '?'))
+        xYN = {'N':'No', 'Y':'Yes', '?':''}
+        course.set('continousassessment', xYN[v.attrib.get('pruefungsimmanent', '?')])
+        course.set('title', v.attrib.get('kurztitel', '?'))
+        add_group(course, lvnr)
+
+def add_group(course, lvnr):
+        xpath = './/*[@lvnr="%s"]/gruppen' % lvnr
+        gruppen = inRoot.findall(xpath)
+        for i, g in enumerate(gruppen):
             ElementTree.SubElement(course, 'group')
-            group = course[0]
-            group.set('signlanguage', x[gruppen.attrib.get('gebaerdensprache', '?')])
+            group = course[i]
+            xBN = {'N':'No', 'B':'Yes', '':'No'}
+            group.set('block', xBN[g.attrib.get('block', '?')])
+            group_id = g.attrib.get('gruppe', '?')
+            group.set('id', group_id)
+            group.set('learningplatform', g.attrib.get('plattform', '?'))
+            group.set('learningplatformurl', g.attrib.get('kurs_link', '?'))
+            xYN = {'N':'No', 'Y':'Yes', '?':''}
+            group.set('livestream', xYN[g.attrib.get('livestream', '?')])
+            group.set('signlanguage', xYN[g.attrib.get('gebaerdensprache', '?')])
+            ElementTree.SubElement(group, 'courselanguages')
+            add_languages(group[0], lvnr, group_id)
+            ElementTree.SubElement(group, 'appointments')
+            add_appointments(group[1], lvnr, group_id)
+            ElementTree.SubElement(group, 'lecturers')
+            add_lecturers(group[2], lvnr, group_id)
 
-### Attribute von <vlvz>
+def add_languages(parent, lvnr, group_id):
+        xpath = './/*[@lvnr="%s"]/gruppen[@gruppe="%s"]/unterrichtssprachen' % (lvnr, group_id)
+        sprachen = inRoot.findall(xpath)
+        for i, s in enumerate(sprachen):
+            ElementTree.SubElement(parent, 'lang')
+            lang = parent[i]
+            lang.text = s.text
+
+def add_appointments(parent, lvnr, group_id):
+        xpath = './/*[@lvnr="%s"]/gruppen[@gruppe="%s"]/von_bis' % (lvnr, group_id)
+        von_bis = inRoot.findall(xpath)
+        for i, vb in enumerate(von_bis):
+            ElementTree.SubElement(parent, 'appointment')
+            apptmnt = parent[i]
+            apptmnt.set('date', vb.attrib.get('datum', '?')[:11])
+            apptmnt.set('start', vb.attrib.get('beginn', '?'))
+            apptmnt.set('end', vb.attrib.get('ende', '?'))
+            apptmnt.set('room', vb.attrib.get('kurzraumname', '?'))
+            apptmnt.set('location', vb.attrib.get('ort', '?'))
+            apptmnt.set('zip', vb.attrib.get('plz', '?'))
+            apptmnt.set('street', vb.attrib.get('strasse', '?'))
+
+def add_lecturers(parent, lvnr, group_id):
+        xpath = './/*[@lvnr="%s"]/gruppen[@gruppe="%s"]/vortragende' % (lvnr, group_id)
+        vortragende = inRoot.findall(xpath)
+        for i, vt in enumerate(vortragende):
+            ElementTree.SubElement(parent, 'lecturer')
+            lect = parent[i]
+            lect.set('givenname', vt.attrib.get('vorname', '?'))
+            lect.set('surname', vt.attrib.get('zuname', '?'))
+            lect.set('role', vt.attrib.get('rolle_person', '?'))
 
 
-def new_level(e):
-    newElem = ElementTree.Element(e.tag)
-    currentElem[-1].append(newElem)  # append to xml (etree)
-    currentElem.append(newElem)  # append to level stack
-    add_attr_and_children(newElem, e)
+
 
 ''' --- main ---
 '''
