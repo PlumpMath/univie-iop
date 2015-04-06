@@ -3,6 +3,7 @@ __author__ = 'r2h2'
 
 from xml.etree import ElementTree
 from xml.dom import minidom
+import re
 
 def prettifyXML(elem):
     rough_string = ElementTree.tostring(elem, 'utf-8')
@@ -24,25 +25,39 @@ def rename_element(e, currLevel, nextLevel):
     else:
         e.tag = renameTag[e.tag]
 
-def add_contents(e):
-    anchor = e.attrib['anker']
-    #if anchor:
-    #    e.set('anchor1', anchor)
-    xpath = ('.//*[@id="%s"]' % anchor[1:])
-    ##print(xpath, end="")
-    chap = inRoot.find(xpath)
-    #if chap:
-    #    e.append(chap)
+def add_attr_and_children(newElem, e):
+    anchor = e.attrib['anker'][1:]
+    if anchor:
+        newElem.set('id', anchor)
+    newElem.set('name', e.attrib.get('name', ''))
+    if e.tag == 'module':
+        xpath = ('.//*[@id="%s"]/vlvz' % anchor)
+        vlvz = inRoot.find(xpath)
+        if vlvz:
+            ElementTree.SubElement(newElem, 'course')
+            course = newElem[0]
+            course.set('type', vlvz.attrib.get('typ', ''))
+            course.set('ects', re.sub('\\s', '', vlvz.attrib.get('ects', '')))
+            course.set('hoursPerWeek', vlvz.attrib.get('wochenstunden', ''))
+            x = {'N':'No', 'Y':'Yes', '?':''}
+            course.set('pruefungsimmanent', x[vlvz.attrib.get('pruefungsimmanent', '?')])
+            course.set('title', vlvz.attrib.get('kurztitel', ''))
+            #newElem.set('', vlvz.attrib.get('', ''))
+
+### Attribute von <vlvz>
+
 
 def new_level(e):
-    ##print("%s<%s anchor=%s>" % (indent, e.tag, e.attrib['anker']), end="")
-    currentElem[-1].append(e)  # append to xml (etree)
-    #ElementTree.SubElement(currentElem[-1], e.tag) # append empty element to xml (etree)
-    currentElem.append(e)  # append to level stack
-    add_contents(e)
+    newElem = ElementTree.Element(e.tag)
+    currentElem[-1].append(newElem)  # append to xml (etree)
+    currentElem.append(newElem)  # append to level stack
+    add_attr_and_children(newElem, e)
 
-levelList = []
+''' --- main ---
+'''
 inRoot = ElementTree.parse('vlz_kap_706 frag.xml').getroot()
+levelList = []
+
 for e in inRoot.findall('*'):
     if e.tag.startswith('level'):
         levelList.append(e)
