@@ -29,20 +29,25 @@ def add_attr_and_children(newElem, e):
     anchor = e.attrib['anker'][1:]
     if anchor:
         newElem.set('id', anchor)
-    newElem.set('name', e.attrib.get('name', ''))
+    newElem.set('name', e.attrib.get('name', '?'))
     if e.tag == 'module':
         xpath = ('.//*[@id="%s"]/vlvz' % anchor)
         vlvz = inRoot.find(xpath)
         if vlvz:
             ElementTree.SubElement(newElem, 'course')
             course = newElem[0]
-            course.set('type', vlvz.attrib.get('typ', ''))
-            course.set('ects', re.sub('\\s', '', vlvz.attrib.get('ects', '')))
-            course.set('hoursPerWeek', vlvz.attrib.get('wochenstunden', ''))
+            course.set('id', vlvz.attrib.get('lvnr', '?'))
+            course.set('type', vlvz.attrib.get('typ', '?'))
+            course.set('ects', re.sub('\\s', '', vlvz.attrib.get('ects', '?')))
+            course.set('hoursPerWeek', vlvz.attrib.get('wochenstunden', '?'))
             x = {'N':'No', 'Y':'Yes', '?':''}
             course.set('pruefungsimmanent', x[vlvz.attrib.get('pruefungsimmanent', '?')])
-            course.set('title', vlvz.attrib.get('kurztitel', ''))
-            #newElem.set('', vlvz.attrib.get('', ''))
+            course.set('title', vlvz.attrib.get('kurztitel', '?'))
+            xpath = ('.//*[@id="%s"]/vlvz/gruppen' % anchor)
+            gruppen = inRoot.find(xpath)
+            ElementTree.SubElement(course, 'group')
+            group = course[0]
+            group.set('signlanguage', x[gruppen.attrib.get('gebaerdensprache', '?')])
 
 ### Attribute von <vlvz>
 
