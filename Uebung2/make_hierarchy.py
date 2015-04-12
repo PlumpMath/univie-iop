@@ -25,10 +25,14 @@ def rename_element(e, currLevel, nextLevel):
     else:
         e.tag = renameTag[e.tag]
 
-def new_level(e):
+def new_hierarchy_element(e):
     newElem = ElementTree.Element(e.tag)
-    currentElem[-1].append(newElem)  # append to xml (etree)
-    currentElem.append(newElem)  # append to level stack
+    parentElement = currentElem[-1]
+    try:
+        parentElement.append(newElem)  # append to document tree
+    except IndexError:
+        print("hallo?")
+    currentElem.append(newElem)        # append to level stack
     add_attr_and_children(newElem, e)
 
 def add_attr_and_children(newElem, e):
@@ -38,6 +42,8 @@ def add_attr_and_children(newElem, e):
     newElem.set('name', e.attrib.get('name', '?'))
     if e.tag == 'module':
         add_course(newElem, e, anchor)
+    #lstk = ''.join(str(levelStack))
+    #print("%03d %d/%d/%d-{%d/%d} %s    | %s %s %s %s" % (pos, prevLevel,currLevel,nextLevel, len(currentElem), len(levelStack), lstk, "  " * (len(levelStack)-2), e.tag, anchor, e.attrib.get('name', '?')) )
 
 def add_course(newElem, e, anchor):
     xpath = ('.//*[@id="%s"]/vlvz' % anchor)
@@ -53,10 +59,11 @@ def add_course(newElem, e, anchor):
         xYN = {'N':'No', 'Y':'Yes', '?':''}
         course.set('continousassessment', xYN[v.attrib.get('pruefungsimmanent', '?')])
         course.set('title', v.attrib.get('kurztitel', '?'))
-        add_group(course, lvnr)
+        add_group(anchor, course, lvnr)
 
-def add_group(course, lvnr):
-        xpath = './/*[@lvnr="%s"]/gruppen' % lvnr
+def add_group(anchor, course, lvnr):
+        # the same course ma appear under different <chaptera> - us anchor to uniquify
+        xpath = './/*[@id="%s"]/vlvz[@lvnr="%s"]/gruppen' % (anchor, lvnr)
         gruppen = inRoot.findall(xpath)
         for i, g in enumerate(gruppen):
             ElementTree.SubElement(course, 'group')
@@ -71,22 +78,22 @@ def add_group(course, lvnr):
             group.set('livestream', xYN[g.attrib.get('livestream', '?')])
             group.set('signlanguage', xYN[g.attrib.get('gebaerdensprache', '?')])
             ElementTree.SubElement(group, 'courselanguages')
-            add_languages(group[0], lvnr, group_id)
+            add_languages(group[0], anchor, lvnr, group_id)
             ElementTree.SubElement(group, 'appointments')
-            add_appointments(group[1], lvnr, group_id)
+            add_appointments(group[1], anchor, lvnr, group_id)
             ElementTree.SubElement(group, 'lecturers')
-            add_lecturers(group[2], lvnr, group_id)
+            add_lecturers(group[2], anchor, lvnr, group_id)
 
-def add_languages(parent, lvnr, group_id):
-        xpath = './/*[@lvnr="%s"]/gruppen[@gruppe="%s"]/unterrichtssprachen' % (lvnr, group_id)
+def add_languages(parent, anchor, lvnr, group_id):
+        xpath = './/*[@id="%s"]/vlvz[@lvnr="%s"]/gruppen[@gruppe="%s"]/unterrichtssprachen' % (anchor, lvnr, group_id)
         sprachen = inRoot.findall(xpath)
         for i, s in enumerate(sprachen):
             ElementTree.SubElement(parent, 'lang')
             lang = parent[i]
             lang.text = s.text
 
-def add_appointments(parent, lvnr, group_id):
-        xpath = './/*[@lvnr="%s"]/gruppen[@gruppe="%s"]/von_bis' % (lvnr, group_id)
+def add_appointments(parent, anchor, lvnr, group_id):
+        xpath = './/*[@id="%s"]/vlvz[@lvnr="%s"]/gruppen[@gruppe="%s"]/von_bis' % (anchor, lvnr, group_id)
         von_bis = inRoot.findall(xpath)
         for i, vb in enumerate(von_bis):
             ElementTree.SubElement(parent, 'appointment')
@@ -99,8 +106,8 @@ def add_appointments(parent, lvnr, group_id):
             apptmnt.set('zip', vb.attrib.get('plz', '?'))
             apptmnt.set('street', vb.attrib.get('strasse', '?'))
 
-def add_lecturers(parent, lvnr, group_id):
-        xpath = './/*[@lvnr="%s"]/gruppen[@gruppe="%s"]/vortragende' % (lvnr, group_id)
+def add_lecturers(parent, anchor, lvnr, group_id):
+        xpath = './/*[@id="%s"]/vlvz[@lvnr="%s"]/gruppen[@gruppe="%s"]/vortragende' % (anchor, lvnr, group_id)
         vortragende = inRoot.findall(xpath)
         for i, vt in enumerate(vortragende):
             ElementTree.SubElement(parent, 'lecturer')
@@ -110,11 +117,16 @@ def add_lecturers(parent, lvnr, group_id):
             lect.set('role', vt.attrib.get('rolle_person', '?'))
 
 
-
-
-''' --- main ---
-'''
-inRoot = ElementTree.parse('vlz_kap_706 frag.xml').getroot()
+# --- --- --- --- ---
+#inRoot = ElementTree.parse('vlz_kap_706.xml').getroot()
+with open ("vlz_kap_706.xml", "r") as xmlFile:
+    xmlString=xmlFile.read()
+# fix invalid char entities:
+xmlString.replace(r'&amp;apos;', r'&apos;')
+xmlString.replace(r'&amp;gt;', r'&gt;')
+xmlString.replace(r'&amp;lt;', r'&lt;')
+xmlString.replace(r'&amp;quot;', r'&quot;')
+inRoot = ElementTree.fromstring(xmlString)
 levelList = []
 
 for e in inRoot.findall('*'):
@@ -122,34 +134,35 @@ for e in inRoot.findall('*'):
         levelList.append(e)
 levelList.append(ElementTree.Element('level0')) # terminating element
     
-''' 1. create hierarchy from linear list by inserting close tags at the appropriate location
-    2. skip level5 modulesubgroups if no level6 existing:
-       a new level is a module if no level6 follows (i.e. "leaf")
-       a level 4 must close the previous level 5 according to its type
-'''
+# create hierarchy from linear list by inserting close tags at the appropriate location
 outRoot = ElementTree.Element('lectureindex')
-currentElem = [outRoot] # stack mirrors hierarchy of current hierarchy
-levelStack = [0]
+currentElem = [outRoot] # stack contains currrent level and ancestors
+levelStack = [0] # level numbers
 prevLevel = 0
+pos = None
+currLevel = None
+nextLevel = None
+prevLevel = None
 for pos, e in enumerate(levelList):
     if pos == len(levelList) - 1: break
+    prevLevel = int(levelStack[-1])
     currLevel = int(e.tag[-1])  # get last char - lt 10 levels in input
     nextLevel = int(levelList[pos+1].tag[-1])
     rename_element(e, currLevel, nextLevel)
-    prevLevel = int(levelStack[-1]) # get last element in list
     if currLevel == prevLevel:
         currentElem.pop()
-        new_level(e)
+        new_hierarchy_element(e)
     elif currLevel > prevLevel:
         levelStack.append(currLevel)
-        new_level(e)
+        new_hierarchy_element(e)
     elif currLevel < prevLevel:
         currentElem.pop()
-        levelStack.pop()
-        for d in reversed(range(currLevel, prevLevel)):
+        for d in reversed(range(currLevel, prevLevel)): # closing more than 1 level?
+            #print("    closing level %d" % d)
             currentElem.pop()
-        new_level(e)
+            levelStack.pop()
+        new_hierarchy_element(e)
 
 outTree = ElementTree.ElementTree(outRoot)
 outTree.write('vlz_kap_706_clean.xml', encoding='utf-8')
-print(prettifyXML(outRoot))
+#print(prettifyXML(outRoot), file='z.xml')
