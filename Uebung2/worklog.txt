@@ -14,3 +14,11 @@ brew install basex
 -- Modulgruppen sind durch den nicht eindeutig einem Level zugeordnet, sondern können level4 oder 5 haben, je nachdem ob es einen level6 gibt.
 -- Annahme auf Basis diese Daten: ein Level 4 hat keine Mischung von Modulgruppen mit und ohne Mudolsubgruppen
 -- Wertebereich für das Gruppenattribut "block": die Werte "N" und "" werden auf "No" abgebildet, "B" auf "Yes"
+
+Übung 2-2
+ad 2-2b) Schwierigkeiten mit distinct-values zu lösen "xbase distinct steps within path expression must yield nodes untyped atomic found" 
+Lösung: doppelte Werte in der Ausgabe belassen
+
+ad 2-2c) Schwierigkeit group by umzusetzen. Lösung: Aufgabe creativ interpretiert.
+
+ad 2-2f) Nachdem es immer nur eine Gruppe pro LV gibt, ist es sinnvoll die LV mit Sprache != en auszugeben
