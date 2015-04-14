@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="lectureindex">
+      <element name="studybranch">
+        <attribute name="id">
+          <data type="NMTOKEN"/>
+        </attribute>
+        <attribute name="name"/>
+        <oneOrMore>
+          <element name="study">
+            <attribute name="id">
+              <data type="NMTOKEN"/>
+            </attribute>
+            <attribute name="name"/>
+            <oneOrMore>
+              <element name="modulegroup">
+                <attribute name="id">
+                  <data type="NMTOKEN"/>
+                </attribute>
+                <attribute name="name"/>
+                <choice>
+                  <zeroOrMore>
+                    <ref name="module"/>
+                  </zeroOrMore>
+                  <zeroOrMore>
+                    <element name="modulesubgroup">
+                      <attribute name="id">
+                        <data type="NMTOKEN"/>
+                      </attribute>
+                      <attribute name="name"/>
+                      <oneOrMore>
+                        <ref name="module"/>
+                      </oneOrMore>
+                    </element>
+                  </zeroOrMore>
+                </choice>
+              </element>
+            </oneOrMore>
+          </element>
+        </oneOrMore>
+      </element>
+    </element>
+  </start>
+  <define name="module">
+    <element name="module">
+      <attribute name="id">
+        <data type="NMTOKEN"/>
+      </attribute>
+      <attribute name="name"/>
+      <zeroOrMore>
+        <element name="course">
+          <attribute name="continousassessment">
+            <data type="NCName"/>
+          </attribute>
+          <attribute name="ects"/>
+          <attribute name="hoursPerWeek">
+            <data type="integer"/>
+          </attribute>
+          <attribute name="id">
+            <data type="integer"/>
+          </attribute>
+          <attribute name="title"/>
+          <attribute name="type"/>
+          <element name="group">
+            <attribute name="block">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="id">
+              <data type="integer"/>
+            </attribute>
+            <attribute name="learningplatform"/>
+            <attribute name="learningplatformurl">
+              <data type="anyURI"/>
+            </attribute>
+            <attribute name="livestream">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="signlanguage">
+              <data type="NCName"/>
+            </attribute>
+            <element name="courselanguages">
+              <oneOrMore>
+                <element name="lang">
+                  <data type="NCName"/>
+                </element>
+              </oneOrMore>
+            </element>
+            <element name="appointments">
+              <zeroOrMore>
+                <element name="appointment">
+                  <attribute name="date">
+                    <data type="NMTOKEN"/>
+                  </attribute>
+                  <attribute name="end">
+                    <data type="integer"/>
+                  </attribute>
+                  <attribute name="location">
+                    <data type="NCName"/>
+                  </attribute>
+                  <attribute name="room"/>
+                  <attribute name="start">
+                    <data type="integer"/>
+                  </attribute>
+                  <attribute name="street"/>
+                  <attribute name="zip">
+                    <data type="integer"/>
+                  </attribute>
+                </element>
+              </zeroOrMore>
+            </element>
+            <element name="lecturers">
+              <zeroOrMore>
+                <element name="lecturer">
+                  <attribute name="givenname"/>
+                  <attribute name="role"/>
+                  <attribute name="surname"/>
+                </element>
+              </zeroOrMore>
+            </element>
+          </element>
+        </element>
+      </zeroOrMore>
+    </element>
+  </define>
+</grammar>
