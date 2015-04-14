@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="509_1">
+	<name>5.09. Master Wirtschaftsinformatik</name>
+	<description>Curriculum und Informationen zum Studium siehe
+		http://informatik.univie.ac.at/studierende/der-weg-durchs-studium/master-wirtschaftsinformatik/
+		Die Lehrveranstaltungen im Masterstudium Wirtschaftsinformatik werden
+		teilweise von der Studienprogrammleitung 4 angeboten. Bitte beachten
+		Sie, dass die Lehrveranstaltungen daher von den im Curriculum
+		angegebenen Details abweichen können. Die im Online-VVZ angegebene
+		Zuordnung ist für alle Anrechnungsfragen bindend. Persönliche
+		Anmeldung: Für die Teilnahme an den Lehrveranstaltungen der
+		Studienprogrammleitung 5 ist eine online-Anmeldung unbedingt
+		erforderlich. Informationen zur Anmeldung und zu den Fristen siehe
+		http://informatik.univie.ac.at/anmeldung Zusätzlich zur
+		online-Anmeldung ist die persönliche Anwesenheit in der Vorbesprechung
+		bzw. ersten Einheit der Lehrveranstaltungen unbedingt erforderlich!
+		Bei Verhinderung ist die Lehrveranstaltungsleitung rechtzeitig (d.h.
+		vor der Lehrveranstaltung) zu informieren, andernfalls kann der Platz
+		in der Lehrveranstaltung an andere Studierende vergeben werden.
+		Informationen betreffend die Anmeldung zu Lehrveranstaltungen anderer
+		Studienprogrammleitungen (das sind jene, deren Nummer nicht mit 05
+		begint) finden sich im jeweiligen Kapitel bzw. bei der jeweiligen
+		Lehrveranstaltung.
+	</description>
+	<moduleclass id="509_2 " name="1. Pflichtmodule (66 ECTS)">
+		<modulegroup id="509_3" name="A. Grundlagen (12 ECTS)">
+			<module id="509_4" name="Modul STW Strukturwissenschaften (6 ECTS)">
+				<description>Die Veranstaltungen des Moduls finden im Wintersemester
+					statt.
+				</description>
+			</module>
+			<module id="509_5" name="Modul ASE Advanced Software Engineering (6 ECTS)">
+				<description>Die Veranstaltungen des Moduls finden im Wintersemester
+					statt.
+				</description>
+			</module>
+		</modulegroup>
+		<modulegroup id="509_6" name="B. Anwendungsfach (18 ECTS)">
+			<module id="509_7" name="Modul BW1 Quantitative BWL (6 ECTS)">
+				<description>Im Modul BW1 sind eine oder mehrere Lehrveranstaltungen
+					im Gesamtumfang von zumindest 6 ECTS-Punken zu absolvieren.
+					Beachten Sie bitte allfällige Teilnahmevoraussetung bei einzelnen
+					Lehrveranstaltungen! Über 6 ETCS hinausgehende Leistungen können im
+					Modul Freifächer angerechnet werden.
+				</description>
+				<lecture ects="10,0" title="Mathematische Optimierung" name="Mathematische Optimierung"
+					id="040134" attendance="Y" type="UK">
+					<group id="91"
+						remark="MO wtl von 09.03.2015 bis 04.05.2015 13.15-14.45 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI wtl von 10.03.2015 bis 05.05.2015 15.00-16.30 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI wtl von 10.03.2015 bis 02.06.2015 16.45-19.45 Ort: Seminarraum 14  Oskar-Morgenstern-Platz 1  2.Stock; MO 11.05.2015 13.15-14.45 Ort: Hörsaal 8  Oskar-Morgenstern-Platz 1  1.Stock; DI 12.05.2015 15.00-16.30 Ort: Hörsaal 7  Oskar-Morgenstern-Platz 1  1.Stock; MO 18.05.2015 13.15-14.45 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI 19.05.2015 15.00-16.30 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; MO 01.06.2015 13.15-14.45 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI 02.06.2015 15.00-16.30 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; MO 08.06.2015 13.15-14.45 Ort: Hörsaal 8  Oskar-Morgenstern-Platz 1  1.Stock; DI 09.06.2015 15.00-16.30 Ort: Hörsaal 7  Oskar-Morgenstern-Platz 1  1.Stock; MO 15.06.2015 13.15-14.45 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI 16.06.2015 15.00-16.30 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI 16.06.2015 16.45-19.45 Ort: Seminarraum 14  Oskar-Morgenstern-Platz 1  2.Stock; MO 22.06.2015 13.15-14.45 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI 23.06.2015 15.00-16.30 Ort: Hörsaal 14  Oskar-Morgenstern-Platz 1  2.Stock; DI 23.06.2015 16.45-19.45 Ort: Seminarraum 14  Oskar-Morgenstern-Platz 1  2.Stock Weitere Informationen unter: http://homepage.univie.ac.at/reinhard.ullrich/SS2015/mo.html"
+						remark_vvz="Tutorium zu UK Mathematische Optimierung (Sinkovics): DO wtl von 05.03.2015 bis 25.06.2015 15.00-16.30 Ort: Hörsaal 16 Oskar-Morgenstern-Platz 1 2.Stock"
+						block="N" startDate="09.03.2015" signLanguage="N" lastDate="23.06.2015"
+						livestream="N" plattform="">
+						<language>Deutsch</language>
+						<duration id="91_1" begin="1315" date="09-Mar-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_2" begin="1500" date="10-Mar-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_3" begin="1315" date="16-Mar-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_4" begin="1500" date="17-Mar-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_5" begin="1315" date="23-Mar-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_6" begin="1500" date="24-Mar-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_7" begin="1315" date="13-Apr-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_8" begin="1500" date="14-Apr-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_9" begin="1315" date="20-Apr-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_10" begin="1500" date="21-Apr-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_11" begin="1315" date="27-Apr-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_12" begin="1500" date="28-Apr-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_13" begin="1315" date="04-May-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_14" begin="1500" date="05-May-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_15" begin="1315" date="18-May-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_16" begin="1500" date="19-May-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_17" begin="1315" date="01-Jun-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_18" begin="1500" date="02-Jun-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_19" begin="1315" date="15-Jun-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_20" begin="1500" date="16-Jun-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_21" begin="1315" date="22-Jun-2015 00:00:00"
+							end="1445" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_22" begin="1500" date="23-Jun-2015 00:00:00"
+							end="1630" room="Hörsaal 14" city="Wien" zip="1090" roomNr="02.630"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_23" begin="1645" date="10-Mar-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_24" begin="1645" date="17-Mar-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_25" begin="1645" date="24-Mar-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_26" begin="1645" date="14-Apr-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_27" begin="1645" date="21-Apr-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_28" begin="1645" date="28-Apr-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_29" begin="1645" date="05-May-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_30" begin="1645" date="12-May-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_31" begin="1645" date="19-May-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_32" begin="1645" date="02-Jun-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_33" begin="1645" date="16-Jun-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_34" begin="1645" date="23-Jun-2015 00:00:00"
+							end="1945" room="Seminarraum 14" city="Wien" zip="1090" roomNr="02.312"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_35" begin="1315" date="11-May-2015 00:00:00"
+							end="1445" room="Hörsaal 8" city="Wien" zip="1090" roomNr="01.305"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_36" begin="1315" date="08-Jun-2015 00:00:00"
+							end="1445" room="Hörsaal 8" city="Wien" zip="1090" roomNr="01.305"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_37" begin="1500" date="09-Jun-2015 00:00:00"
+							end="1630" room="Hörsaal 7" city="Wien" zip="1090" roomNr="01.303"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="91_38" begin="1500" date="12-May-2015 00:00:00"
+							end="1630" room="Hörsaal 7" city="Wien" zip="1090" roomNr="01.303"
+							street="Oskar-Morgenstern-Platz 1" />
+						<lecturer email="immanuel.bomze@univie.ac.at" id="460"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Immanuel" lastname="Bomze" />
+						<lecturer email="werner.schachinger@univie.ac.at" id="9540"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Werner"
+							lastname="Schachinger" />
+						<lecturer email="reinhard.ullrich@univie.ac.at" id="36117"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Reinhard"
+							lastname="Ullrich" />
+						<additionalInformation id="91_39"
+							comment="Weitere Informationen unter: http://homepage.univie.ac.at/reinhard.ullrich/SS2015/mo.html"
+							assessment="Weitere Informationen unter: http://homepage.univie.ac.at/reinhard.ullrich/SS2015/mo.html"
+							literature="Weitere Informationen unter: http://homepage.univie.ac.at/reinhard.ullrich/SS2015/mo.html"
+							exam="Weitere Informationen unter: http://homepage.univie.ac.at/reinhard.ullrich/SS2015/mo.html"
+							precondition="Weitere Informationen unter: http://homepage.univie.ac.at/reinhard.ullrich/SS2015/mo.html" />
+					</group>
+					<institute>Studienprogrammleitung Wirtschaftswissenschaften
+					</institute>
+				</lecture>
+				<lecture ects="8,0" title="Erweiterungen des Linearen Modells"
+					name="Erweiterungen des Linearen Modells" id="040690" attendance="Y"
+					type="UK">
+					<group id="92"
+						remark="DI wtl von 03.03.2015 bis 19.05.2015 09.15-12.15 Ort: Hörsaal 16  Oskar-Morgenstern-Platz 1  2.Stock; DI 16.06.2015, 23.06.2015 und 30.06.2015 09.15-12.15 Ort: Hörsaal 16  Oskar-Morgenstern-Platz 1  2.Stock "
+						block="N" startDate="03.03.2015" signLanguage="N" lastDate="30.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="92_1" begin="915" date="03-Mar-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_2" begin="915" date="10-Mar-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_3" begin="915" date="17-Mar-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_4" begin="915" date="24-Mar-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_5" begin="915" date="14-Apr-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_6" begin="915" date="21-Apr-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_7" begin="915" date="28-Apr-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_8" begin="915" date="05-May-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_9" begin="915" date="12-May-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_10" begin="915" date="19-May-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_11" begin="915" date="16-Jun-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_12" begin="915" date="23-Jun-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="92_13" begin="915" date="30-Jun-2015 00:00:00"
+							end="1215" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<lecturer email="wilfried.grossmann@univie.ac.at" id="1599"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Wilfried" lastname="Grossmann" />
+						<lecturer email="marcus.hudec@univie.ac.at" id="6865"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Marcus"
+							lastname="Hudec" />
+					</group>
+					<institute>Studienprogrammleitung Wirtschaftswissenschaften
+					</institute>
+				</lecture>
+				<lecture ects="4,0" title="Multivariate Zeitreihenanalyse"
+					name="Multivariate Zeitreihenanalyse" id="040973" attendance="Y"
+					type="UK">
+					<group id="93"
+						remark="DO wtl von 05.03.2015 bis 25.06.2015 12.30-14.45 Ort: PC-Seminarraum 2  Oskar-Morgenstern-Platz 1  1.Untergeschoß "
+						block="N" startDate="05.03.2015" signLanguage="N" lastDate="25.06.2015"
+						livestream="N" plattform="">
+						<language>Deutsch</language>
+						<duration id="93_1" begin="1230" date="05-Mar-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_2" begin="1230" date="19-Mar-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_3" begin="1230" date="26-Mar-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_4" begin="1230" date="16-Apr-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_5" begin="1230" date="23-Apr-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_6" begin="1230" date="30-Apr-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_7" begin="1230" date="07-May-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_8" begin="1230" date="21-May-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_9" begin="1230" date="28-May-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_10" begin="1230" date="11-Jun-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_11" begin="1230" date="18-Jun-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="93_12" begin="1230" date="25-Jun-2015 00:00:00"
+							end="1445" room="PC-Seminarraum 2" city="Wien" zip="1090" roomNr="U1.608"
+							street="Oskar-Morgenstern-Platz 1" />
+						<lecturer email="erhard.reschenhofer@univie.ac.at" id="4572"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Erhard" lastname="Reschenhofer" />
+					</group>
+					<institute>Studienprogrammleitung Wirtschaftswissenschaften
+					</institute>
+				</lecture>
+				<lecture ects="3,0" title="Kontinuierliche Optimierung"
+					name="Kontinuierliche Optimierung" id="050043" attendance="Y" type="VU">
+					<group id="94"
+						remark="DO wtl von 05.03.2015 bis 25.06.2015 15.00-16.30 Ort: Seminarraum 7, Währinger Straße 29 1.OG "
+						block="N" startDate="05.03.2015" signLanguage="N" lastDate="25.06.2015"
+						livestream="N" plattform="">
+						<language>Englisch</language>
+						<duration id="94_1" begin="1500" date="05-Mar-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_2" begin="1500" date="19-Mar-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_3" begin="1500" date="26-Mar-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_4" begin="1500" date="16-Apr-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_5" begin="1500" date="23-Apr-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_6" begin="1500" date="30-Apr-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_7" begin="1500" date="07-May-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_8" begin="1500" date="21-May-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_9" begin="1500" date="28-May-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_10" begin="1500" date="11-Jun-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_11" begin="1500" date="18-Jun-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="94_12" begin="1500" date="25-Jun-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<lecturer email="leonidas.mindrinos@univie.ac.at" id="49694"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Leonidas" lastname="Mindrinos" />
+						<additionalInformation id="94_13"
+							comment="Grundlagen der stetigen Optimierung, Methode des steilsten Abstiegs, Liniensuche, Verfahren höherer Ordnung (Newton, Quasi-Newton, Trust Region), Optimierung mit Nebenbedingungen, Innere-Punkt Methoden; sofern genügend Zeit bleibt nicht-glatte Optimierung"
+							assessment="Die Note setzt sich aus dem Ergebnis einer Prüfung am end des Semesters und der Anzahl und Qualität der vorgetragenen Übungsaufgaben zusammen."
+							literaturee=""
+							exam="Die VU wird großteils als Vorlesung abgehalten. Zusätzlich werden an einigen Terminen Übungen von den Studenten präsentiert."
+							precondition="Die Lehrveranstaltung dient als erste Einführung in die Methoden der stetigen Optimierung." />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+			</module>
+			<module id="509_8" name="Modul BW2 Ausgewählte Bereiche der BWL (6 ECTS)">
+				<description>Die Veranstaltungen des Moduls finden im Sommersemester
+					statt.</description>
+				<lecture ects="6,0" title="Innovationsmanagement" name="Innovationsmanagement"
+					id="050074" attendance="Y" type="VU">
+					<group id="95"
+						remark="Vorbesprechung: 06.03.2015; FR 06.03.2015 13.15-16.30 Ort: Seminarraum 7, Währinger Straße 29 1.OG; FR wtl von 17.04.2015 bis 26.06.2015 13.15-16.30 Ort: Seminarraum 7, Währinger Straße 29 1.OG "
+						block="N" startDate="06.03.2015" signLanguage="N" lastDate="26.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="95_1" begin="1315" date="06-Mar-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_2" begin="1315" date="17-Apr-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_3" begin="1315" date="24-Apr-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_4" begin="1315" date="08-May-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_5" begin="1315" date="15-May-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_6" begin="1315" date="22-May-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_7" begin="1315" date="29-May-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_8" begin="1315" date="05-Jun-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_9" begin="1315" date="12-Jun-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_10" begin="1315" date="19-Jun-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="95_11" begin="1315" date="26-Jun-2015 00:00:00"
+							end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<lecturer email="elmar.kiesling@univie.ac.at" id="31573"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Elmar" lastname="Kiesling" />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+			</module>
+			<module id="509_9" name="Modul BW3 Wirtschaftsrecht (6 ECTS)">
+				<description>Im Modul BW3 sind eine oder mehrere Lehrveranstaltungen
+					im Gesamtumfang von zumindest 6 ECTS-Punken zu absolvieren.
+					Beachten Sie bitte die Teilnahmevoraussetzungen bei einzelnen
+					Lehrveranstaltungen! Über 6 ETCS hinausgehende Leistungen können im
+					Modul Freifächer angerechnet werden.</description>
+				<lecture ects="2,0"
+					title="RdW: Patent-, Marken-, Muster- und Ausstattungsrecht" name="RdW: Patent-, Marken-, Muster- und Ausstattungsrecht"
+					attendance="Y" type="VK" id="040110">
+					<group id="96"
+						remark="MO 13.04.2015 16.45-20.00 Ort: Hörsaal 10  Oskar-Morgenstern-Platz 1  2.Stock; DI 14.04.2015 16.45-18.15 Ort: Hörsaal 17  Oskar-Morgenstern-Platz 1  2.Stock; MO 20.04.2015 16.45-20.00 Ort: Hörsaal 10  Oskar-Morgenstern-Platz 1  2.Stock; DI 21.04.2015 16.45-18.15 Ort: Hörsaal 17  Oskar-Morgenstern-Platz 1  2.Stock; MO 27.04.2015 18.30-20.00 Ort: Hörsaal 4  Oskar-Morgenstern-Platz 1  Erdgeschoß; MO 11.05.2015 18.30-20.00 Ort: Hörsaal 6  Oskar-Morgenstern-Platz 1  1.Stock "
+						remark_vvz="Alle Informationen zur Lehrveranstaltung finden sich unter: http://privatrecht.univie.ac.at/lehre/im-ss/patent-marken-muster-u-ausstattungsrecht/ Alle Informationen zu den Rechtskursen http://privatrecht.univie.ac.at/lehre/"
+						block="B" startDate="13.04.2015" signLanguage="N" lastDate="11.05.2015"
+						livestream="N" plattform="">
+						<language>Deutsch</language>
+						<duration id="96_1" begin="1645" date="13-Apr-2015 00:00:00"
+							end="2000" room="Hörsaal 10" city="Wien" zip="1090" roomNr="02.503"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="96_2" begin="1645" date="14-Apr-2015 00:00:00"
+							end="1815" room="Hörsaal 17" city="Wien" zip="1090" roomNr="02.314"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="96_3" begin="1645" date="20-Apr-2015 00:00:00"
+							end="2000" room="Hörsaal 10" city="Wien" zip="1090" roomNr="02.503"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="96_4" begin="1645" date="21-Apr-2015 00:00:00"
+							end="1815" room="Hörsaal 17" city="Wien" zip="1090" roomNr="02.314"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="96_5" begin="1830" date="27-Apr-2015 00:00:00"
+							end="2000" room="Hörsaal 4" city="Wien" zip="1090" roomNr="EG.623"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="96_6" begin="1830" date="11-May-2015 00:00:00"
+							end="2000" room="Hörsaal 6" city="Wien" zip="1090" roomNr="01.634"
+							street="Oskar-Morgenstern-Platz 1" />
+						<lecturer email="florian.gratzl@univie.ac.at" id="36401"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Florian" lastname="Gratzl" />
+						<additionalInformation id="96_7"
+							comment="Marken, Muster und Patente sind oftmals die wertvollsten Güter eines Unternehmens. Doch wie schützt man diese immateriellen Güter wirksam? Denn anders als körperliche Sachen lässt sich geistiges Eigentum nicht einfach verwahren und so vor Diebstahl bewahren. Ganz im Gegenteil sollen Marken, Muster und Patente dazu dienen, Produkte auf den Markt zu bringen und zu verbreiten. Dadurch werden Immaterialgüter mitunter allgegenwärtig und somit in besonderem Maße anfällig für rechtlichen Missbrauch.     Die vorliegende Lehrveranstaltung möchte daher allen interessierten Studierenden das Wesen des gewerblichen Rechtsschutzes näher bringen. Zu diesem Zweck sollen dessen theoretische Grundlagen erörtert und deren praktische Bedeutung durch aussagekräftige Beispiele vermittelt werden. Tauchen auch Sie ein in die abenteuerliche Welt des Marken-, Muster- und Patentrechts! "
+							assessment="Siehe unter: http://privatrecht.univie.ac.at/fileadmin/user_upload/ord_handelsr/Lehre/Patentrecht/Infoblatt_PMMAR_SS_2015.pdf"
+							literaturee="Florian Gratzl, Grundriss der gewerblichen Schutzrechte, 2. Aufl. (Wien 2013, facultas.wuv)"
+							exam="Siehe unter: http://privatrecht.univie.ac.at/fileadmin/user_upload/ord_handelsr/Lehre/Patentrecht/Infoblatt_PMMAR_SS_2015.pdf"
+							precondition="Präsentation und Erlernen des Patent-, Marken-, Muster- und Ausstattungsrechts anhand seiner theoretischen Grundlagen (va MSchG, MuSchG und PatG) sowie aufgrund zahlreicher interessanter praktischer Beispiele. Bei den Studierenden soll insb. Interesse und Verständnis für diese Rechtsgebiete geweckt werden! Nicht die Kenntnis von Details ist das Entscheidende, sondern ein Wissen über die grundlegenden Ziele und Zusammenhänge." />
+					</group>
+					<institute>Studienprogrammleitung Wirtschaftswissenschaften
+					</institute>
+				</lecture>
+				<lecture ects="4,0" title="RdW: Rechtsfragen des E-Commerce"
+					name="RdW: Rechtsfragen des E-Commerce" id="040284" attendance="Y"
+					type="VK">
+					<group id="97"
+						remark="FR 06.03.2015, 13.03.2015, 17.04.2015 und 24.04.2015 08.00-13.00 Ort: Hörsaal 16  Oskar-Morgenstern-Platz 1  2.Stock; FR 08.05.2015 08.00-09.30 Ort: Hörsaal 16  Oskar-Morgenstern-Platz 1  2.Stock; FR 08.05.2015 09.45-11.15 Ort: Hörsaal 6  Oskar-Morgenstern-Platz 1  1.Stock; FR 22.05.2015 08.00-09.30 Ort: Hörsaal 4  Oskar-Morgenstern-Platz 1  Erdgeschoß; FR 12.06.2015 08.00-09.30 Ort: Hörsaal 16  Oskar-Morgenstern-Platz 1  2.Stock "
+						remark_vvz="Es besteht durchgehende Anwesenheitspflicht! Informationen unter http://privatrecht.univie.ac.at/lehre/im-ss/rechtsfragen-des-ecommerce/ Alle Informationen zu den Rechtskursen http://privatrecht.univie.ac.at/lehre/"
+						block="B" startDate="06.03.2015" signLanguage="N" lastDate="12.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="97_1" begin="800" date="06-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="97_2" begin="800" date="13-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="97_3" begin="800" date="17-Apr-2015 00:00:00"
+							end="1300" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="97_4" begin="800" date="24-Apr-2015 00:00:00"
+							end="1300" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="97_5" begin="800" date="08-May-2015 00:00:00"
+							end="930" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="97_6" begin="800" date="12-Jun-2015 00:00:00"
+							end="930" room="Hörsaal 16" city="Wien" zip="1090" roomNr="02.308"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="97_7" begin="800" date="22-May-2015 00:00:00"
+							end="930" room="Hörsaal 4" city="Wien" zip="1090" roomNr="EG.623"
+							street="Oskar-Morgenstern-Platz 1" />
+						<duration id="97_8" begin="945" date="08-May-2015 00:00:00"
+							end="1115" room="Hörsaal 6" city="Wien" zip="1090" roomNr="01.634"
+							street="Oskar-Morgenstern-Platz 1" />
+						<lecturer email="walter.blocher@univie.ac.at" id="22535"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Walter" lastname="Blocher" />
+						<additionalInformation id="97_9"
+							comment="Allgemein:     Vermittlung von rechtlichen Grundlagen im Bereich des elektronischen Geschäftsverkehrs;     Herstellung von wirtschaftlichen Bezügen;     Einbeziehung der Rechtsfragen bei grenzüberschreitendem Geschäftsverkehr im Internet.  Insbesondere:     Vertragsrecht im Internet;     Verbraucherschutz bei Fernabsatzverträgen;     Finanzdienstleistungen im Internet;     Informationspflichten;     Haftung für Informationen im Netz;     Unerbetene Nachrichten;     Providerhaftung;             Domainrecht;     Rechtsfragen von Online-Marketing;     Signaturrecht;     Bürgerkarte;     Streitbeilegung im Fall eines (grenzüberschreitenden) Rechtsstreits;     aktuelle Rechtsfragen und gesellschaftspolitische Entwicklungen im E-Commerce (in Form studentischer Referate)."
+							assessment="zwei Klausuren am end der Lehrveranstaltung, Mitarbeit der Studierenden, Referate"
+							literature="Sonja Janisch / Peter Mader, E-Business, 4. Aufl. (2011), Reihe: Praxis Rechtsskripten, LexisNexis ARD ORAC Kodex Unternehmensrecht, aktuelle Auflage, LexisNexis ARD ORAC"
+							exam="Vortrag, Referate der Studierenden"
+							precondition="Studierende können nach Absolvierung der Lehrveranstaltung grundlegende Rechtsprobleme, die mit der kommerziellen Nutzung des Internets verbunden sind, erkennen und einfache Rechtsfragen selbständig beurteilen. " />
+					</group>
+					<institute>Studienprogrammleitung Wirtschaftswissenschaften
+					</institute>
+				</lecture>
+			</module>
+		</modulegroup>
+		<modulegroup id="509_10" name="C. Wirtschaftsinformatik (36 ECTS)">
+			<module id="509_11"
+				name="Modul WI1 Business Process Management und Workflow Technologies (6 ECTS)">
+			</module>
+			<module id="509_12" name="Modul WI2 Knowledge Engineering (6 ECTS)">
+				<description>Die Veranstaltung &quot;VU Logische Grundlagen des
+					Knowledge Engineering&quot; findet im Sommersemester statt. Die
+					Veranstaltung &quot;VU Konzepte und Modelle des Knowledge
+					Engineering&quot; findet im Wintersemester statt.</description>
+				<lecture ects="3,0"
+					title="Logische Grundlagen des Knowledge Engineering" name="Logische Grundlagen des Knowledge Engineering"
+					id="050011" attendance="Y" type="VU">
+					<group id="98"
+						remark="MO wtl von 02.03.2015 bis 29.06.2015 18.30-20.00 Ort: PC-Unterrichtsraum 5, Währinger Straße 29 2.OG; MO 11.05.2015 11.30-13.00 Ort: Hörsaal 1, Währinger Straße 29 1.UG; MO 29.06.2015 15.00-16.30 Ort: Hörsaal 1, Währinger Straße 29 1.UG "
+						block="N" startDate="02.03.2015" signLanguage="N" lastDate="29.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="98_1" begin="1830" date="02-Mar-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_2" begin="1830" date="09-Mar-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_3" begin="1830" date="16-Mar-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_4" begin="1830" date="23-Mar-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_5" begin="1830" date="13-Apr-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_6" begin="1830" date="20-Apr-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_7" begin="1830" date="27-Apr-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_8" begin="1830" date="04-May-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_9" begin="1830" date="11-May-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_10" begin="1830" date="18-May-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_11" begin="1830" date="01-Jun-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_12" begin="1830" date="08-Jun-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_13" begin="1830" date="15-Jun-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_14" begin="1830" date="22-Jun-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_15" begin="1830" date="29-Jun-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="98_16" begin="1500" date="29-Jun-2015 00:00:00"
+							end="1630" room="Hörsaal 1" city="Wien" zip="1090" roomNr="U1.32"
+							street="Währinger Straße 29" />
+						<duration id="98_17" begin="1130" date="11-May-2015 00:00:00"
+							end="1300" room="Hörsaal 1" city="Wien" zip="1090" roomNr="U1.32"
+							street="Währinger Straße 29" />
+						<lecturer email="hans-georg.fill@univie.ac.at" id="21123"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Hans-Georg" lastname="Fill" />
+						<lecturer email="niksa.visic@univie.ac.at" id="44106"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Niksa"
+							lastname="Visic" />
+						<additionalInformation id="98_18"
+							comment="In Logische Grundlagen des Knowledge Engineering wird eine fundierte Einführung in die Wissensverarbeitung unter Berücksichtigung klassischer und moderner Repräsentationsformen, deren Interpretationen sowie Anwendungen gegeben. Besondere Beachtung finden praktische Beispiele der klassischen Wissensverarbeitung. Ziel ist die Vermittlung des theoretischen Rahmenwerks sowie der grundlegenden Mechanismen zur Wissensverarbeitung."
+							assessment="" literature="" exam="" precondition="" />
+					</group>
+					<group id="99"
+						remark="preliminaryDiscussion: 02.03.2015; MO 02.03.2015 18.30-20.00 Ort: PC-Unterrichtsraum 5, Währinger Straße 29 2.OG; DO wtl von 19.03.2015 bis 25.06.2015 13.15-14.45 Ort: PC-Unterrichtsraum 4, Währinger Straße 29 1.0G; DO 19.03.2015 15.00-16.30 Ort: PC-Unterrichtsraum 4, Währinger Straße 29 1.0G; MO 11.05.2015 11.30-13.00 Ort: Hörsaal 1, Währinger Straße 29 1.UG; DO 11.06.2015 15.00-16.30 Ort: PC-Unterrichtsraum 5, Währinger Straße 29 2.OG; MO 29.06.2015 15.00-16.30 Ort: Hörsaal 1, Währinger Straße 29 1.UG "
+						block="N" startDate="02.03.2015" signLanguage="N" lastDate="29.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="99_1" begin="1315" date="19-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_2" begin="1315" date="26-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_3" begin="1315" date="16-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_4" begin="1315" date="23-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_5" begin="1315" date="30-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_6" begin="1315" date="07-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_7" begin="1315" date="21-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_8" begin="1315" date="28-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_9" begin="1315" date="11-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_10" begin="1315" date="18-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_11" begin="1315" date="25-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_12" begin="1500" date="19-Mar-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="99_13" begin="1830" date="02-Mar-2015 00:00:00"
+							end="2000" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="99_14" begin="1500" date="11-Jun-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 5" city="Wien" zip="1090"
+							roomNr="2.25" street="Währinger Straße 29" />
+						<duration id="99_15" begin="1500" date="29-Jun-2015 00:00:00"
+							end="1630" room="Hörsaal 1" city="Wien" zip="1090" roomNr="U1.32"
+							street="Währinger Straße 29" />
+						<duration id="99_16" begin="1130" date="11-May-2015 00:00:00"
+							end="1300" room="Hörsaal 1" city="Wien" zip="1090" roomNr="U1.32"
+							street="Währinger Straße 29" />
+						<lecturer email="hans-georg.fill@univie.ac.at" id="21123"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Hans-Georg" lastname="Fill" />
+						<lecturer email="michael.walch@univie.ac.at" id="41104"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Michael"
+							lastname="Walch" />
+						<additionalInformation id="99_17"
+							comment="In Logische Grundlagen des Knowledge Engineering wird eine fundierte Einführung in die Wissensverarbeitung unter Berücksichtigung klassischer und moderner Repräsentationsformen, deren Interpretationen sowie Anwendungen gegeben. Besondere Beachtung finden praktische Beispiele der klassischen Wissensverarbeitung. Ziel ist die Vermittlung des theoretischen Rahmenwerks sowie der grundlegenden Mechanismen zur Wissensverarbeitung."
+							assessment="" literature="" exam="" precondition="" />
+
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+			</module>
+			<module id="509_13" name="Modul WI3 E-Business (6 ECTS)">
+				<description>Die Veranstaltungen des Moduls finden im Wintersemester
+					statt.</description>
+			</module>
+			<module id="509_14"
+				name="Modul WI4 Kooperative Systeme und Secure E-commerce (6 ECTS)">
+				<description>Die Veranstaltungen des Moduls finden im Sommersemester
+					statt.</description>
+				<lecture ects="3,0" title="Kooperative Systeme" name="Kooperative Systeme"
+					id="050052" attendance="Y" type="VU">
+					<group id="100"
+						remark="DI wtl von 03.03.2015 bis 24.03.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 03.03.2015 13.15-16.30 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG; DI 17.03.2015, 14.04.2015 und 21.04.2015 13.15-14.45 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG; DI 21.04.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 28.04.2015 13.15-14.45 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG; DI 28.04.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 05.05.2015 16.45-20.00 Ort: Hörsaal 7 Oskar-Morgenstern-Platz 1 1.Stock; DI 12.05.2015 16.45-18.15 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 12.05.2015 18.30-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 23.06.2015 13.15-16.30 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG; DI 23.06.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 30.06.2015 13.15-16.30 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG"
+						block="N" startDate="03.03.2015" signLanguage="N" lastDate="30.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="100_1" begin="1315" date="03-Mar-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="100_2" begin="1315" date="17-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="100_3" begin="1315" date="14-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="100_4" begin="1315" date="21-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="100_5" begin="1315" date="28-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="100_6" begin="1315" date="23-Jun-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="100_7" begin="1315" date="30-Jun-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="100_8" begin="1645" date="03-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_9" begin="1645" date="10-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_10" begin="1645" date="17-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_11" begin="1645" date="24-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_12" begin="1645" date="21-Apr-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_13" begin="1645" date="28-Apr-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_14" begin="1645" date="23-Jun-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_15" begin="1645" date="12-May-2015 00:00:00"
+							end="1815" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_16" begin="1830" date="12-May-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="100_17" begin="1645" date="12-May-2015 00:00:00"
+							end="1815" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="100_18" begin="1645" date="05-May-2015 00:00:00"
+							end="2000" room="Hörsaal 7" city="Wien" zip="1090" roomNr="01.303"
+							street="Oskar-Morgenstern-Platz 1" />
+						<lecturer email="gerald.quirchmayr@univie.ac.at" id="8202"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Gerald" lastname="Quirchmayr" />
+						<lecturer email="peter.reichl@univie.ac.at" id="50498"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Peter"
+							lastname="Reichl" />
+						<additionalInformation id="100_19"
+							comment="Die VU &quot;Kooperative Systeme&quot; gliedert sich in drei Teile. Im ersten Teil wird ein Überblick über Modelle im Bereich der klassischen CSCW (Computer Supported Cooperative Work) gegeben. Im zweiten Teil erfolgt eine Einführung in theoretische Grundlagen allgemeiner Kooperation anhand entsprechender Konzepte aus der kooperativen Spieltheorie. Schliesslich wird im dritten Teil von den Studierenden eine Fallstudie zur Anwendung kooperativer Systeme in Kleingruppen bearbeitet. "
+							assessment="Die Leistungsbewertung setzt sich zusammen aus - einer einstündigen schriftlichen Prüfung mit theoretischem Schwerpunkt - der Ausarbeitung einer Fallstudie in Gruppenarbeit - einer abschliessender Präsentation der wesentlichen Ergebnisse der Fallstudie"
+							literature="wird in der LV bekanntgegeben."
+							exam="Die VU vereint Elemente aus Vorlesung, Übungsbeispielen und einer angewandten Fallstudie."
+							precondition="Ziel der LV ist die Vermittlung theoretischer und praktischer Grundlagen der kooperativen Systeme sowie eine praktische Anwendung des Gelernten im Rahmen einer Fallstudie. " />
+					</group>
+					<group id="101"
+						remark="DI wtl von 03.03.2015 bis 24.03.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 17.03.2015, 14.04.2015 und 21.04.2015 15.00-16.30 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG; DI 21.04.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 28.04.2015 15.00-16.30 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG; DI 28.04.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 05.05.2015 16.45-20.00 Ort: Hörsaal 7 Oskar-Morgenstern-Platz 1 1.Stock; DI 12.05.2015 16.45-18.15 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 12.05.2015 18.30-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG; DI 23.06.2015 13.15-16.30 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG; DI 23.06.2015 und 30.06.2015 16.45-20.00 Ort: Hörsaal 2, Währinger Straße 29 2.OG"
+						block="N" startDate="03.03.2015" signLanguage="N" lastDate="30.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="101_1" begin="1645" date="03-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_2" begin="1645" date="10-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_3" begin="1645" date="17-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_4" begin="1645" date="24-Mar-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_5" begin="1645" date="21-Apr-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_6" begin="1645" date="28-Apr-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_7" begin="1645" date="23-Jun-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_8" begin="1645" date="30-Jun-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_9" begin="1500" date="17-Mar-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="101_10" begin="1500" date="14-Apr-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="101_11" begin="1500" date="21-Apr-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="101_12" begin="1500" date="28-Apr-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="101_13" begin="1315" date="23-Jun-2015 00:00:00"
+							end="1630" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="101_14" begin="1645" date="12-May-2015 00:00:00"
+							end="1815" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_15" begin="1830" date="12-May-2015 00:00:00"
+							end="2000" room="Hörsaal 2" city="Wien" zip="1090" roomNr="2.01"
+							street="Währinger Straße 29" />
+						<duration id="101_16" begin="1645" date="12-May-2015 00:00:00"
+							end="1815" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="101_17" begin="1645" date="05-May-2015 00:00:00"
+							end="2000" room="Hörsaal 7" city="Wien" zip="1090" roomNr="01.303"
+							street="Oskar-Morgenstern-Platz 1" />
+						<lecturer email="peter.reichl@univie.ac.at" id="50498"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Peter" lastname="Reichl" />
+						<lecturer email="gerald.quirchmayr@univie.ac.at" id="8202"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Gerald"
+							lastname="Quirchmayr" />
+						firstname="Gerald" lastname="Quirchmayr" />
+						<additionalInformation id="101_18"
+							comment="Die VU &quot;Kooperative Systeme&quot; gliedert sich in drei Teile. Im ersten Teil wird ein Überblick über Modelle im Bereich der klassischen CSCW (Computer Supported Cooperative Work) gegeben. Im zweiten Teil erfolgt eine Einführung in theoretische Grundlagen allgemeiner Kooperation anhand entsprechender Konzepte aus der kooperativen Spieltheorie. Schliesslich wird im dritten Teil von den Studierenden eine Fallstudie zur Anwendung kooperativer Systeme in Kleingruppen bearbeitet. "
+							assessment="Die Leistungsbewertung setzt sich zusammen aus  - einer einstündigen schriftlichen Prüfung mit theoretischem Schwerpunkt  - der Ausarbeitung einer Fallstudie in Gruppenarbeit  - einer abschliessender Präsentation der wesentlichen Ergebnisse der Fallstudie"
+							literature="wird in der LV bekanntgegeben."
+							exam="Die VU vereint Elemente aus Vorlesung, Übungsbeispielen und einer angewandten Fallstudie."
+							precondition="Ziel der LV ist die Vermittlung theoretischer und praktischer Grundlagen der kooperativen Systeme sowie eine praktische Anwendung des Gelernten im Rahmen einer Fallstudie. " />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+				<lecture ects="3,0" title="Secure E-commerce" name="Secure E-commerce"
+					id="050069" attendance="Y" type="VU">
+					<group id="102"
+						remark="DI wtl von 03.03.2015 bis 30.06.2015 11.30-13.00 Ort: Seminarraum 6, Währinger Straße 29 1.OG "
+						block="N" startDate="03.03.2015" signLanguage="N" lastDate="30.06.2015"
+						livestream="N" plattform="">
+						<language>Deutsch</language>
+						<duration id="102_1" begin="1130" date="03-Mar-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_2" begin="1130" date="10-Mar-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_3" begin="1130" date="17-Mar-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_4" begin="1130" date="24-Mar-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_5" begin="1130" date="14-Apr-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_6" begin="1130" date="21-Apr-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_7" begin="1130" date="28-Apr-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_8" begin="1130" date="05-May-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_9" begin="1130" date="12-May-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_10" begin="1130" date="19-May-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_11" begin="1130" date="02-Jun-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_12" begin="1130" date="09-Jun-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_13" begin="1130" date="16-Jun-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_14" begin="1130" date="23-Jun-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="102_15" begin="1130" date="30-Jun-2015 00:00:00"
+							end="1300" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<lecturer email="gerald.quirchmayr@univie.ac.at" id="8202"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Gerald" lastname="Quirchmayr" />
+						<additionalInformation id="102_16" comment=""
+							assessment="" literature="" exam="Vorlesung mit integrierter Übung"
+							precondition="Ziel ist die Vermittlung jenes Wissens, das es Studierenden erlaubt,  IT Security im Bereich des Electronic Commerce vorausschauend zu planen und umzusetzen." />
+					</group>
+					<group id="103"
+						remark="DI wtl von 03.03.2015 bis 30.06.2015 09.45-11.15 Ort: Seminarraum 7, Währinger Straße 29 1.OG "
+						block="N" startDate="03.03.2015" signLanguage="N" lastDate="30.06.2015"
+						livestream="N" plattform="">
+						<language>Deutsch</language>
+						<duration id="103_1" begin="945" date="03-Mar-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_2" begin="945" date="10-Mar-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_3" begin="945" date="17-Mar-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_4" begin="945" date="24-Mar-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_5" begin="945" date="14-Apr-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_6" begin="945" date="21-Apr-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_7" begin="945" date="28-Apr-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_8" begin="945" date="05-May-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_9" begin="945" date="12-May-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_10" begin="945" date="19-May-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_11" begin="945" date="02-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_12" begin="945" date="09-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_13" begin="945" date="16-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_14" begin="945" date="23-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<duration id="103_15" begin="945" date="30-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+							street="Währinger Straße 29" />
+						<lecturer email="gerald.quirchmayr@univie.ac.at" id="8202"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Gerald" lastname="Quirchmayr" />
+						<additionalInformation id="103_16" comment=""
+							assessment="" literature="" exam="Vorlesung mit integrierter Übung"
+							precondition="Ziel ist die Vermittlung jenes Wissens, das es Studierenden erlaubt,  IT Security im Bereich des Electronic Commerce vorausschauend zu planen und umzusetzen." />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+			</module>
+			<module id="509_15"
+				name="Modul AWI Advanced Topics in Wirtschaftsinformatik (12 ECTS)">
+				<description>Die Veranstaltungen des Moduls finden im Sommersemester
+					statt.</description>
+				<lecture ects="6,0"
+					title="Interoperabilität" name="Interoperabilität" id="050012"
+					attendance="Y" type="VU">
+					<group id="104"
+						remark="DO wtl von 05.03.2015 bis 25.06.2015 09.45-13.00 Ort: Hörsaal 3, Währinger Straße 29 3.OG "
+						block="N" startDate="05.03.2015" signLanguage="N" lastDate="25.06.2015"
+						livestream="N" plattform="CEWEBS">
+						<language>Deutsch</language>
+						<duration id="104_1" begin="945" date="05-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_2" begin="945" date="19-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_3" begin="945" date="26-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_4" begin="945" date="16-Apr-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_5" begin="945" date="23-Apr-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_6" begin="945" date="30-Apr-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_7" begin="945" date="07-May-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_8" begin="945" date="21-May-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_9" begin="945" date="28-May-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_10" begin="945" date="11-Jun-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_11" begin="945" date="18-Jun-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="104_12" begin="945" date="25-Jun-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<lecturer email="stefanie.rinderle-ma@univie.ac.at" id="39437"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Stefanie" lastname="Rinderle-Ma" />
+						<lecturer email="juergen.mangler@univie.ac.at" id="25908"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Jürgen"
+							lastname="Mangler" />
+						<additionalInformation id="104_13"
+							comment="This VU aims at discussing several interoperability concepts: * XML and databases * information integration * web services * service orchestrations * service choreographies * ontologies"
+							assessment="- literaturstudie - Übungen - schriftliche Prüfung - Anwesenheit und aktive Teilnahme an den Diskussionen"
+							literature=""
+							exam="* presentation * exercises * reading week * team-oriented working * presence, active participation in discussions"
+							precondition="* understanding the basic challenges of interoperability * understanding basic concepts * getting hands-on practice with selected systems" />
+					</group>
+					<group id="105"
+						remark="FR wtl von 06.03.2015 bis 26.06.2015 11.30-13.00 Ort: Hörsaal 3, Währinger Straße 29 3.OG "
+						block="N" startDate="06.03.2015" signLanguage="N" lastDate="26.06.2015"
+						livestream="N" plattform="CEWEBS">
+						<language>Deutsch</language>
+						<duration id="105_1" begin="1130" date="06-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_2" begin="1130" date="13-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_3" begin="1130" date="20-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_4" begin="1130" date="27-Mar-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_5" begin="1130" date="17-Apr-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_6" begin="1130" date="24-Apr-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_7" begin="1130" date="08-May-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_8" begin="1130" date="15-May-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_9" begin="1130" date="22-May-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_10" begin="1130" date="29-May-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_11" begin="1130" date="05-Jun-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_12" begin="1130" date="12-Jun-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_13" begin="1130" date="19-Jun-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<duration id="105_14" begin="1130" date="26-Jun-2015 00:00:00"
+							end="1300" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<lecturer email="stefanie.rinderle-ma@univie.ac.at" id="39437"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Stefanie" lastname="Rinderle-Ma" />
+						<lecturer email="juergen.mangler@univie.ac.at" id="25908"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Jürgen"
+							lastname="Mangler" />
+						<additionalInformation id="105_15"
+							comment="This VU aims at discussing several interoperability concepts:  * XML and databases  * information integration  * web services  * service orchestrations  * service choreographies  * ontologies"
+							assessment="- Literaturstudie  - Übungen  - schriftliche Prüfung  - Anwesenheit und aktive Teilnahme an den Diskussionen"
+							literature=""
+							exam="* presentation  * exercises  * reading week  * team-oriented working  * presence, active participation in discussions"
+							precondition="* understanding the basic challenges of interoperability  * understanding basic concepts  * getting hands-on practice with selected systems" />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+				<lecture ects="6,0" title="Metamodellierung" name="Metamodellierung"
+					id="050076" attendance="Y" type="VU">
+					<group id="106"
+						remark="MI wtl von 04.03.2015 bis 24.06.2015 11.30-14.45 Ort: PC-Unterrichtsraum 4, Währinger Straße 29 1.0G "
+						block="N" startDate="04.03.2015" signLanguage="N" lastDate="24.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="106_1" begin="1130" date="04-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_2" begin="1130" date="11-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_3" begin="1130" date="18-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_4" begin="1130" date="25-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_5" begin="1130" date="15-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_6" begin="1130" date="22-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_7" begin="1130" date="29-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_8" begin="1130" date="06-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_9" begin="1130" date="13-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_10" begin="1130" date="20-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_11" begin="1130" date="27-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_12" begin="1130" date="03-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_13" begin="1130" date="10-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_14" begin="1130" date="17-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<duration id="106_15" begin="1130" date="24-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 4" city="Wien" zip="1090"
+							roomNr="1.16" street="Währinger Straße 29" />
+						<lecturer email="dimitris.karagiannis@univie.ac.at" id="6781"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Dimitris" lastname="Karagiannis" />
+						<lecturer email="dominik.bork@univie.ac.at" id="51121"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Dominik"
+							lastname="Bork" />
+						<additionalInformation id="106_16"
+							comment="Metamodellierungskonzepte umfassen neben der Auswahl von geeigneten Methoden die syntaktische und semantische Definition von Modellierungstechniken sowie deren Notationen, die Erstellung von darauf aufsetzenden Mechanismen und Algorithmen sowie die Erarbeitung von Vorgehensweisen zum Einsatz der erstellten Modelle gemäß den Vorgaben der ausgewählten Methode. Metamodellierung führt aufgrund ihrer Flexibilität zu neuen Nutzenpotentialen unter anderem in den Bereichen des integrierten Produkt- und Geschäftsprozessmanagements, der Entwicklung von Workflow Anwendungen sowie der modellbasierten Konfiguration von Standardsoftware."
+							assessment="" literature="" exam="" precondition="" />
+					</group>
+					<group id="107"
+						remark="MI wtl von 04.03.2015 bis 24.06.2015 11.30-14.45 Ort: PC-Unterrichtsraum 2, Währinger Straße 29 1.OG "
+						block="N" startDate="04.03.2015" signLanguage="N" lastDate="24.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="107_1" begin="1130" date="04-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_2" begin="1130" date="11-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_3" begin="1130" date="18-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_4" begin="1130" date="25-Mar-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_5" begin="1130" date="15-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_6" begin="1130" date="22-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_7" begin="1130" date="29-Apr-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_8" begin="1130" date="06-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_9" begin="1130" date="13-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_10" begin="1130" date="20-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_11" begin="1130" date="27-May-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_12" begin="1130" date="03-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_13" begin="1130" date="10-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_14" begin="1130" date="17-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<duration id="107_15" begin="1130" date="24-Jun-2015 00:00:00"
+							end="1445" room="PC-Unterrichtsraum 2" city="Wien" zip="1090"
+							roomNr="1.14" street="Währinger Straße 29" />
+						<lecturer email="dimitris.karagiannis@univie.ac.at" id="6781"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Dimitris" lastname="Karagiannis" />
+						<lecturer email="mehmet.albayrak@univie.ac.at" id="58473"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Mehmet"
+							lastname="Albayrak" />
+						<additionalInformation id="107_16"
+							comment="Metamodellierungskonzepte umfassen neben der Auswahl von geeigneten Methoden die syntaktische und semantische Definition von Modellierungstechniken sowie deren Notationen, die Erstellung von darauf aufsetzenden Mechanismen und Algorithmen sowie die Erarbeitung von Vorgehensweisen zum Einsatz der erstellten Modelle gemäß den Vorgaben der ausgewählten Methode. Metamodellierung führt aufgrund ihrer Flexibilität zu neuen Nutzenpotentialen unter anderem in den Bereichen des integrierten Produkt- und Geschäftsprozessmanagements, der Entwicklung von Workflow Anwendungen sowie der modellbasierten Konfiguration von Standardsoftware."
+							assessment="" literature="" exam="" precondition="" />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+			</module>
+		</modulegroup>
+	</moduleclass>
+	<moduleclass id="509_16" name="2. Kernfachkombinationen (12 ECTS)">
+		<description>Von den Kernfachkombinationen (KFKs) werden jedes
+			Studienjahr zumindest zwei angeboten. Die einzelnen KFKs finden daher
+			in der Regel in einem Zweijahresrhythmus statt.</description>
+		<modulegroup id="509_17" name="Kernfachkombination Semantische IS">
+			<module id="509_18" name="Modul SEM Semantische IS (12 ECTS)">
+				<description>Die Veranstaltung &quot;PR Praktikum aus Semantische
+					IS&quot; findet im Sommersemester (jedes 2. Jahr) statt. Die
+					Veranstaltung &quot;VU Evolution&quot; findet im Wintersemester
+					(jedes 2. Jahr) statt.</description>
+			</module>
+		</modulegroup>
+		<modulegroup id="509_19" name="Kernfachkombination Large Scale IS">
+			<module id="509_20" name="Modul LAR Large Scale IS (12 ECTS)">
+				<description>Die Veranstaltung &quot;VU Integration&quot; findet im
+					Wintersemester (jedes 2. Jahr) statt. Die Veranstaltung &quot;PR
+					Praktikum aus Large Scale IS&quot; findet im Sommersemester (jedes
+					2. Jahr) statt.</description>
+				<lecture ects="6,0" title="Praktikum aus Large Scale IS"
+					name="Praktikum aus Large Scale IS" id="050204" attendance="Y"
+					type="PR">
+					<group id="108"
+						remark="FR wtl von 17.04.2015 bis 26.06.2015 08.00-11.15 Ort: Seminarraum 6, Währinger Straße 29 1.OG "
+						block="N" startDate="17.04.2015" signLanguage="N" lastDate="26.06.2015"
+						livestream="N" plattform="MOODLE">
+						<language>Deutsch</language>
+						<duration id="108_1" begin="800" date="17-Apr-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_2" begin="800" date="24-Apr-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_3" begin="800" date="08-May-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_4" begin="800" date="15-May-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_5" begin="800" date="22-May-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_6" begin="800" date="29-May-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_7" begin="800" date="05-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_8" begin="800" date="12-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_9" begin="800" date="19-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<duration id="108_10" begin="800" date="26-Jun-2015 00:00:00"
+							end="1115" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+							street="Währinger Straße 29" />
+						<lecturer email="hans-georg.fill@univie.ac.at" id="21123"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Hans-Georg" lastname="Fill" />
+						<additionalInformation id="108_11"
+							comment="Patterns für die Entwicklung geeigneter Softwarearchitekturen, Definition adäquater Geschäftsregeln, Analyse und Bewertungsmechanismen und -technologien"
+							assessment="" literature=""
+							exam="Projektarbeit, schriftliche assessmentn"
+							precondition="Vermittlung von Kenntnissen im Umgang mit komplexen, verteilten Unternehmensapplikationen" />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+			</module>
+		</modulegroup>
+		<modulegroup id="509_21"
+			name="Kernfachkombination Business Intelligence">
+			<module id="509_22" name="Modul BUS Business Intelligence (12 ECTS)">
+				<description>Die Veranstaltung &quot;VU Business Intelligence
+					I&quot; findet im Wintersemester (jedes 2. Jahr) statt. Die
+					Veranstaltung &quot;VU Business Intelligence II&quot; findet im
+					Sommersemester (jedes 2. Jahr) statt.</description>
+				<lecture ects="6,0" title="Business Intelligence II"
+					name="Business Intelligence II" id="050138" attendance="Y" type="PR">
+					<group id="109"
+						remark="MI 04.03.2015 08.00-11.00 Ort: Hörsaal 3, Währinger Straße 29 3.OG "
+						remark_vvz="Die VU Business Intelligence II knüpft inhaltlich an die LV Business Intelligence I an. Zunächst werden weitere Analysetechniken eingeführt, nämlich - Temporal Data Mining - Social Network Mining. Die Veranstaltung vermittelt und vertieft dann Techniken, die sich aus der kombinierten Anwendung von vorher erlernten Analyse von Querschnittsdaten und Prozessdaten ergeben wie - Decision Mining - Organizational Mining - Text Mining  Die erlernten Techniken werden dann im Rahmen eines größeren BI Projekts basierend auf Realweltdaten (z.B. aus dem Universitätsbereich) angewendet. Insbesondere die Formulierung von Analysefragen, die Aufbereitung und Bereitstellung der Daten, die Anwendung der Analysemethoden und die Interpretation der Ergebnisse sowie die geeignete Anwendung von open source Tools stehen im Fokus des Projekts."
+						block="N" startDate="04.03.2015" signLanguage="N" lastDate="04.03.2015"
+						livestream="N" plattform="CEWEBS">
+						<language>Deutsch</language>
+						<duration id="109_1" begin="800" date="04-Mar-2015 00:00:00"
+							end="1100" room="Hörsaal 3" city="Wien" zip="1090" roomNr="3.01"
+							street="Währinger Straße 29" />
+						<lecturer email="stefanie.rinderle-ma@univie.ac.at" id="39437"
+							rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+							firstname="Stefanie" lastname="Rinderle-Ma" />
+						<lecturer email="wilfried.grossmann@univie.ac.at" id="1599"
+							rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Wilfried"
+							lastname="Grossmann" />
+						<additionalInformation id="109_2"
+							comment="Die VU Business Intelligence II knüpft inhaltlich an die LV Business Intelligence I an. Zunächst werden weitere Analysetechniken eingeführt, nämlich - Temporal Data Mining - Social Network Mining. Die Veranstaltung vermittelt und vertieft dann Techniken, die sich aus der kombinierten Anwendung von vorher erlernten Analyse von Querschnittsdaten und Prozessdaten ergeben wie - Decision Mining - Organizational Mining - Text Mining  Die erlernten Techniken werden dann im Rahmen eines größeren BI Projekts basierend auf Realweltdaten (z.B. aus dem Universitätsbereich) angewendet. Insbesondere die Formulierung von Analysefragen, die Aufbereitung und Bereitstellung der Daten, die Anwendung der Analysemethoden und die Interpretation der Ergebnisse sowie die geeignete Anwendung von open source Tools stehen im Fokus des Projekts. "
+							assessment="* praktisches Projekt * Abschlussgespräche * Anwesenheit und Mitarbeit"
+							literature=""
+							exam="- Vorstellung von Methoden - praktische Umsetzung der erlernten Inhalte - Durchführung eines größeren Projekts"
+							precondition="" />
+					</group>
+					<institute>Studienprogrammleitung Informatik und
+						Wirtschaftsinformatik</institute>
+				</lecture>
+			</module>
+		</modulegroup>
+		<modulegroup id="509_23"
+			name="Kernfachkombination Information Economics and Legislation">
+			<module id="509_24"
+				name="Modul IEL Information Economics and Legislation (12 ECTS)">
+				<description>Die Veranstaltung &quot;VU Information Economics and
+					Legislation I&quot; findet im Wintersemester (jedes 2. Jahr) statt.
+					Die Veranstaltung &quot;VU Information Economics and Legislation
+					II&quot; findet im Sommersemester (jedes 2. Jahr) statt.
+				</description>
+			</module>
+		</modulegroup>
+	</moduleclass>
+	<moduleclass id="509_25" name="3. Freifächer (6 ECTS)">
+		<description>Im Rahmen der Freifächer sind frei wählbare
+			Lehrveranstaltungen an in- oder ausländischen postsekundären
+			Bildungseinrichtungen (Universitäten) zu absolvieren.</description>
+		<lecture ects="3,0" title="Kommunikation für MentorInnen 2"
+			name="Kommunikation für MentorInnen 2" id="050137" attendance="Y"
+			type="UE">
+			<group id="110"
+				remark="DI 03.03.2015 17.30-20.00 Ort: Seminarraum 11, Währinger Straße 29 2.OG; DI 10.03.2015 16.45-20.00 Ort: Seminarraum 11, Währinger Straße 29 2.OG; FR 13.03.2015 09.45-18.15 Ort: Seminarraum 11, Währinger Straße 29 2.OG; SA 14.03.2015 09.45-14.45 Ort: Seminarraum 11, Währinger Straße 29 2.OG; DI wtl von 24.03.2015 bis 30.06.2015 16.45-20.00 Ort: Seminarraum 11, Währinger Straße 29 2.OG Di 03.03.2015: begin um 17:30 Uhr!   Anmeldung: Die Teilnahme an einem Vorgespräch ist zwingend. Die Anmeldung erfolgt über diesen Doodle Link http://doodle.com/9xkcpahn9bv36g5t   Deadline 23.02.2015 Studierende die kein Vorgespräch hatten werden von der Teilnahme an der Lehrveranstaltung ausgeschlossen."
+				remark_vvz="Anmeldung: Die Teilnahme an einem Vorgespräch ist zwingend. Die Anmeldung erfolgt über diesen Doodle Link http://doodle.com/9xkcpahn9bv36g5t  Deadline 23.02.2015 Studierende die kein Vorgespräch hatten werden von der Teilnahme an der Lehrveranstaltung ausgeschlossen."
+				block="N" startDate="03.03.2015" signLanguage="N" lastDate="30.06.2015"
+				livestream="N" plattform="CEWEBS">
+				<language>Deutsch</language>
+				<duration id="110_1" begin="1730" date="03-Mar-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_2" begin="1645" date="10-Mar-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_3" begin="1645" date="24-Mar-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_4" begin="1645" date="14-Apr-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_5" begin="1645" date="21-Apr-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_6" begin="1645" date="28-Apr-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_7" begin="1645" date="05-May-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_8" begin="1645" date="12-May-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_9" begin="1645" date="19-May-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_10" begin="1645" date="02-Jun-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_11" begin="1645" date="09-Jun-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_12" begin="1645" date="16-Jun-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_13" begin="1645" date="23-Jun-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_14" begin="1645" date="30-Jun-2015 00:00:00"
+					end="2000" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_15" begin="945" date="13-Mar-2015 00:00:00"
+					end="1815" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<duration id="110_16" begin="945" date="14-Mar-2015 00:00:00"
+					end="1445" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+					street="Währinger Straße 29" />
+				<lecturer email="renate.motschnig@univie.ac.at" id="3667"
+					rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+					firstname="Renate" lastname="Motschnig" />
+				<additionalInformation id="110_17"
+					comment="* Aufgaben eines Mentors, einer Mentorin * Andere Informations- und Beratungsangebote and der Fakultät für Informatik * Situation Studienbegin * Beratungsgespräche, Hilfe geben, Hilfe empfangen * Personenzentrierte Kommunikation * Gruppen- und Teamprozesse * Konflikte, Ziele, Zeitmanagement * Diversity * Reflexion"
+					assessment="* aktive Teilnahme präsent und online * Kurzprotokolle und Reflexionen zur MentorInnentätigkeiz * Qualität der Team-Moderation und erarbeitete Unterlagen * Instruktor und Selbstevaluierung"
+					literature="Motschnig, R., Nykl, L. (2009). Konstruktive Kommunikation Sich und andere verstehen durch personenzentrierte Interaktion. Klett-Cotta, Stuttgart, DE.   weitere Referenzen siehe bitte: http://cewebs.univie.ac.at  und Klick auf &quot;Kommunikation für MentorInnen&quot;"
+					exam="Interaktiver Vortrag Übungen Gurppengespräche und Reflexion Im Team: Erarbeitung und Moderation eines Fokusthemas nach Wahl"
+					precondition="MentorInnen * sind sich ihrer Aufgaben und Funktion and Mentor/Mentorin bewusst * können förderliche Gespräche führen und reflektieren * kennen wesentliche Dimensionen von Diversität * erleichtern Mentees die Orientierung, ohne selbst Aufgaben für sie durchzuführen * fördern das Community Building unter StudienanfängerInnen * können aktiv und selbst-organisiert auf Studien-AnfängerInnen eingehen * können bei Konflikten hilfreich vermitteln" />
+			</group>
+			<institute>Studienprogrammleitung Informatik und
+				Wirtschaftsinformatik</institute>
+		</lecture>
+	</moduleclass>
+	<moduleclass id="509_26" name="4. Masterseminare">
+		<modulegroup id="509_27"
+			name="Modul MSW Masterseminar aus Wirtschaftsinformatik (6 ECTS)">
+			<description>Die Veranstaltungen &quot;Masterseminar 1 aus
+				Wirtschaftsinformatik&quot; und &quot;Masterseminar 2 aus
+				Wirtschaftsinformatik&quot; finden im Wintersemester und im
+				Sommersemester statt.</description>
+			<lecture ects="3,0" title="Masterseminar 2 aus Wirtschaftsinformatik"
+				name="Masterseminar 2 aus Wirtschaftsinformatik" id="050056"
+				attendance="Y" type="SE">
+				<group id="111"
+					remark="DI 10.03.2015 08.30-09.30 Ort: Seminarraum 7, Währinger Straße 29 1.OG; MO 22.06.2015 11.30-16.30 Ort: Seminarraum 11, Währinger Straße 29 2.OG "
+					block="N" startDate="10.03.2015" signLanguage="N" lastDate="22.06.2015"
+					livestream="N" plattform="">
+					<language>Deutsch</language>
+					<duration id="111_1" begin="830" date="10-Mar-2015 00:00:00"
+						end="930" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+						street="Währinger Straße 29" />
+					<duration id="111_2" begin="1130" date="22-Jun-2015 00:00:00"
+						end="1630" room="Seminarraum 11" city="Wien" zip="1090" roomNr="2.27"
+						street="Währinger Straße 29" />
+					<lecturer email="hans-georg.fill@univie.ac.at" id="21123"
+						rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+						firstname="Hans-Georg" lastname="Fill" />
+					<lecturer email="renate.motschnig@univie.ac.at" id="3667"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Renate"
+						lastname="Motschnig" />
+					<lecturer email="gerald.quirchmayr@univie.ac.at" id="8202"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Gerald"
+						lastname="Quirchmayr" />
+					<lecturer email="stefanie.rinderle-ma@univie.ac.at" id="39437"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Stefanie"
+						lastname="Rinderle-Ma" />
+					<lecturer email="erich.schikuta@univie.ac.at" id="4893"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Erich"
+						lastname="Schikuta" />
+					<lecturer email="uwe.zdun@univie.ac.at" id="38685"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Uwe"
+						lastname="Zdun" />
+				</group>
+				<institute>Studienprogrammleitung Informatik und
+					Wirtschaftsinformatik</institute>
+			</lecture>
+			<lecture ects="3,0" title="Masterseminar 1 aus Wirtschaftsinformatik"
+				name="Masterseminar 1 aus Wirtschaftsinformatik" id="050143"
+				attendance="Y" type="SE">
+				<group id="112"
+					remark="DI wtl von 03.03.2015 bis 30.06.2015 08.00-09.30 Ort: Seminarraum 6, Währinger Straße 29 1.OG; MO 29.06.2015 08.00-13.00 Ort: Seminarraum 2, Währinger Straße 29 1.UG; MO 29.06.2015 13.15-14.45 Ort: Seminarraum 7, Währinger Straße 29 1.OG; MO 29.06.2015 15.00-16.30 Ort: Seminarraum 7, Währinger Straße 29 1.OG "
+					block="N" startDate="03.03.2015" signLanguage="N" lastDate="30.06.2015"
+					livestream="N" plattform="">
+					<language>Deutsch</language>
+					<duration id="112_1" begin="800" date="03-Mar-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_2" begin="800" date="10-Mar-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_3" begin="800" date="17-Mar-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_4" begin="800" date="24-Mar-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_5" begin="800" date="14-Apr-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_6" begin="800" date="21-Apr-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_7" begin="800" date="28-Apr-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_8" begin="800" date="05-May-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_9" begin="800" date="12-May-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_10" begin="800" date="19-May-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_11" begin="800" date="02-Jun-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_12" begin="800" date="09-Jun-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_13" begin="800" date="16-Jun-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_14" begin="800" date="23-Jun-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_15" begin="800" date="30-Jun-2015 00:00:00"
+						end="930" room="Seminarraum 6" city="Wien" zip="1090" roomNr="1.01"
+						street="Währinger Straße 29" />
+					<duration id="112_16" begin="1315" date="29-Jun-2015 00:00:00"
+						end="1445" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+						street="Währinger Straße 29" />
+					<duration id="112_17" begin="1500" date="29-Jun-2015 00:00:00"
+						end="1630" room="Seminarraum 7" city="Wien" zip="1090" roomNr="1.23"
+						street="Währinger Straße 29" />
+					<duration id="112_18" begin="800" date="29-Jun-2015 00:00:00"
+						end="1300" room="Seminarraum 2" city="Wien" zip="1090" roomNr="U1.28"
+						street="Währinger Straße 29" />
+					<lecturer email="hans-georg.fill@univie.ac.at" id="21123"
+						rolePerson="V - Verantwortlicher Leiter" rolePersonNr="1"
+						firstname="Hans-Georg" lastname="Fill" />
+					<lecturer email="renate.motschnig@univie.ac.at" id="3667"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Renate"
+						lastname="Motschnig" />
+					<lecturer email="gerald.quirchmayr@univie.ac.at" id="8202"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Gerald"
+						lastname="Quirchmayr" />
+					<lecturer email="stefanie.rinderle-ma@univie.ac.at" id="39437"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Stefanie"
+						lastname="Rinderle-Ma" />
+					<lecturer email="erich.schikuta@univie.ac.at" id="4893"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Erich"
+						lastname="Schikuta" />
+					<lecturer email="uwe.zdun@univie.ac.at" id="38685"
+						rolePerson="P - Mitanbieter" rolePersonNr="2" firstname="Uwe"
+						lastname="Zdun" />
+				</group>
+				<institute>Studienprogrammleitung Informatik und
+					Wirtschaftsinformatik</institute>
+			</lecture>
+		</modulegroup>
+	</moduleclass>
+</course>
