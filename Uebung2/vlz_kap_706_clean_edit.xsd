@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="lectureindex">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="studybranch"/>
+        <xs:element ref="study"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="studybranch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="study"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="study">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="modulegroup"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modulegroup">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="modulesubgroup"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="module"/>
+      </xs:choice>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modulesubgroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="module"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="module">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="course"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="course">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="group"/>
+      </xs:sequence>
+      <xs:attribute name="continousassessment" use="required" type="xs:NCName"/>
+      <xs:attribute name="ects" use="required"/>
+      <xs:attribute name="hoursPerWeek" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="title" use="required"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="group">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="courselanguages"/>
+        <xs:element ref="appointments"/>
+        <xs:element ref="lecturers"/>
+      </xs:sequence>
+      <xs:attribute name="block" use="required" type="xs:NCName"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="learningplatform" use="required"/>
+      <xs:attribute name="learningplatformurl" use="required" type="xs:anyURI"/>
+      <xs:attribute name="livestream" use="required" type="xs:NCName"/>
+      <xs:attribute name="signlanguage" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="courselanguages">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="lang"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lang" type="xs:NCName"/>
+  <xs:element name="appointments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="appointment"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="appointment">
+    <xs:complexType>
+      <xs:attribute name="date" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="end" use="required" type="xs:integer"/>
+      <xs:attribute name="location" use="required" type="xs:NCName"/>
+      <xs:attribute name="room" use="required"/>
+      <xs:attribute name="start" use="required" type="xs:integer"/>
+      <xs:attribute name="street" use="required"/>
+      <xs:attribute name="zip" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lecturers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="lecturer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lecturer">
+    <xs:complexType>
+      <xs:attribute name="givenname" use="required"/>
+      <xs:attribute name="role" use="required"/>
+      <xs:attribute name="surname" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
