@@ -22,3 +22,7 @@ Lösung: doppelte Werte in der Ausgabe belassen
 ad 2-2c) Schwierigkeit group by umzusetzen. Lösung: Aufgabe creativ interpretiert.
 
 ad 2-2f) Nachdem es immer nur eine Gruppe pro LV gibt, ist es sinnvoll die LV mit Sprache != en auszugeben
+
+
+Übung 2-3 Mapping der Daten von Gruppe 14
+   Import von Gruppe 14 auf eigenes Schema mittel XSLT. Keine Besonderheiten.
