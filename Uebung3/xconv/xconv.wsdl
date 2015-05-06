@@ -29,6 +29,12 @@
   <message name="UnsupportedCurrency">
     <part name="fault" element="xc:UnsupportedCurrency" /> 
   </message>
+  <message name="getAuthorRequest">
+    <part name="attribute" type="xsd:string"/>
+  </message>
+  <message name="getAuthorResponse">
+    <part name="attributeValue" type="xsd:string"/>
+  </message>
  
 
   <portType name="XConvPort">
@@ -36,6 +42,10 @@
       <input message="xc:getXConvRequest"/>
       <output message="xc:getXConvResponse"/>
       <fault message="xc:UnsupportedCurrency" name="UnsupportedCurrency" /> 
+    </operation>
+    <operation name="getAuthor">
+      <input message="xc:getAuthorRequest"/>
+      <output message="xc:getAuthorResponse"/>
     </operation>
   </portType>
 
@@ -46,6 +56,11 @@
       <input><soap:body use="literal" namespace="urn:XConv"/></input>
       <output><soap:body use="literal" namespace="urn:XConv"/></output>
       <fault name="UnsupportedCurrency"><soap:body name="UnsupportedCurrency" use="literal" namespace="urn:XConv"/></fault>
+    </operation>
+    <operation name="getAuthor">
+      <soap:operation soapAction="urn:XConvAction#getAuthor"/>
+      <input><soap:body use="literal" namespace="urn:XConv"/></input>
+      <output><soap:body use="literal" namespace="urn:XConv"/></output>
     </operation>
   </binding>
 

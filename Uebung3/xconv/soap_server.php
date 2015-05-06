@@ -17,8 +17,12 @@
       }
     }
 
-    function getAuthor() {
-      return 'r2h2';
+    function getAuthor($attribute) {
+      if ($attribute == 'cn') {
+        return 'r2h2';
+      } else {
+        return 'unsupported attribute';
+      }
     }
   }
  
