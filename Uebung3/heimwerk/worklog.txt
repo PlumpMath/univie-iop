@@ -11,3 +11,11 @@ zu registrieren.
 3. Ganz logisch ist das nicht, weil diese Services dann getrennte WSDLs haben müssten, aber es war das
 sinnvollste das ich aus der Angabe entnehmen konnte.
 
+2. Anlauf nach Klärung der Zielsetzung (2015-05-06)
+"return: Erstellen Sie ein Web Service welches einen EUR-Betrag in eine andere Währung (außerhalb der EU) umrechnet. 
+In mindestens zehn Währungen soll umgerechnet werden können, jedoch sollten USD, JPY, CNY und CHF auf jeden Fall 
+abrufbar sein. Als Ergebnis soll die Kurzbezeichnung der Währung nach ISO 4217 und der umgerechnete Betrag als 
+Datenstruktur zurückgeliefert werden. Eine weitere Operation soll den Namen des Autors/der Autorin des Web Services 
+zurückgeben."
+
+Mit neuer Aufgabenstellung Phase 1 nachträglich umgesetzt und abgegeben.
