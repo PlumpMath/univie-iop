@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2015r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="java"/>
+		<structure>
+			<children>
+				<component name="DailyExpenses" library="xml" uid="3" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="663" lty="-1" rbx="963" rby="199"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="daily-expenses" inpkey="1" expanded="1">
+										<entry name="Person" inpkey="2"/>
+										<entry name="expense-item" inpkey="3">
+											<entry name="expense" type="attribute" inpkey="4"/>
+											<entry name="type" type="attribute" inpkey="5"/>
+											<entry name="expto" type="attribute" inpkey="6"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="C:\Users\rhoerbe\Documents\Altova\MapForce2015\MapForceExamples\DailyExpenses.xsd" outputinstance="C:\Users\rhoerbe\Documents\Altova\MapForce2015\MapForceExamples\DailyExpenses.xml" instanceroot="{}daily-expenses"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="ExpReport" library="xml" uid="2" kind="14">
+					<properties/>
+					<view ltx="140" lty="-12" rbx="440" rby="188"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="expense-report" outkey="7" expanded="1">
+										<entry name="Person" outkey="8"/>
+										<entry name="expense-item" outkey="9">
+											<entry name="type" type="attribute" outkey="10"/>
+											<entry name="expto" type="attribute" outkey="11"/>
+											<entry name="expense" outkey="12"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="C:\Users\rhoerbe\Documents\Altova\MapForce2015\MapForceExamples\ExpReport.xsd" inputinstance="C:\Users\rhoerbe\Documents\Altova\MapForce2015\MapForceExamples\ExpReport.xml" outputinstance="C:\Users\rhoerbe\Documents\Altova\MapForce2015\MapForceExamples\ExpReport.xml" instanceroot="{}expense-report"/>
+						<wsdl/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges>
+					<edge edgekey="13">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+				</edges>
+				<vertices>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="1" edgekey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="2" edgekey="13"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="3" edgekey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="5" edgekey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="6" edgekey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="4" edgekey="18"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

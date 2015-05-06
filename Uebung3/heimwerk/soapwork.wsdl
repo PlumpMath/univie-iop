@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<definitions 
+  name="Homework"
+  targetNamespace="urn:Homework"
+  xmlns:typens="urn:Homework"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+  xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+  <types>
+    <xsd:schema targetNamespace="urn:Homework">
+       <xsd:simpleType name='matnr'>
+         <xsd:restriction base="xsd:string">
+            <xsd:pattern value="a[0-9]{7}"/>
+         </xsd:restriction>
+       </xsd:simpleType>
+    </xsd:schema>
+  </types>
+
+  <message name="getHomeworkRequest">
+    <part name="id" type="xsd:string"/>
+  </message>
+  <message name="getHomeworkResponse">
+    <part name="return" type="xsd:string"/>
+  </message>
+  <message name="registerServiceRequest">
+    <part name="matnr" type="typens:matnr"/>
+    <part name="email" type="xsd:string"/>
+    <part name="id" type="xsd:string"/>
+    <part name="wsdllocation" type="xsd:string"/>
+  </message>
+  <message name="registerServiceResponse">
+    <part name="return" type="xsd:boolean"/>
+  </message>
+
+  <portType name="HomeworkPort">
+    <!-- aufgabe abholen, geheimzahl als parameter --> 
+    <operation name="getHomework">
+      <input message="typens:getHomeworkRequest"/>
+      <output message="typens:getHomeworkResponse"/>
+    </operation>
+    <!-- aufgabe abgeben, matrikelnummer, geheimzahl und wsdl location als parameter --> 
+    <operation name="registerService">
+      <input message="typens:registerServiceRequest"/>
+      <output message="typens:registerServiceResponse"/>
+    </operation>
+  </portType>
+
+  <binding name="HomeworkBinding" type="typens:HomeworkPort">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="getHomework">
+      <soap:operation soapAction="urn:HomeworkAction#getHomework"/>
+      <input>
+        <soap:body use="literal" namespace="urn:Homework"/>
+      </input>
+      <output>
+        <soap:body use="literal" namespace="urn:Homework"/>
+      </output>
+    </operation>
+    <operation name="registerService">
+      <soap:operation soapAction="urn:HomeworkAction#registerService"/>
+      <input>
+        <soap:body use="literal" namespace="urn:Homework"/>
+      </input>
+      <output>
+        <soap:body use="literal" namespace="urn:Homework"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="HomeworkService">
+    <port name="HomeworkPort" binding="typens:HomeworkBinding">
+      <soap:address location="http://univie.hoerbe.at/heimwerk/soap_server.php"/>
+    </port>
+  </service>
+
+</definitions>

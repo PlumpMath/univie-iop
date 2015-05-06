@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<definitions 
+  name="XConv"
+  targetNamespace="urn:XConv"
+  xmlns:typens="urn:XConv"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+  xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+  <types>
+    <xsd:schema targetNamespace="urn:XConv">
+       <xsd:simpleType name='ISO4217currencyCode'>
+         <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]{3}"/>
+         </xsd:restriction>
+       </xsd:simpleType>
+    </xsd:schema>
+  </types>
+
+  <message name="getXConv2EURRequest">
+    <part name="currency" type="xsd:ISO4217currencyCode"/>
+    <part name="amount" type="xsd:decimal"/>
+  </message>
+  <message name="getXConv2EURResponse">
+    <part name="return" type="xsd:decimal"/>
+  </message>
+
+  <portType name="XConvPort">
+    <operation name="getXConv">
+      <input message="typens:getXConv2EURRequest"/>
+      <output message="typens:getXConv2EURResponse"/>
+    </operation>
+  </portType>
+
+  <binding name="XConvBinding" type="typens:XConvPort">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="getXConv2EUR">
+      <soap:operation soapAction="urn:XConvAction#getXConv2EUR"/>
+      <input>
+        <soap:body use="literal" namespace="urn:XConv"/>
+      </input>
+      <output>
+        <soap:body use="literal" namespace="urn:XConv"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="XConvService">
+    <port name="XConvPort" binding="typens:XConvBinding">
+      <soap:address location="http://univie.hoerbe.at/xconv/soap_server.php"/>
+    </port>
+  </service>
+
+</definitions>
