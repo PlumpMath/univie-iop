@@ -9,7 +9,7 @@
       );    
       if (array_key_exists($currency, $xrates)) {
           $XConv = new StdClass;
-          $XConv->convertedAmount = $currency / 1.04;
+          $XConv->convertedAmount = $amount / 1.04;
           return $XConv->convertedAmount;
       } else {
           return new SoapFault('100', 'Currency not supported', 'Callee', 'see list of supported currencies', 'UnsupportedCurrency');      
@@ -17,12 +17,14 @@
     }
   }
  
+  # test helper
   if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $s = new XConvService;
     header('content-type: text/plain');
     print_r($s->getXConv('XXX'));
   }
  
+  # Web service
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     ini_set("soap.wsdl_cache_enabled","0");
     $server = new SoapServer('xconv.wsdl');
