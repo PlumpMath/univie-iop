@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2015r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="java"/>
+		<structure>
+			<children>
+				<component name="vlz_kap_706_clean_edit" library="xml" uid="4" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="439" rbx="782" rby="1030"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="lectureindex" expanded="1">
+										<entry name="study" inpkey="1" expanded="1">
+											<entry name="id" type="attribute" inpkey="2"/>
+											<entry name="name" type="attribute" inpkey="3"/>
+											<entry name="modulegroup" inpkey="4" expanded="1">
+												<entry name="id" type="attribute" inpkey="5"/>
+												<entry name="name" type="attribute" inpkey="6"/>
+												<entry name="modulesubgroup" inpkey="7" expanded="1">
+													<entry name="id" type="attribute" inpkey="8"/>
+													<entry name="name" type="attribute" inpkey="9"/>
+													<entry name="module" inpkey="10" expanded="1">
+														<entry name="id" type="attribute" inpkey="11"/>
+														<entry name="name" type="attribute" inpkey="12"/>
+														<entry name="course" inpkey="13" expanded="1">
+															<entry name="ects" type="attribute" inpkey="14"/>
+															<entry name="id" type="attribute" inpkey="15"/>
+															<entry name="title" type="attribute" inpkey="16"/>
+															<entry name="type" type="attribute" inpkey="17"/>
+															<entry name="group" inpkey="18" expanded="1">
+																<entry name="block" type="attribute" inpkey="19"/>
+																<entry name="id" type="attribute" inpkey="20"/>
+																<entry name="livestream" type="attribute" inpkey="21"/>
+																<entry name="signlanguage" type="attribute" inpkey="22"/>
+																<entry name="appointments" expanded="1">
+																	<entry name="appointment" inpkey="23" expanded="1">
+																		<entry name="date" type="attribute" inpkey="24"/>
+																		<entry name="end" type="attribute" inpkey="25"/>
+																		<entry name="room" type="attribute" inpkey="26"/>
+																		<entry name="street" type="attribute" inpkey="27"/>
+																		<entry name="zip" type="attribute" inpkey="28"/>
+																	</entry>
+																</entry>
+																<entry name="lecturers" expanded="1">
+																	<entry name="lecturer" inpkey="29" expanded="1">
+																		<entry name="givenname" type="attribute" inpkey="30"/>
+																		<entry name="role" type="attribute" inpkey="31"/>
+																		<entry name="surname" type="attribute" inpkey="32"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="module" expanded="1">
+													<entry name="course" expanded="1">
+														<entry name="group" expanded="1"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="vlz_kap_706_clean_edit.xsd" inputinstance="vlz_kap_706_clean.xml" outputinstance="vlz_kap_706_clean.xml" instanceroot="{}lectureindex"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="vlz_509_clean_altova" library="xml" uid="5" kind="14">
+					<properties/>
+					<view ltx="41" rbx="361" rby="1072"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="course" outkey="33" expanded="1">
+										<entry name="id" type="attribute" outkey="34"/>
+										<entry name="name" outkey="35"/>
+										<entry name="moduleclass" outkey="36" expanded="1">
+											<entry name="id" type="attribute" outkey="37"/>
+											<entry name="name" type="attribute" outkey="38"/>
+											<entry name="modulegroup" outkey="39" expanded="1">
+												<entry name="id" type="attribute" outkey="40"/>
+												<entry name="name" type="attribute" outkey="41"/>
+												<entry name="module" outkey="42" expanded="1">
+													<entry name="id" type="attribute" outkey="43"/>
+													<entry name="name" type="attribute" outkey="44"/>
+													<entry name="lecture" outkey="45" expanded="1">
+														<entry name="ects" type="attribute" outkey="46"/>
+														<entry name="title" type="attribute" outkey="47"/>
+														<entry name="id" type="attribute" outkey="48"/>
+														<entry name="type" type="attribute" outkey="49"/>
+														<entry name="group" outkey="50" expanded="1">
+															<entry name="id" type="attribute" outkey="51"/>
+															<entry name="block" type="attribute" outkey="52"/>
+															<entry name="signLanguage" type="attribute" outkey="53"/>
+															<entry name="livestream" type="attribute" outkey="54"/>
+															<entry name="duration" outkey="55" expanded="1">
+																<entry name="date" type="attribute" outkey="56"/>
+																<entry name="end" type="attribute" outkey="57"/>
+																<entry name="room" type="attribute" outkey="58"/>
+																<entry name="zip" type="attribute" outkey="59"/>
+																<entry name="street" type="attribute" outkey="60"/>
+															</entry>
+															<entry name="lecturer" outkey="61" expanded="1">
+																<entry name="rolePerson" type="attribute" outkey="62"/>
+																<entry name="firstname" type="attribute" outkey="63"/>
+																<entry name="lastname" type="attribute" outkey="64"/>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="vlz_509_clean_altova.xsd" inputinstance="vlz_509_clean.xml" outputinstance="vlz_509_clean.xml" instanceroot="{}course"/>
+						<wsdl/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="33">
+						<edges>
+							<edge vertexkey="1" edgekey="65"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="34">
+						<edges>
+							<edge vertexkey="2" edgekey="66"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="35">
+						<edges>
+							<edge vertexkey="3" edgekey="67"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="36">
+						<edges>
+							<edge vertexkey="4" edgekey="68"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="37">
+						<edges>
+							<edge vertexkey="5" edgekey="69"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="38">
+						<edges>
+							<edge vertexkey="6" edgekey="70"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="39">
+						<edges>
+							<edge vertexkey="7" edgekey="71"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="40">
+						<edges>
+							<edge vertexkey="8" edgekey="72"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="41">
+						<edges>
+							<edge vertexkey="9" edgekey="73"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="42">
+						<edges>
+							<edge vertexkey="10" edgekey="74"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="43">
+						<edges>
+							<edge vertexkey="11" edgekey="75"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="44">
+						<edges>
+							<edge vertexkey="12" edgekey="76"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="45">
+						<edges>
+							<edge vertexkey="13" edgekey="77"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="46">
+						<edges>
+							<edge vertexkey="14" edgekey="78"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="47">
+						<edges>
+							<edge vertexkey="16" edgekey="79"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="48">
+						<edges>
+							<edge vertexkey="15" edgekey="80"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="49">
+						<edges>
+							<edge vertexkey="17" edgekey="81"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="50">
+						<edges>
+							<edge vertexkey="18" edgekey="82"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="51">
+						<edges>
+							<edge vertexkey="20" edgekey="83"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="52">
+						<edges>
+							<edge vertexkey="19" edgekey="84"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="53">
+						<edges>
+							<edge vertexkey="22" edgekey="85"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="54">
+						<edges>
+							<edge vertexkey="21" edgekey="86"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="55">
+						<edges>
+							<edge vertexkey="23" edgekey="87"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="56">
+						<edges>
+							<edge vertexkey="24" edgekey="88"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="57">
+						<edges>
+							<edge vertexkey="25" edgekey="89"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="58">
+						<edges>
+							<edge vertexkey="26" edgekey="90"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="59">
+						<edges>
+							<edge vertexkey="28" edgekey="91"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="60">
+						<edges>
+							<edge vertexkey="27" edgekey="92"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="61">
+						<edges>
+							<edge vertexkey="29" edgekey="93"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="62">
+						<edges>
+							<edge vertexkey="31" edgekey="94"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="63">
+						<edges>
+							<edge vertexkey="30" edgekey="95"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="64">
+						<edges>
+							<edge vertexkey="32" edgekey="96"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
