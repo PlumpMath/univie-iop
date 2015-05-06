@@ -1,22 +1,22 @@
 <?php
-  class HomeworkService {
-    function getHomework($id) {
-      $homework = new StdClass;
-      $homework->name = 'Lore ipsum';
-      return $homework;
+  class XConvService {
+    function getXConv($currency) {
+      $XConv = new StdClass;
+      $XConv->convertedAmount = $currency / 1.04;
+      return $XConv->convertedAmount;
     }
   }
  
   if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-    $s = new HomeworkService;
+    $s = new XConvService;
     header('content-type: text/plain');
-    print_r($s->getHomework('a'));
+    print_r($s->getXConv('XXX'));
   }
  
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     ini_set("soap.wsdl_cache_enabled","0");
-    $server = new SoapServer('soapwork.wsdl');
-    $server->setClass('HomeworkService');
+    $server = new SoapServer('xconv.wsdl');
+    $server->setClass('XConvService');
     $server->handle();
     exit;
   }
