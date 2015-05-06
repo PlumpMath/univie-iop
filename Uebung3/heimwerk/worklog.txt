@@ -18,4 +18,6 @@ abrufbar sein. Als Ergebnis soll die Kurzbezeichnung der Währung nach ISO 4217 
 Datenstruktur zurückgeliefert werden. Eine weitere Operation soll den Namen des Autors/der Autorin des Web Services 
 zurückgeben."
 
+Service mit registerservice.php registriert, Ergebnis: $return == True
 Mit neuer Aufgabenstellung Phase 1 nachträglich umgesetzt und abgegeben.
+Verwendetes Werkzeug für die Clientseite: Firefox SOA Client

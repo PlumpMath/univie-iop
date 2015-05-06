@@ -1,0 +1,13 @@
+VU Interoperabilität Übung 3
+Rainer Hörbe, a7901955 
+Arbeitsprotokoll
+
+Ich bin nicht sicher ob ich die Aufgabe richtig interpretiert habe. Im Link zur Aufgabenstellung ist kein Ziel angegeben.
+
+Ich habe daher folgende Annahmen getroffen:
+1. Ein getHomework Service ist zu implementieren.
+2. Dieses Service ist beim Service http://donatello.cs.univie.ac.at/tools_lehre/interop/2015/phase1/soapwork.php
+zu registrieren.
+3. Ganz logisch ist das nicht, weil diese Services dann getrennte WSDLs haben müssten, aber es war das
+sinnvollste das ich aus der Angabe entnehmen konnte.
+
