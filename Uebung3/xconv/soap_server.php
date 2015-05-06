@@ -9,11 +9,16 @@
       );    
       if (array_key_exists($currency, $xrates)) {
           $XConv = new StdClass;
-          $XConv->convertedAmount = $amount / 1.04;
-          return $XConv->convertedAmount;
+          $XConv->currency = $currency;
+          $XConv->amount = $amount / 1.04;
+          return array($XConv->currency, $XConv->amount);
       } else {
           return new SoapFault('100', 'Currency not supported', 'Callee', 'see list of supported currencies', 'UnsupportedCurrency');      
       }
+    }
+
+    function getAuthor() {
+      return 'r2h2';
     }
   }
  
