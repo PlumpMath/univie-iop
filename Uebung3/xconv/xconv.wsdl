@@ -20,9 +20,11 @@
 
   <message name="getXConvRequest">
     <part name="currency" type="xsd:ISO4217currencyCode"/>
+    <part name="amount" type="xsd:decimal"/>
   </message>
   <message name="getXConvResponse">
-    <part name="return" type="xsd:decimal"/>
+    <part name="currency" type="xsd:ISO4217currencyCode"/>
+    <part name="amount" type="xsd:decimal"/>
   </message>
   <message name="UnsupportedCurrency">
     <part name="fault" element="xc:UnsupportedCurrency" /> 
