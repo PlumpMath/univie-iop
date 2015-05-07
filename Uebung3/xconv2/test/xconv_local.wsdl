@@ -66,7 +66,8 @@
 
   <service name="XConvService">
     <port name="XConvPort" binding="xc:XConvBinding">
-        <soap:address location="http://univie.hoerbe.at/xconv/soap_server.php">
+        <!--soap:address location="http://univie.hoerbe.at/xconv/soap_server.php"/-->
+        <soap:address location="http://127.0.0.1/xconv2/soap_server_local.php"/>
     </port>
   </service>
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-$wsdlSource = "http://localhost:8086/xconv.wsdl";
+$wsdlSource = "http://localhost/xconv2/xconv_local.wsdl";
 //$wsdlSource = "http://univie.hoerbe.at/xconv2/xconv.wsdl";
 $client = new SoapClient($wsdlSource, array ("trace"=>1));
 $result = $client -> getXConv("USD", 1);
