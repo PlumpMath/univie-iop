@@ -1,0 +1,85 @@
+default namespace = ""
+
+start =
+  element study {
+    attribute chapter { xsd:NCName },
+    attribute id { xsd:NMTOKEN },
+    title,
+    element module {
+      attribute chapter { xsd:NCName },
+      attribute id { xsd:NMTOKEN },
+      title,
+      element course {
+        attribute chapter { xsd:NCName },
+        attribute id { xsd:integer },
+        attribute node_id { xsd:NMTOKEN },
+        element name { text },
+        title,
+        element limited { xsd:NCName },
+        element imanent_exam { xsd:NCName },
+        element course_type { xsd:NCName },
+        element ects { xsd:decimal },
+        element week_hours { xsd:integer },
+        element course_group {
+          attribute id { xsd:integer },
+          description,
+          element first_date { text },
+          element last_date { text },
+          element blocked { xsd:NCName },
+          url,
+          element livestream { xsd:NCName },
+          element sign_language { xsd:NCName },
+          element language { xsd:NCName },
+          (element from_to {
+             element time_start { xsd:dateTime },
+             element time_end { xsd:dateTime },
+             element room_number { xsd:NMTOKEN },
+             element room_name { text },
+             element street { text },
+             element city { xsd:NCName },
+             element zipcode { xsd:integer }
+           }+,
+           element lecturer {
+             element email { text },
+             element pkey { xsd:integer },
+             element role_person { text },
+             element role_person_nr { xsd:integer },
+             element first_name { text },
+             element last_name { xsd:NCName }
+           }+)?,
+          element additional_info {
+            element short_comment { text },
+            element assessment { text },
+            element literature { text },
+            element exam { text },
+            element requirements { text }
+          }
+        },
+        institute
+      }*
+    }+
+  }
+title = element title { text }
+description = element description { text }
+url = element url { xsd:anyURI }
+institute =
+  element institute {
+    attribute code { xsd:integer }?,
+    attribute inum { xsd:NCName }?,
+    (text
+     | description
+     | institute
+     | url
+     | element active { xsd:NCName }
+     | element code { xsd:integer }
+     | element edu_link { empty }
+     | element fakcode { xsd:integer }
+     | element gender { xsd:NCName }
+     | element genitiv { text }
+     | element infobox { empty }
+     | element inum { xsd:NCName }
+     | element name1 { xsd:NCName }
+     | element name2 { text }
+     | element short_description { empty }
+     | element url_en { empty })+
+  }

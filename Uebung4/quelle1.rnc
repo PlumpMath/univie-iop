@@ -1,0 +1,65 @@
+default namespace = ""
+
+start =
+  element lectureindex {
+    element studybranch {
+      attribute id { xsd:NMTOKEN },
+      attribute name { text },
+      element study {
+        attribute id { xsd:NMTOKEN },
+        attribute name { text },
+        element modulegroup {
+          attribute id { xsd:NMTOKEN },
+          attribute name { text },
+          (element modulesubgroup {
+             attribute id { xsd:NMTOKEN },
+             attribute name { text },
+             module+
+           }*
+           | module*)
+        }+
+      }+
+    }
+  }
+module =
+  element module {
+    attribute id { xsd:NMTOKEN },
+    attribute name { text },
+    element course {
+      attribute continousassessment { xsd:NCName },
+      attribute ects { text },
+      attribute hoursPerWeek { xsd:integer },
+      attribute id { xsd:integer },
+      attribute title { text },
+      attribute type { text },
+      element group {
+        attribute block { xsd:NCName },
+        attribute id { xsd:integer },
+        attribute learningplatform { text },
+        attribute learningplatformurl { xsd:anyURI },
+        attribute livestream { xsd:NCName },
+        attribute signlanguage { xsd:NCName },
+        element courselanguages {
+          element lang { xsd:NCName }+
+        },
+        element appointments {
+          element appointment {
+            attribute date { xsd:NMTOKEN },
+            attribute end { xsd:integer },
+            attribute location { xsd:NCName },
+            attribute room { text },
+            attribute start { xsd:integer },
+            attribute street { text },
+            attribute zip { xsd:integer }
+          }*
+        },
+        element lecturers {
+          element lecturer {
+            attribute givenname { text },
+            attribute role { text },
+            attribute surname { text }
+          }*
+        }
+      }
+    }*
+  }

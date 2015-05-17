@@ -1,0 +1,63 @@
+<ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion"
+                  xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="urn:net:eustix:names:tc:PEFIM:0.0:assertion"
+                  AssertionConsumerServiceURL="https://pefim-sb.cryonslab.org:8999/pvp2_sp/acs/post"
+                  Destination="https://pefim-idp.cryonslab.org/idp/profile/SAML2/Redirect/SSO" ID="id-UM5Hkg2PGzFj1cBG8"
+                  IssueInstant="2015-05-07T08:35:09Z" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                  Version="2.0">
+    <ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">
+        https://pefim-sb.cryonslab.org:8999/pvp2_spproxy.xml
+    </ns1:Issuer>
+    <ns2:Signature Id="Signature1">
+        <ns2:SignedInfo>
+            <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ns2:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <ns2:Reference URI="#id-UM5Hkg2PGzFj1cBG8">
+                <ns2:Transforms>
+                    <ns2:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ns2:Transforms>
+                <ns2:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ns2:DigestValue/>
+            </ns2:Reference>
+        </ns2:SignedInfo>
+        <ns2:SignatureValue/>
+        <ns2:KeyInfo>
+            <ns2:X509Data>
+                <ns2:X509Certificate>
+                    MIICIzCCAYwCAXcwDQYJKoZIhvcNAQELBQAwWjELMAkGA1UEBhMCc2UxCzAJBgNVBAgTAmFjMQ0wCwYDVQQHEwRVbWVhMQwwCgYDVQQKEwNJVFMxDTALBgNVBAsTBERJUkcxEjAQBgNVBAMTCWxvY2FsaG9zdDAeFw0xNDAzMTkxNzE5MzlaFw0yNDAzMTYxNzE5MzlaMFoxCzAJBgNVBAYTAnNlMQswCQYDVQQIEwJhYzENMAsGA1UEBxMEVW1lYTEMMAoGA1UEChMDSVRTMQ0wCwYDVQQLEwRESVJHMRIwEAYDVQQDEwlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALswQbMz6dKL4FEKu+O3GYDfaniyxcfizsHaiehuh5jufrlGZw/zMMttteTRhpjtTFN2/R68d1kh8pmO+HV7u+53h+C33I178ZsOquSovGe1AWmzDzp2j6CRdQYdZaMCc4YxtwEXs7570YmnPLKhz8aHdiQRHhtx1cqdPPStkz67AgMBAAEwDQYJKoZIhvcNAQELBQADgYEApQ5znEdhsJBs+ew81X9pkUKZ/ruu/p2OPfYmKzdFnK6mq9bF5CEIaIkvbSJjpECicmGCNw9ATJXylnwFLnfxw6d+YGi4XPuo64NSG00ycnMSTMJ8OR5ForcF89v72BLRDYo6yXeNDw722ul0lPzH54CNQzsm4N/5w5iStnOT1TQ=
+                </ns2:X509Certificate>
+            </ns2:X509Data>
+        </ns2:KeyInfo>
+    </ns2:Signature>
+    <ns0:Extensions>
+        <ns3:SPCertEnc VerifyDepth="1">
+            <ns2:KeyInfo>
+                <ns2:X509Data>
+                    <ns2:X509Certificate>MIID3DCCAsSgAwIBAgIJAI4Pki06znIYMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYD
+                        VQQGEwJBVDEPMA0GA1UECAwGVmllbm5hMQ8wDQYDVQQHDAZWaWVubmExITAfBgNV
+                        BAoMGENyeXB0YXMgaXQtU2VjdXJpdHkgR21iSDEPMA0GA1UECwwGQ3J5b25zMRww
+                        GgYDVQQDDBNQZUZJTSBTaG9ydCBUZXJtIENBMB4XDTE1MDUwNzA4MTA1NloXDTE2
+                        MDUwNjA4MTA1NlowTzELMAkGA1UEBhMCQVQxDzANBgNVBAcMBlZpZW5uYTEhMB8G
+                        A1UECgwYQ3J5cHRhcyBpdC1TZWN1cml0eSBHbWJIMQwwCgYDVQQDDAM0NzMwggEi
+                        MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCh3cX+jpp4Y3g/T0XaOuRpZWNg
+                        ZMe7NaCugtZ+IETW6FE2Vu91X9qR2/LGHEzhOzHmRelHs4Xzd81sFeH6Rgyox5j9
+                        H9cyBEueA4bzEFubAetM7/fdJiuz15a5xBLZyn7fNuXReIyqttTcipTF/BCH/8Xl
+                        ze3HG3XnWkZbjkPY3kHoCD1NAquahON5ChgznLeMkCxK+Dr+iRAWmkI0XdfpZgTt
+                        s82QNXijzawGNl6YICsU9K0WQyVCm2IjG2HkxrWPg61bCI5zorZnT7kz0ADgAFp4
+                        p2/EEFvymUY8ALeBSSpWFPlMQuJgwBvcSrCGUulltI7IXHJSRo2AYNjzOSEbAgMB
+                        AAGjgYcwgYQwCQYDVR0TBAIwADAsBglghkgBhvhCAQ0EHxYdT3BlblNTTCBHZW5l
+                        cmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFCcT/cIMZCNzoiV3XepJ9tdLh1CF
+                        MB8GA1UdIwQYMBaAFCxkXBiOg0RDk+egva0/Ww6s8+SxMAkGA1UdEQQCMAAwDQYJ
+                        KoZIhvcNAQELBQADggEBAARdmUQys9qUW29ATpnlNv90jvSseKUruji9k9U6Jdmd
+                        8MGmkwqaSglXJ7XnMs49TYaoMct9DMWxevXatLm24KadfGVYMdjIjph7TW5JVZTF
+                        ayCjYiNgZT7dfEawAWR8sMLjzndfZWSqgiQZ2+ZhRe7WU5S+BqxAv6xq0cTrUQGa
+                        dHNO/aCnYIHui8FlByXB2Q3m7gLhHXhQjuEIeXLSh86GGAHfeFP6W0dK7FoHKYhb
+                        amX00NfAleqiTrqnusuMXnoqs3C8ezDW1ew90r9FZNJDnCW+VVFj5auBh/xBF8PE
+                        Mb4MWhLEgZUhHjho465i/tzcOSIrYjDm7Ihvrut39kk=
+                    </ns2:X509Certificate>
+                </ns2:X509Data>
+            </ns2:KeyInfo>
+        </ns3:SPCertEnc>
+    </ns0:Extensions>
+    <ns0:NameIDPolicy AllowCreate="1"/>
+</ns0:AuthnRequest>

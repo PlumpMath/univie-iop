@@ -21,11 +21,4 @@ die Umrechnung auch über das REST-SErvice realisieren.
 
 /currencies gibt ein html-snippet aus. (Kein XML/JSON via ACCEPT Header). Daher Konvertierung von HTML.
 
-Probleme mit der Fehlersuche:
-1. getAuthor geht wenn eine Konstante zurückgeliefert wird. Wird folgendes Snippet eingebaut, wird bleibt der Name vom
-   REST-SErvice leer:
-            $contents = file_get_contents('http://wwwlab.cs.univie.ac.at/~pargm92/server.php/name');
-            return ('author:' . strip_tags($contents));
-    Isoliert funktioniert der Code.
-    
-2. Bei der Umrechnung ist die Lise der Währungen leer, obwohl auch der Teil isoliert funktioniert.
+

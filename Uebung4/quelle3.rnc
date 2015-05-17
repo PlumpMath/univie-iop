@@ -1,0 +1,45 @@
+default namespace = ""
+
+start =
+  element studies {
+    attribute title { text },
+    element module {
+      attribute id { xsd:NMTOKEN },
+      attribute title { text },
+      element submodule {
+        attribute title { text },
+        element lecture {
+          attribute blocked { xsd:NCName },
+          attribute ects { text },
+          attribute nr { xsd:integer },
+          attribute pi { xsd:NCName },
+          attribute title { text },
+          attribute type { xsd:NCName },
+          element group {
+            attribute blocked { xsd:NCName },
+            attribute link { xsd:anyURI },
+            attribute sign_lang { xsd:NCName },
+            attribute stream { xsd:NCName },
+            element language { xsd:NCName },
+            element appointment {
+              attribute city { xsd:NCName },
+              attribute date { text },
+              attribute end_time { xsd:integer },
+              attribute start_time { xsd:integer },
+              attribute street { text },
+              attribute zip { xsd:integer }
+            }*,
+            element lecturer {
+              attribute first_name { text },
+              attribute last_name { xsd:NCName },
+              attribute person_nr { xsd:integer },
+              attribute role { text }
+            }*
+          },
+          element institute {
+            attribute name { text }
+          }
+        }+
+      }+
+    }+
+  }

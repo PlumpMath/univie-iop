@@ -51,14 +51,14 @@ function readitem($line) {
 
 function getCurrencies() {
     global $xrates;
-    $contents = file_get_contents('http://wwwlab.cs.univie.ac.at/~pargm92/server.php/currencies');
-    $stripped = strip_tags($contents);
+    $html = file_get_contents('http://wwwlab.cs.univie.ac.at/~pargm92/server.php/currencies');
+    $plaintext = strip_tags($html);
 
     $xrates = array();
     $currency = '';
 
     $separator = "\r\n";
-    $line = strtok($stripped, $separator);
+    $line = strtok($plaintext, $separator);
     readItem($line);
     while ($line !== false) {
         $line = strtok($separator);

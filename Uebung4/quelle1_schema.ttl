@@ -1,0 +1,71 @@
+@prefix s: <https://univie.ac.at/~a7901955/schema/> .
+@prefix : <http://univie.ac.at/~a7901955/contents/> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#>  .
+@prefix dc: <https://purl.org/dc/terms/> .
+
+s:studybranch 
+	s:german "Studienrichtung" ;
+	rdfs:subClassOf s:lectureindex ;
+    dc:title s:name .
+    
+s:study 
+	s:german "Studium" ;
+	rdfs:subClassOf s:studybranch ;
+    dc:title s:name .
+
+s:modulegroup
+	s:german "Modulgruppe" ;
+	a s:moduleGroupOrSubgroup ;
+	rdfs:subClassOf  s:study ;
+    dc:title s:name .
+
+s:modulesubgroup
+	s:german "Moduluntergruppe" ;
+	a s:moduleGroupOrSubgroup ;
+	rdfs:subClassOf s:studybranch ;
+    dc:title s:name .
+
+s:module 
+	s:german "Modul" ;
+	s:isGroupedBy s:moduleGroupOrSubgroup ;
+    dc:title s:name .
+
+s:course
+	s:german "Lehrveranstaltung" ;
+    s:continousassessment rdf:value ;
+    s:ects rdf:value ;
+    s:hoursPerWeek rdf:value ;
+    dc:subject s:name ;
+    s:type rdf:value ;
+    s:hasLanguages s:languages ;
+    s:hasLecturers s:lecturers .
+    
+s:languages rdfs:range dc:language .
+	
+s:group
+	s:german "Gruppe" ;
+    s:block rdf:value ;
+    s:learningplatform rdf:value ;
+    s:learningplatformurl rdf:value ;
+    s:livestream rdf:value ;
+    s:signlanguage rdf:value .
+
+s:appointment
+	s:german "Termin" ;
+    s:date rdf:value ;
+    s:end rdf:value ;
+    s:location rdf:value ;
+    s:room rdf:value ;
+    s:start rdf:value ;
+    s:street rdf:value ;
+    s:zip rdf:value .
+
+s:lecturers rdfs:range s:lecturer .
+
+s:lecturer
+	s:german "Vortragender" ;
+    s:givenname rdf:value ;
+    s:role rdf:value ;
+    s:surname rdf:value .
+
