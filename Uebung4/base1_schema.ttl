@@ -3,6 +3,7 @@
 @prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#>  .
 @prefix dc: <https://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 s:studybranch 
 	s:german "Studienrichtung" ;

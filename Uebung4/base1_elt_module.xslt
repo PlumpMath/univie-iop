@@ -5,8 +5,8 @@
 	
 	<xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
 	
-	<xsl:template match="study">
-        <xsl:value-of select="concat(':id', @id, ' a :studybranch . ','&#xA;',
-                                     ':id', @id, ' dc:title &quot;', @name, '&quot; .' )"/>
+	<xsl:template match="module">
+        <xsl:value-of select="concat(':id', @id, ' a :modulegroup ; ','&#xA;',
+                                     '  dc:title &quot;', @name, '&quot; .' )"/>
     </xsl:template>
 </xsl:stylesheet>

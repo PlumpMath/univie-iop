@@ -1,0 +1,3689 @@
+@prefix s: <https://univie.ac.at/~a7901955/schema/> .
+@prefix : <http://univie.ac.at/~a7901955/contents/> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#>  .
+@prefix dc: <https://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+s:studybranch 
+	s:german "Studienrichtung" ;
+	rdfs:subClassOf s:lectureindex ;
+    dc:title s:name .
+    
+s:study 
+	s:german "Studium" ;
+	rdfs:subClassOf s:studybranch ;
+    dc:title s:name .
+
+s:modulegroup
+	s:german "Modulgruppe" ;
+	rdfs:subClassOf  s:study ;
+    dc:title s:name .
+
+s:module 
+	s:german "Modul" ;
+	rdfs:subClassOf s:modulegroup ;
+    dc:title s:name .
+
+s:course
+	s:german "Lehrveranstaltung" ;
+    s:continousassessment rdf:value ;
+    s:ects rdf:value ;
+    s:hoursPerWeek rdf:value ;
+    dc:subject s:name ;
+    s:type rdf:value ;
+    s:hasLanguages s:languages ;
+    s:hasLecturers s:lecturers .
+    
+s:languages rdfs:range dc:language .
+	
+s:group
+	s:german "Gruppe" ;
+    s:block rdf:value ;
+    s:learningplatform rdf:value ;
+    s:learningplatformurl rdf:value ;
+    s:livestream rdf:value ;
+    s:signlanguage rdf:value .
+
+s:appointment
+	s:german "Termin" ;
+    s:date rdf:value ;
+    s:end rdf:value ;
+    s:location rdf:value ;
+    s:room rdf:value ;
+    s:start rdf:value ;
+    s:street rdf:value ;
+    s:zip rdf:value .
+
+s:lecturers rdfs:range s:lecturer .
+
+s:lecturer
+	s:german "Vortragender" ;
+    s:givenname rdf:value ;
+    s:role rdf:value ;
+    s:surname rdf:value .
+
+
+  
+:id706_2 a :studybranch ; 
+  dc:title "7.6.1 MA Geschichte 2014" .
+:id706_16 a :studybranch ; 
+  dc:title "7.6.2 MA Geschichtsforschung, Historische Hilfswissenschaften und Archivwissenschaft" .
+:id706_38 a :studybranch ; 
+  dc:title "7.6.3 MA Globalgeschichte & Global Studies" .
+:id706_56 a :studybranch ; 
+  dc:title "7.6.4 MA Frauen- und Geschlechtergeschichte (auslaufend)" .
+:id706_72 a :studybranch ; 
+  dc:title "7.6.5 MA Geschichte 2008 (auslaufend)" .
+:id706_116 a :studybranch ; 
+  dc:title "7.6.6 MA Historisch-Kulturwissenschaftliche Europaforschung (auslaufend)" .
+:id706_130 a :studybranch ; 
+  dc:title "7.6.7 MA Osteuropäische Geschichte (auslaufend)" .
+:id706_146 a :studybranch ; 
+  dc:title "7.6.8 MA Wirtschafts- und Sozialgeschichte (auslaufend)" .
+:id706_162 a :studybranch ; 
+  dc:title "7.6.9 MA Zeitgeschichte (auslaufend)" .
+  
+
+  
+    
+:id706_3 a :study ; 
+  dc:title "Pflichtmodul 1: Einführung in die Schwerpunkte" .
+:id706_6 a :study ; 
+  dc:title "Pflichtmodul 2: Einführung in den Forschungsprozess. Design und Methoden" .
+:id706_10 a :study ; 
+  dc:title "Pflichtmodul 3: Praktische Forschung und Darstellung" .
+:id706_14 a :study ; 
+  dc:title "Pflichtmodul 4: Wahlbereich" .
+:id706_15 a :study ; 
+  dc:title "Pflichtmodul 5: Masterseminar" .
+    
+    
+:id706_17 a :study ; 
+  dc:title "0. Eingangsphase" .
+:id706_19 a :study ; 
+  dc:title "1. Grundmodulgruppe" .
+:id706_27 a :study ; 
+  dc:title "2. Alternative Pflichtmodulgruppen" .
+:id706_37 a :study ; 
+  dc:title "3. Master-Modul" .
+    
+    
+:id706_39 a :study ; 
+  dc:title "1. Pflichtmodule Eingangsphase" .
+:id706_42 a :study ; 
+  dc:title "2. Alternative Pflichtmodule" .
+:id706_45 a :study ; 
+  dc:title "3. Pflichtmodule" .
+:id706_50 a :study ; 
+  dc:title "4. Alternative Pflichtmodule" .
+:id706_55 a :study ; 
+  dc:title "5. Master-Modul" .
+    
+    
+:id706_57 a :study ; 
+  dc:title "1. Pflichtmodule Eingangsphase" .
+:id706_60 a :study ; 
+  dc:title "2. Alternative Pflichtmodule" .
+:id706_63 a :study ; 
+  dc:title "3. Pflichtmodule" .
+:id706_66 a :study ; 
+  dc:title "4. Pflichtmodulgruppe Vertiefung" .
+:id706_71 a :study ; 
+  dc:title "5. Master-Modul" .
+    
+    
+:id706_73 a :study ; 
+  dc:title "1. Pflichtmodule Eingangsphase" .
+:id706_76 a :study ; 
+  dc:title "2. Alternative Pflichtmodule" .
+:id706_79 a :study ; 
+  dc:title "3. Alternative Pflichtmodulgruppen - Schwerpunkte im MA Geschichte" .
+:id706_115 a :study ; 
+  dc:title "4. Master-Modul" .
+    
+    
+:id706_117 a :study ; 
+  dc:title "1. Pflichtmodule Eingangsphase" .
+:id706_120 a :study ; 
+  dc:title "2. Pflichtmodule" .
+:id706_123 a :study ; 
+  dc:title "3. Pflichtmodulgruppe Vertiefung" .
+:id706_129 a :study ; 
+  dc:title "4. Master-Modul" .
+    
+    
+:id706_131 a :study ; 
+  dc:title "1. Pflichtmodule Eingangsphase" .
+:id706_134 a :study ; 
+  dc:title "2. Alternative Pflichtmodule" .
+:id706_137 a :study ; 
+  dc:title "3. Modulgruppe Hauptprobleme, Quellen und Methoden der Osteuropäischen Geschichte" .
+:id706_141 a :study ; 
+  dc:title "4. Modulgruppe Vertiefung" .
+:id706_145 a :study ; 
+  dc:title "5. Master-Modul" .
+    
+    
+:id706_147 a :study ; 
+  dc:title "1. Pflichtmodule Eingangsphase" .
+:id706_150 a :study ; 
+  dc:title "2. Alternative Pflichtmodule" .
+:id706_153 a :study ; 
+  dc:title "3. Pflichtmodule" .
+:id706_156 a :study ; 
+  dc:title "4. Pflichtmodulgruppe Vertiefung" .
+:id706_161 a :study ; 
+  dc:title "5. Master-Modul" .
+    
+    
+:id706_163 a :study ; 
+  dc:title "1. Pflichtmodule Eingangsphase" .
+:id706_166 a :study ; 
+  dc:title "2. Pflichtmodul Theorien, Quellen und Methoden der Zeitgeschichte" .
+:id706_167 a :study ; 
+  dc:title "3. Pflichtmodulgruppe Vertiefung" .
+:id706_173 a :study ; 
+  dc:title "4. Pflichtmodul Disziplinäre und transdisziplinäre Kontexte" .
+:id706_174 a :study ; 
+  dc:title "5. Master-Modul" .
+    
+  
+
+  
+    
+      
+:id706_4 a :modulegroup ; 
+  dc:title "Schwerpunkt-Einführung: Vorlesungen" .
+:id706_5 a :modulegroup ; 
+  dc:title "Schwerpunkt-Einführung: Lektürekurse" .
+      
+      
+:id706_7 a :modulegroup ; 
+  dc:title "Proseminare" .
+:id706_8 a :modulegroup ; 
+  dc:title "Methodenkurse" .
+:id706_9 a :modulegroup ; 
+  dc:title "Methodenworkshops" .
+      
+      
+:id706_11 a :modulegroup ; 
+  dc:title "Forschungsseminare" .
+:id706_12 a :modulegroup ; 
+  dc:title "Projektkurse" .
+:id706_13 a :modulegroup ; 
+  dc:title "Proposal-Workshops" .
+      
+      
+      
+    
+    
+      
+:id706_18 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenchaftliches Denken und Arbeiten" .
+      
+      
+:id706_20 a :modulegroup ; 
+  dc:title "PM Grundmodul 1" .
+:id706_21 a :modulegroup ; 
+  dc:title "PM Grundmodul 2" .
+:id706_22 a :modulegroup ; 
+  dc:title "PM Grundmodul 3" .
+:id706_23 a :modulegroup ; 
+  dc:title "PM Grundmodul 4" .
+:id706_24 a :modulegroup ; 
+  dc:title "PM Grundmodul 5" .
+:id706_25 a :modulegroup ; 
+  dc:title "PM Grundmodul 6" .
+:id706_26 a :modulegroup ; 
+  dc:title "PM Archivpraktikum" .
+      
+      
+:id706_28 a :modulegroup ; 
+  dc:title "APM Geschichtsforschung 1" .
+:id706_29 a :modulegroup ; 
+  dc:title "APM Geschichtsforschung 2" .
+:id706_30 a :modulegroup ; 
+  dc:title "APM Geschichtsforschung 3" .
+:id706_31 a :modulegroup ; 
+  dc:title "APM Geschichtsforschung 4" .
+:id706_32 a :modulegroup ; 
+  dc:title "APM Archivwissenschaft und Medienarchive 1" .
+:id706_33 a :modulegroup ; 
+  dc:title "APM Archivwissenschaft und Medienarchive 2" .
+:id706_34 a :modulegroup ; 
+  dc:title "APM Archivwissenschaft und Medienarchive 3" .
+:id706_35 a :modulegroup ; 
+  dc:title "APM Archivwissenschaft und Medienarchive 4" .
+:id706_36 a :modulegroup ; 
+  dc:title "Exkursion" .
+      
+      
+    
+    
+      
+:id706_40 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten" .
+:id706_41 a :modulegroup ; 
+  dc:title "PM Fremdsprachen in der Geschichtswissenschaft" .
+      
+      
+:id706_43 a :modulegroup ; 
+  dc:title "APM Grundlagen der Globalgeschichte" .
+:id706_44 a :modulegroup ; 
+  dc:title "APM Grundlagen aus einer anderen Disziplin der Global Studies" .
+      
+      
+:id706_46 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden der Globalgeschichte und Global Studies" .
+:id706_47 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Fragestellungen der Globalgeschichte: Weltregionen in globalgeschichtlicher Sicht" .
+:id706_48 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Fragestellungen der Globalgeschichte:  Themen der Globalgeschichte" .
+:id706_49 a :modulegroup ; 
+  dc:title "PM Exkursion und Global Studies" .
+      
+      
+:id706_51 a :modulegroup ; 
+  dc:title "APM Forschungsmodul Globalgeschichte" .
+:id706_52 a :modulegroup ; 
+  dc:title "APM Forschungsmodul Global Studies" .
+:id706_53 a :modulegroup ; 
+  dc:title "APM Angewandte Globalgeschichte" .
+:id706_54 a :modulegroup ; 
+  dc:title "APM Angewandte Global Studies" .
+      
+      
+    
+    
+      
+:id706_58 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten" .
+:id706_59 a :modulegroup ; 
+  dc:title "PM Fremdsprachen in der Geschichtswissenschaft" .
+      
+      
+:id706_61 a :modulegroup ; 
+  dc:title "APM Einführung in die Frauen- und Geschlechtergeschichte" .
+:id706_62 a :modulegroup ; 
+  dc:title "APM Erweiternde Lehrveranstaltungen im disziplinären Kontext: Lehrveranstaltungen beliebigen Typs aus dem Angebot der geschichtswissenschaftlichen Masterstudien" .
+      
+      
+:id706_64 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden der Frauen- und Geschlechtergeschichte" .
+:id706_65 a :modulegroup ; 
+  dc:title "PM Exkursion und transdisziplinärer Kontext" .
+      
+      
+:id706_67 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Fragestellungen und Themen der Frauen- und Geschlechtergeschichte" .
+:id706_68 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Fragestellungen und Themen der Frauen- und Geschlechtergeschichte" .
+:id706_69 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Frauen- und Geschlechtergeschichte" .
+:id706_70 a :modulegroup ; 
+  dc:title "PM Angewandte Frauen- und Geschlechtergeschichte" .
+      
+      
+    
+    
+      
+:id706_74 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten" .
+:id706_75 a :modulegroup ; 
+  dc:title "PM Fremdsprachen in der Geschichtswissenschaft" .
+      
+      
+:id706_77 a :modulegroup ; 
+  dc:title "APM Erweiternde Lehrveranstaltungen" .
+:id706_78 a :modulegroup ; 
+  dc:title "APM Schwerpunktvorbereitung" .
+      
+      
+        
+:id706_81 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden der Alten Geschichte und Altertumskunde" .
+:id706_82 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Griechische Geschichte" .
+:id706_83 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Römische Geschichte" .
+:id706_84 a :modulegroup ; 
+  dc:title "PM Angewandte Geschichte der Antike: Exkursion(en)" .
+:id706_85 a :modulegroup ; 
+  dc:title "PM Altertumskunde" .
+:id706_86 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Alte Geschichte und Altertumskunde" .
+        
+        
+:id706_88 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden: Analyse und Interpretation von Quellen zur mittelalterlichen Geschichte" .
+:id706_89 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Mittelalter I (bis ca. 1200)" .
+:id706_90 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Mittelalter II (ca. 1200 - ca. 1500)" .
+:id706_91 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Mittelalterliche Geschichte" .
+:id706_92 a :modulegroup ; 
+  dc:title "PM Angewandte Mittelalterliche Geschichte" .
+:id706_93 a :modulegroup ; 
+  dc:title "PM Historische Hilfswissenschaften der  mittelalterlichen Geschichte mit Exkursion" .
+        
+        
+:id706_95 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden der Geschichte der Neuzeit" .
+:id706_96 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Frühe Neuzeit (ca. 1500 bis ca. 1800)" .
+:id706_97 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Späte Neuzeit ( Neueste Geschichte) (ca. 1800 bis heute)" .
+:id706_98 a :modulegroup ; 
+  dc:title "PM Exkursion und transdiziplinäre Öffnung" .
+:id706_99 a :modulegroup ; 
+  dc:title "PM Angewandte Geschichte der Neuzeit" .
+:id706_100 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Geschichte der Neuzeit" .
+        
+        
+:id706_102 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden der Österreichischen Geschichte" .
+:id706_103 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Österreichische Geschichte des Mittelalters und der Frühen Neuzeit" .
+:id706_104 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Österreichische Geschichte seit dem 19. Jahrhundert" .
+:id706_105 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Österreichische Geschichte" .
+:id706_106 a :modulegroup ; 
+  dc:title "PM Angewandte Österreichische Geschichte" .
+:id706_107 a :modulegroup ; 
+  dc:title "PM Exkursion und transdiziplinäre Öffnung" .
+        
+        
+:id706_109 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden der Wissenschaftsgeschichte" .
+:id706_110 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Probleme und Themen der Wissenschaftsgeschichte" .
+:id706_111 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Probleme der Wissenschaftsgeschichte und transdiziplinäre Öffnung" .
+:id706_112 a :modulegroup ; 
+  dc:title "PM Themen der Wissenschaftsgeschichte mit Exkursion" .
+:id706_113 a :modulegroup ; 
+  dc:title "PM Angewandte Wissenschaftsgeschichte" .
+:id706_114 a :modulegroup ; 
+  dc:title "PM Forschungsmodul  Wissenschaftsgeschichte" .
+        
+      
+      
+    
+    
+      
+:id706_118 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten" .
+:id706_119 a :modulegroup ; 
+  dc:title "PM Fremdsprachen in der Geschichtswissenschaft" .
+      
+      
+:id706_121 a :modulegroup ; 
+  dc:title "PM Einführung Europäische Geschichte" .
+:id706_122 a :modulegroup ; 
+  dc:title "PM Theorien, Quellen und Methoden der Historisch-Kulturwissenschaftlichen Europaforschung" .
+      
+      
+:id706_124 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Historisch-Kulturwissenschaftliche Europaforschung in regionaler Perspektive" .
+:id706_125 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Historisch-Kulturwissenschaftliche Europaforschung in raumübergreifender Perspektive" .
+:id706_126 a :modulegroup ; 
+  dc:title "PM Exkursion und transdiziplinäre Perspektive" .
+:id706_127 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Historisch-Kulturwissenschaftliche Europaforschung in transnationaler Perspektive" .
+:id706_128 a :modulegroup ; 
+  dc:title "PM Angewandte Historisch-Kulturwissenschaftliche Europaforschung" .
+      
+      
+    
+    
+      
+:id706_132 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten" .
+:id706_133 a :modulegroup ; 
+  dc:title "PM Fremdsprachen in der Geschichtswissenschaft" .
+      
+      
+:id706_135 a :modulegroup ; 
+  dc:title "APM Grundlagen der osteuropäischen Geschichte" .
+:id706_136 a :modulegroup ; 
+  dc:title "APM Exkursion und transdiziplinäre Öffnung" .
+      
+      
+:id706_138 a :modulegroup ; 
+  dc:title "PM Hauptprobleme, Quellen und Methoden der russischen/ostslawischen Geschichte" .
+:id706_139 a :modulegroup ; 
+  dc:title "PM Hauptprobleme, Quellen und Methoden der ostmitteleuropäischen Geschichte" .
+:id706_140 a :modulegroup ; 
+  dc:title "PM Hauptprobleme, Quellen und Methoden der südosteuropäischen Geschichte" .
+      
+      
+:id706_142 a :modulegroup ; 
+  dc:title "PM Vertiefung Osteuropäische Geschichte I" .
+:id706_143 a :modulegroup ; 
+  dc:title "PM Vertiefung Osteuropäische Geschichte II" .
+:id706_144 a :modulegroup ; 
+  dc:title "PM Forschung Osteuropäische Geschichte" .
+      
+      
+    
+    
+      
+:id706_148 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten" .
+:id706_149 a :modulegroup ; 
+  dc:title "PM Fremdsprachen in der Geschichtswissenschaft" .
+      
+      
+:id706_151 a :modulegroup ; 
+  dc:title "APM Grundlagen der Wirtschafts- und Sozialgeschichte" .
+:id706_152 a :modulegroup ; 
+  dc:title "APM Wirtschafts- und Sozialgeschichte im transdisziplinären Kontext" .
+      
+      
+:id706_154 a :modulegroup ; 
+  dc:title "PM Wirtschafts-, sozial- und kulturwissenschaftliche Theorien" .
+:id706_155 a :modulegroup ; 
+  dc:title "PM Qualitative und quantitative Methoden" .
+      
+      
+:id706_157 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Themen, Probleme und Methoden der Wirtschafts- und Sozialgeschichte" .
+:id706_158 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Themen, Probleme und Methoden der Wirtschafts- und Sozialgeschichte" .
+:id706_159 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Wirtschafts- und Sozialgeschichte" .
+:id706_160 a :modulegroup ; 
+  dc:title "PM Angewandte Geschichte" .
+      
+      
+    
+    
+      
+:id706_164 a :modulegroup ; 
+  dc:title "PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten" .
+:id706_165 a :modulegroup ; 
+  dc:title "PM Fremdsprachen in der Geschichtswissenschaft" .
+      
+      
+      
+:id706_168 a :modulegroup ; 
+  dc:title "PM Vertiefung 1: Fragestellungen und Themen der Zeitgeschichte" .
+:id706_169 a :modulegroup ; 
+  dc:title "PM Vertiefung 2: Fragestellungen und Themen der Zeitgeschichte" .
+:id706_170 a :modulegroup ; 
+  dc:title "PM Forschungsmodul Zeitgeschichte" .
+:id706_171 a :modulegroup ; 
+  dc:title "PM Angewandte Zeitgeschichte" .
+:id706_172 a :modulegroup ; 
+  dc:title "PM Erweiternde Lehrveranstaltungen mit Exkursion" .
+      
+      
+      
+    
+  
+
+  
+    
+      
+        
+:id070116 a :course ; 
+  dc:subject "Introduction to Global History" ;
+  s:continousassessment "No" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070281 a :course ; 
+  dc:subject "Lektürekurs - Digital Humanities" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "LK" .
+
+        
+      
+      
+        
+:id070072 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070075 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070081 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070090 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070182 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070193 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070234 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070258 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070278 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+        
+        
+:id070076 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070083 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070279 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+        
+        
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070110 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070192 a :course ; 
+  dc:subject "Methoden-Workshop: Food in a global world. Global history 19th and 20th century" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070197 a :course ; 
+  dc:subject "Methoden-Workshop: Die Anwendung kulturgeschichtlicher Methoden auf kulturgeschichtliche Quellen" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070263 a :course ; 
+  dc:subject "Methoden-Workshop: Dokumentation und Analyse von Diskursen" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070280 a :course ; 
+  dc:subject "Methoden-Workshop" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+        
+      
+      
+        
+:id070014 a :course ; 
+  dc:subject "Interdisziplinäres Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070066 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070191 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070272 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070015 a :course ; 
+  dc:subject "Interdisziplinärer Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070092 a :course ; 
+  dc:subject "Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+        
+        
+:id070093 a :course ; 
+  dc:subject "Proposalworkshop (PM3)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+        
+      
+      
+      
+    
+    
+      
+        
+:id070036 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+      
+      
+        
+        
+        
+:id070241 a :course ; 
+  dc:subject "Museumskunde und Ausstellungswesen" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VU" .
+
+:id070242 a :course ; 
+  dc:subject "Quellenkunde: Archivalische Quellen (mit bes. Ber. landesgeschichtlicher Quellen)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VU" .
+
+:id070247 a :course ; 
+  dc:subject "Informationsmanagement und Dokumentation in Archiven und Bibliotheken" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VU" .
+
+        
+        
+:id070253 a :course ; 
+  dc:subject "Paläographie des Mittelalters II" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VU" .
+
+:id070254 a :course ; 
+  dc:subject "Paläographie der Neuzeit" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "40" ;
+  s:type "VU" .
+
+        
+        
+:id070240 a :course ; 
+  dc:subject "Urkundenlehre und Chronologie" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "60" ;
+  s:type "VU" .
+
+        
+        
+        
+      
+      
+        
+        
+        
+:id070248 a :course ; 
+  dc:subject "Quellenkunde: Dingliche Quellen" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070255 a :course ; 
+  dc:subject "Quellenkunde zur Österreichischen Geschichte" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070150 a :course ; 
+  dc:subject "Urkunden/Akten/Paläographie" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "40" ;
+  s:type "FS" .
+
+        
+        
+        
+        
+:id070244 a :course ; 
+  dc:subject "Bewerten und Erschließen" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070256 a :course ; 
+  dc:subject "Archivtechnik und Bestandserhaltung" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VU" .
+
+        
+        
+:id070246 a :course ; 
+  dc:subject "Medienproduktion, Medienvermarktung" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VU" .
+
+:id070251 a :course ; 
+  dc:subject "Archivmanagement und Öffentlichkeitsarbeit" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VU" .
+
+:id070257 a :course ; 
+  dc:subject "Aktenkunde/Vertiefung" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+        
+        
+:id070084 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+        
+      
+      
+    
+    
+      
+        
+:id070036 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070138 a :course ; 
+  dc:subject "Praxis der wissenschaftlichen Kommunikation" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070040 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070230 a :course ; 
+  dc:subject "Übungen zu fremdsprachigen Fachsprachen" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id150074 a :course ; 
+  dc:subject "Übung GG (Geschichte und Gesellschaft) (M6)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070294 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft 1" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+        
+      
+      
+        
+:id070116 a :course ; 
+  dc:subject "Introduction to Global History" ;
+  s:continousassessment "No" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070117 a :course ; 
+  dc:subject "Globalgeschichtliche Arbeitstechniken" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070139 a :course ; 
+  dc:subject "Theorien und Methoden der Globalgeschichte" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id030248 a :course ; 
+  dc:subject "Völkerrecht und Internationale Organisationen" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id120011 a :course ; 
+  dc:subject "Approaching Cultural Studies" ;
+  s:continousassessment "No" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id124011 a :course ; 
+  dc:subject "Introduction to Cultural Theories" ;
+  s:continousassessment "No" ;
+  s:ects "0,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "TR" .
+
+:id140290 a :course ; 
+  dc:subject "KG1 - (EC - KG1) - Internationale Entwicklung im historischen Kontext" ;
+  s:continousassessment "No" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140294 a :course ; 
+  dc:subject "KW1 - (EC - KW1) - Introductory Lecture: Development Economics" ;
+  s:continousassessment "No" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140369 a :course ; 
+  dc:subject "GM1 - Grundlagen der Entwicklungsforschung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+      
+      
+        
+:id070193 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070211 a :course ; 
+  dc:subject "Globalgeschichtliche Theorien, Quellen und Methoden" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070258 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id140329 a :course ; 
+  dc:subject "KP2 - Politikwissenschaftliche Aspekte der Internationalen Entwicklung" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+        
+        
+:id070001 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070094 a :course ; 
+  dc:subject "Geschichte Irlands von der Frühzeit bis 1970" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070096 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070277 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140247 a :course ; 
+  dc:subject "Das Reich der schwarzen Pharaonen: Kusch und die antike Welt" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140409 a :course ; 
+  dc:subject "VM5 - VM6 - Understanding Central America  From Precolonial Times to Globalization" ;
+  s:continousassessment "Yes" ;
+  s:ects "7,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070184 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070250 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id140249 a :course ; 
+  dc:subject "Das Streben nach Gesundheit im kolonialen Afrika" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140288 a :course ; 
+  dc:subject "TEF A - Transdisziplinäre Entwicklungsforschung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140366 a :course ; 
+  dc:subject "Schwerpunktvorlesung Kolonialismus: Transdisziplinäre Perspektiven, Debatten und Diskussionsfelder" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140368 a :course ; 
+  dc:subject "Schwerpunktvorlesung Mobilität, Grenzen, Transnationalisierung: Konzepte und Debatten" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id140401 a :course ; 
+  dc:subject "VM1 - VM2 - International Environment and Economic Development" ;
+  s:continousassessment "Yes" ;
+  s:ects "7,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id140409 a :course ; 
+  dc:subject "VM5 - VM6 - Understanding Central America  From Precolonial Times to Globalization" ;
+  s:continousassessment "Yes" ;
+  s:ects "7,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070243 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070245 a :course ; 
+  dc:subject "Global Studies" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id140314 a :course ; 
+  dc:subject "Nachrichten und Neuigkeiten verbreiten in Südafrika" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO+UE" .
+
+        
+      
+      
+        
+:id070191 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+        
+:id140343 a :course ; 
+  dc:subject "Gandhis politische Philosophie und Praxis" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id140245 a :course ; 
+  dc:subject "Die Zirkulation von Menschen, Waren, Ideen und Objekten in Afrika" ;
+  s:continousassessment "Yes" ;
+  s:ects "8,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+      
+      
+    
+    
+      
+        
+:id070036 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070138 a :course ; 
+  dc:subject "Praxis der wissenschaftlichen Kommunikation" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070040 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070230 a :course ; 
+  dc:subject "Übungen zu fremdsprachigen Fachsprachen" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id150074 a :course ; 
+  dc:subject "Übung GG (Geschichte und Gesellschaft) (M6)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070294 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft 1" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+        
+      
+      
+        
+:id070019 a :course ; 
+  dc:subject "Fragestellungen, Themenfelder und Wissenschaftsgeschichte der Frauen- und Geschlechtergeschichte VO" ;
+  s:continousassessment "No" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+      
+      
+        
+        
+:id070002 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070088 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070206 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070262 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070285 a :course ; 
+  dc:subject "Konversatorium zu Texten über Körperästhetik" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KO" .
+
+        
+      
+      
+        
+:id070055 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070082 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070282 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070284 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070291 a :course ; 
+  dc:subject "Seminar zu Geschichte (PM 4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070055 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070082 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070282 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070284 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070291 a :course ; 
+  dc:subject "Seminar zu Geschichte (PM 4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070066 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+      
+      
+    
+    
+      
+        
+:id070036 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070138 a :course ; 
+  dc:subject "Praxis der wissenschaftlichen Kommunikation" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070040 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070230 a :course ; 
+  dc:subject "Übungen zu fremdsprachigen Fachsprachen" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id150074 a :course ; 
+  dc:subject "Übung GG (Geschichte und Gesellschaft) (M6)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070294 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft 1" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+        
+      
+      
+        
+        
+:id070200 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070300 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070301 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+        
+      
+      
+        
+          
+          
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+          
+          
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id090064 a :course ; 
+  dc:subject "Seminar aus Römischer Geschichte" ;
+  s:continousassessment "Yes" ;
+  s:ects "7,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+          
+          
+          
+          
+        
+        
+          
+:id070193 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070248 a :course ; 
+  dc:subject "Quellenkunde: Dingliche Quellen" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+          
+          
+:id070082 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070095 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070259 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070268 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+:id070082 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070095 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070259 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070268 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+          
+          
+:id060023 a :course ; 
+  dc:subject "Byzantinische Münzgeschichte im Überblick" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "30" ;
+  s:type "KU" .
+
+:id070024 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070248 a :course ; 
+  dc:subject "Quellenkunde: Dingliche Quellen" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+          
+        
+        
+          
+          
+:id030314 a :course ; 
+  dc:subject "Juden im Hl. Röm. Reich dt. Nation als multinationalem, multilingualem und multireligiösem Imperium" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070001 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070070 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070085 a :course ; 
+  dc:subject "Die Wiener Universität 1365-2015. Tradition als Innovation und Ort der Begegnung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070094 a :course ; 
+  dc:subject "Geschichte Irlands von der Frühzeit bis 1970" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070096 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070107 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070235 a :course ; 
+  dc:subject "Ringvorlesung: Österreichische Geschichte 1815 - 1995" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070267 a :course ; 
+  dc:subject "Ringvorlesung: Adelskultur am Ende des Ancien Régime" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070268 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070289 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070295 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+:id070001 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070055 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070070 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070085 a :course ; 
+  dc:subject "Die Wiener Universität 1365-2015. Tradition als Innovation und Ort der Begegnung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070094 a :course ; 
+  dc:subject "Geschichte Irlands von der Frühzeit bis 1970" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070096 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070113 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070114 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070184 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070235 a :course ; 
+  dc:subject "Ringvorlesung: Österreichische Geschichte 1815 - 1995" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070267 a :course ; 
+  dc:subject "Ringvorlesung: Adelskultur am Ende des Ancien Régime" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070268 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070277 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070282 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070289 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070295 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070297 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+:id030263 a :course ; 
+  dc:subject "Vom Schutz verfolgter Religionsgemeinschaften zum Schutz der universalen Menschenrechte" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id030316 a :course ; 
+  dc:subject "Law and Empire" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id030322 a :course ; 
+  dc:subject "&quot;Judentümer&quot; - Rechts-, Politik- und Kulturgeschichte der Juden in der Frühen Neuzeit" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id030393 a :course ; 
+  dc:subject "Von der Gewohnheit zum Recht?" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id030621 a :course ; 
+  dc:subject "Handschriften und Quellen in deutscher Sprache" ;
+  s:continousassessment "No" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070084 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070206 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070237 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+          
+          
+:id070015 a :course ; 
+  dc:subject "Interdisziplinärer Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070092 a :course ; 
+  dc:subject "Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+          
+          
+:id070014 a :course ; 
+  dc:subject "Interdisziplinäres Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+          
+        
+        
+          
+          
+:id070082 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070085 a :course ; 
+  dc:subject "Die Wiener Universität 1365-2015. Tradition als Innovation und Ort der Begegnung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070113 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070114 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070235 a :course ; 
+  dc:subject "Ringvorlesung: Österreichische Geschichte 1815 - 1995" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070255 a :course ; 
+  dc:subject "Quellenkunde zur Österreichischen Geschichte" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070269 a :course ; 
+  dc:subject "Österreichische Quellenkunde" ;
+  s:continousassessment "No" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+:id070070 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070082 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070085 a :course ; 
+  dc:subject "Die Wiener Universität 1365-2015. Tradition als Innovation und Ort der Begegnung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070113 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070114 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070235 a :course ; 
+  dc:subject "Ringvorlesung: Österreichische Geschichte 1815 - 1995" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+:id070014 a :course ; 
+  dc:subject "Interdisziplinäres Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070066 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+          
+          
+:id070015 a :course ; 
+  dc:subject "Interdisziplinärer Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+          
+          
+:id070002 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070084 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070206 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070262 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+          
+        
+        
+          
+          
+:id070070 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070085 a :course ; 
+  dc:subject "Die Wiener Universität 1365-2015. Tradition als Innovation und Ort der Begegnung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070113 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070114 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070235 a :course ; 
+  dc:subject "Ringvorlesung: Österreichische Geschichte 1815 - 1995" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+:id070070 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070085 a :course ; 
+  dc:subject "Die Wiener Universität 1365-2015. Tradition als Innovation und Ort der Begegnung" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070113 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070114 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070235 a :course ; 
+  dc:subject "Ringvorlesung: Österreichische Geschichte 1815 - 1995" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+          
+          
+          
+:id070015 a :course ; 
+  dc:subject "Interdisziplinärer Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070092 a :course ; 
+  dc:subject "Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+          
+          
+:id070014 a :course ; 
+  dc:subject "Interdisziplinäres Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+          
+        
+      
+      
+    
+    
+      
+        
+:id070036 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070138 a :course ; 
+  dc:subject "Praxis der wissenschaftlichen Kommunikation" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070040 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070230 a :course ; 
+  dc:subject "Übungen zu fremdsprachigen Fachsprachen" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id150074 a :course ; 
+  dc:subject "Übung GG (Geschichte und Gesellschaft) (M6)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070294 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft 1" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+        
+      
+      
+        
+        
+:id070075 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070076 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070083 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070090 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+:id070197 a :course ; 
+  dc:subject "Methoden-Workshop: Die Anwendung kulturgeschichtlicher Methoden auf kulturgeschichtliche Quellen" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070258 a :course ; 
+  dc:subject "MA-Proseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "PS" .
+
+        
+      
+      
+        
+:id030314 a :course ; 
+  dc:subject "Juden im Hl. Röm. Reich dt. Nation als multinationalem, multilingualem und multireligiösem Imperium" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070055 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070094 a :course ; 
+  dc:subject "Geschichte Irlands von der Frühzeit bis 1970" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070096 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070277 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070295 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070297 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id030314 a :course ; 
+  dc:subject "Juden im Hl. Röm. Reich dt. Nation als multinationalem, multilingualem und multireligiösem Imperium" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070055 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070094 a :course ; 
+  dc:subject "Geschichte Irlands von der Frühzeit bis 1970" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070096 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id030621 a :course ; 
+  dc:subject "Handschriften und Quellen in deutscher Sprache" ;
+  s:continousassessment "No" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070088 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070237 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+        
+        
+:id070014 a :course ; 
+  dc:subject "Interdisziplinäres Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070272 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070015 a :course ; 
+  dc:subject "Interdisziplinärer Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070092 a :course ; 
+  dc:subject "Projektkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+        
+      
+      
+    
+    
+      
+        
+:id070036 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070138 a :course ; 
+  dc:subject "Praxis der wissenschaftlichen Kommunikation" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070040 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070230 a :course ; 
+  dc:subject "Übungen zu fremdsprachigen Fachsprachen" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id150074 a :course ; 
+  dc:subject "Übung GG (Geschichte und Gesellschaft) (M6)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070294 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft 1" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+        
+      
+      
+        
+:id070105 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070124 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070133 a :course ; 
+  dc:subject "Osteuropäische Geschichte" ;
+  s:continousassessment "No" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070137 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070176 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070229 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070231 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070286 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+:id070293 a :course ; 
+  dc:subject "Guided Reading [GR]" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "GR" .
+
+        
+        
+:id070088 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070261 a :course ; 
+  dc:subject "Masterseminar / DiplomandInnenseminar / DissertantInnenseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+      
+      
+        
+:id070110 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+        
+        
+        
+      
+      
+        
+:id070055 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070110 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070277 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070282 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070295 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070297 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070110 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070277 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070282 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070295 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070297 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+      
+      
+    
+    
+      
+        
+:id070138 a :course ; 
+  dc:subject "Praxis der wissenschaftlichen Kommunikation" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070040 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070230 a :course ; 
+  dc:subject "Übungen zu fremdsprachigen Fachsprachen" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id150074 a :course ; 
+  dc:subject "Übung GG (Geschichte und Gesellschaft) (M6)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070294 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft 1" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+        
+      
+      
+        
+        
+:id041010 a :course ; 
+  dc:subject "Keynes for Beginners (BA)" ;
+  s:continousassessment "Yes" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UK" .
+
+:id070143 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+      
+      
+        
+        
+      
+      
+        
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070184 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070250 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id080043 a :course ; 
+  dc:subject "Seminar: Universitäten zwischen Vergangenheit, Gegenwart und Zukunft (n./nst./zeu.K.)" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070291 a :course ; 
+  dc:subject "Seminar zu Geschichte (PM 4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070086 a :course ; 
+  dc:subject "Methoden-Workshop: Interpretation und Analyse von Texten" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "AR" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070184 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070249 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070250 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070306 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id080043 a :course ; 
+  dc:subject "Seminar: Universitäten zwischen Vergangenheit, Gegenwart und Zukunft (n./nst./zeu.K.)" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070291 a :course ; 
+  dc:subject "Seminar zu Geschichte (PM 4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+:id070272 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+      
+      
+    
+    
+      
+        
+:id070036 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070236 a :course ; 
+  dc:subject "Wissenschaftstheorie, Theorien in der Geschichtswissenschaft" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070040 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070230 a :course ; 
+  dc:subject "Übungen zu fremdsprachigen Fachsprachen" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id150074 a :course ; 
+  dc:subject "Übung GG (Geschichte und Gesellschaft) (M6)" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+:id070294 a :course ; 
+  dc:subject "Fremdsprachen in der Geschichtswissenschaft 1" ;
+  s:continousassessment "Yes" ;
+  s:ects "5,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "UE" .
+
+        
+      
+      
+      
+        
+:id070001 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070065 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070070 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070071 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070113 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070114 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070184 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070277 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070282 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070291 a :course ; 
+  dc:subject "Seminar zu Geschichte (PM 4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070295 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070297 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070001 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070055 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070062 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070065 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070070 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070071 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070089 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070113 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070114 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070115 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070146 a :course ; 
+  dc:subject "Methodenkurs" ;
+  s:continousassessment "Yes" ;
+  s:ects "3,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "KU" .
+
+:id070183 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070184 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070277 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070282 a :course ; 
+  dc:subject "Seminar (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070291 a :course ; 
+  dc:subject "Seminar zu Geschichte (PM 4)" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070295 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070297 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+:id070404 a :course ; 
+  dc:subject "Vorlesung (PM4)" ;
+  s:continousassessment "No" ;
+  s:ects "4,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "VO" .
+
+        
+        
+:id070066 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+:id070272 a :course ; 
+  dc:subject "Forschungsseminar" ;
+  s:continousassessment "Yes" ;
+  s:ects "10,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "SE" .
+
+        
+        
+        
+:id070002 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070088 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070206 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+:id070262 a :course ; 
+  dc:subject "Exkursion" ;
+  s:continousassessment "Yes" ;
+  s:ects "6,0" ;
+  s:hoursPerWeek "20" ;
+  s:type "EX" .
+
+        
+      
+      
+      
+    
+  
