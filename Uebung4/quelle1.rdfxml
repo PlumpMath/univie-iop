@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="https://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#" xmlns:s="https://univie.ac.at/~a7901955/schema/" xmlns="http://univie.ac.at/~a7901955/contents/">
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/studybranch">
+    <s:german>Studienrichtung</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/studybranch">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/lectureindex"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/studybranch">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/study">
+    <s:german>Studium</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/study">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/study">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/modulegroup">
+    <s:german>Modulgruppe</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/modulegroup">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/modulegroup">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/module">
+    <s:german>Modul</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/module">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/module">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <s:german>Lehrveranstaltung</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <s:continousassessment rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <s:ects rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <s:hoursPerWeek rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <dc:subject rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <s:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <s:hasLanguages rdf:resource="https://univie.ac.at/~a7901955/schema/languages"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/course">
+    <s:hasLecturers rdf:resource="https://univie.ac.at/~a7901955/schema/lecturers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/languages">
+    <rdfs:range rdf:resource="https://purl.org/dc/terms/language"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/group">
+    <s:german>Gruppe</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/group">
+    <s:block rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/group">
+    <s:learningplatform rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/group">
+    <s:learningplatformurl rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/group">
+    <s:livestream rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/group">
+    <s:signlanguage rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:german>Termin</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:date rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:end rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:location rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:room rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:start rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:street rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/appointment">
+    <s:zip rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lecturers">
+    <rdfs:range rdf:resource="https://univie.ac.at/~a7901955/schema/lecturer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lecturer">
+    <s:german>Vortragender</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lecturer">
+    <s:givenname rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lecturer">
+    <s:role rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lecturer">
+    <s:surname rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_2">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_2">
+    <dc:title>7.6.1 MA Geschichte 2014</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_16">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_16">
+    <dc:title>7.6.2 MA Geschichtsforschung, Historische Hilfswissenschaften und Archivwissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_38">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_38">
+    <dc:title>7.6.3 MA Globalgeschichte &amp; Global Studies</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_56">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_56">
+    <dc:title>7.6.4 MA Frauen- und Geschlechtergeschichte (auslaufend)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_72">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_72">
+    <dc:title>7.6.5 MA Geschichte 2008 (auslaufend)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_116">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_116">
+    <dc:title>7.6.6 MA Historisch-Kulturwissenschaftliche Europaforschung (auslaufend)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_130">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_130">
+    <dc:title>7.6.7 MA Osteuropäische Geschichte (auslaufend)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_146">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_146">
+    <dc:title>7.6.8 MA Wirtschafts- und Sozialgeschichte (auslaufend)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_162">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_162">
+    <dc:title>7.6.9 MA Zeitgeschichte (auslaufend)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_3">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_3">
+    <dc:title>Pflichtmodul 1: Einführung in die Schwerpunkte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_6">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_6">
+    <dc:title>Pflichtmodul 2: Einführung in den Forschungsprozess. Design und Methoden</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_10">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_10">
+    <dc:title>Pflichtmodul 3: Praktische Forschung und Darstellung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_14">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_14">
+    <dc:title>Pflichtmodul 4: Wahlbereich</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_15">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_15">
+    <dc:title>Pflichtmodul 5: Masterseminar</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_17">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_17">
+    <dc:title>0. Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_19">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_19">
+    <dc:title>1. Grundmodulgruppe</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_27">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_27">
+    <dc:title>2. Alternative Pflichtmodulgruppen</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_37">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_37">
+    <dc:title>3. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_39">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_39">
+    <dc:title>1. Pflichtmodule Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_42">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_42">
+    <dc:title>2. Alternative Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_45">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_45">
+    <dc:title>3. Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_50">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_50">
+    <dc:title>4. Alternative Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_55">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_55">
+    <dc:title>5. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_57">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_57">
+    <dc:title>1. Pflichtmodule Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_60">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_60">
+    <dc:title>2. Alternative Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_63">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_63">
+    <dc:title>3. Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_66">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_66">
+    <dc:title>4. Pflichtmodulgruppe Vertiefung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_71">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_71">
+    <dc:title>5. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_73">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_73">
+    <dc:title>1. Pflichtmodule Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_76">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_76">
+    <dc:title>2. Alternative Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_79">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_79">
+    <dc:title>3. Alternative Pflichtmodulgruppen - Schwerpunkte im MA Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_115">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_115">
+    <dc:title>4. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_117">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_117">
+    <dc:title>1. Pflichtmodule Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_120">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_120">
+    <dc:title>2. Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_123">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_123">
+    <dc:title>3. Pflichtmodulgruppe Vertiefung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_129">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_129">
+    <dc:title>4. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_131">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_131">
+    <dc:title>1. Pflichtmodule Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_134">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_134">
+    <dc:title>2. Alternative Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_137">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_137">
+    <dc:title>3. Modulgruppe Hauptprobleme, Quellen und Methoden der Osteuropäischen Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_141">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_141">
+    <dc:title>4. Modulgruppe Vertiefung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_145">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_145">
+    <dc:title>5. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_147">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_147">
+    <dc:title>1. Pflichtmodule Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_150">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_150">
+    <dc:title>2. Alternative Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_153">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_153">
+    <dc:title>3. Pflichtmodule</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_156">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_156">
+    <dc:title>4. Pflichtmodulgruppe Vertiefung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_161">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_161">
+    <dc:title>5. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_163">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_163">
+    <dc:title>1. Pflichtmodule Eingangsphase</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_166">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_166">
+    <dc:title>2. Pflichtmodul Theorien, Quellen und Methoden der Zeitgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_167">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_167">
+    <dc:title>3. Pflichtmodulgruppe Vertiefung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_173">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_173">
+    <dc:title>4. Pflichtmodul Disziplinäre und transdisziplinäre Kontexte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_174">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_174">
+    <dc:title>5. Master-Modul</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_4">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_4">
+    <dc:title>Schwerpunkt-Einführung: Vorlesungen</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_5">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_5">
+    <dc:title>Schwerpunkt-Einführung: Lektürekurse</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_7">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_7">
+    <dc:title>Proseminare</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_8">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_8">
+    <dc:title>Methodenkurse</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_9">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_9">
+    <dc:title>Methodenworkshops</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_11">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_11">
+    <dc:title>Forschungsseminare</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_12">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_12">
+    <dc:title>Projektkurse</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_13">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_13">
+    <dc:title>Proposal-Workshops</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_18">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_18">
+    <dc:title>PM Aufbaumodul Geschichtswissenchaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_20">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_20">
+    <dc:title>PM Grundmodul 1</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_21">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_21">
+    <dc:title>PM Grundmodul 2</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_22">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_22">
+    <dc:title>PM Grundmodul 3</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_23">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_23">
+    <dc:title>PM Grundmodul 4</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_24">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_24">
+    <dc:title>PM Grundmodul 5</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_25">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_25">
+    <dc:title>PM Grundmodul 6</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_26">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_26">
+    <dc:title>PM Archivpraktikum</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_28">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_28">
+    <dc:title>APM Geschichtsforschung 1</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_29">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_29">
+    <dc:title>APM Geschichtsforschung 2</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_30">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_30">
+    <dc:title>APM Geschichtsforschung 3</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_31">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_31">
+    <dc:title>APM Geschichtsforschung 4</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_32">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_32">
+    <dc:title>APM Archivwissenschaft und Medienarchive 1</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_33">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_33">
+    <dc:title>APM Archivwissenschaft und Medienarchive 2</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_34">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_34">
+    <dc:title>APM Archivwissenschaft und Medienarchive 3</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_35">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_35">
+    <dc:title>APM Archivwissenschaft und Medienarchive 4</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_36">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_36">
+    <dc:title>Exkursion</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_40">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_40">
+    <dc:title>PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_41">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_41">
+    <dc:title>PM Fremdsprachen in der Geschichtswissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_43">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_43">
+    <dc:title>APM Grundlagen der Globalgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_44">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_44">
+    <dc:title>APM Grundlagen aus einer anderen Disziplin der Global Studies</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_46">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_46">
+    <dc:title>PM Theorien, Quellen und Methoden der Globalgeschichte und Global Studies</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_47">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_47">
+    <dc:title>PM Vertiefung 1: Fragestellungen der Globalgeschichte: Weltregionen in globalgeschichtlicher Sicht</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_48">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_48">
+    <dc:title>PM Vertiefung 2: Fragestellungen der Globalgeschichte:  Themen der Globalgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_49">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_49">
+    <dc:title>PM Exkursion und Global Studies</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_51">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_51">
+    <dc:title>APM Forschungsmodul Globalgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_52">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_52">
+    <dc:title>APM Forschungsmodul Global Studies</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_53">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_53">
+    <dc:title>APM Angewandte Globalgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_54">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_54">
+    <dc:title>APM Angewandte Global Studies</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_58">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_58">
+    <dc:title>PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_59">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_59">
+    <dc:title>PM Fremdsprachen in der Geschichtswissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_61">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_61">
+    <dc:title>APM Einführung in die Frauen- und Geschlechtergeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_62">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_62">
+    <dc:title>APM Erweiternde Lehrveranstaltungen im disziplinären Kontext: Lehrveranstaltungen beliebigen Typs aus dem Angebot der geschichtswissenschaftlichen Masterstudien</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_64">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_64">
+    <dc:title>PM Theorien, Quellen und Methoden der Frauen- und Geschlechtergeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_65">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_65">
+    <dc:title>PM Exkursion und transdisziplinärer Kontext</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_67">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_67">
+    <dc:title>PM Vertiefung 1: Fragestellungen und Themen der Frauen- und Geschlechtergeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_68">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_68">
+    <dc:title>PM Vertiefung 2: Fragestellungen und Themen der Frauen- und Geschlechtergeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_69">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_69">
+    <dc:title>PM Forschungsmodul Frauen- und Geschlechtergeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_70">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_70">
+    <dc:title>PM Angewandte Frauen- und Geschlechtergeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_74">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_74">
+    <dc:title>PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_75">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_75">
+    <dc:title>PM Fremdsprachen in der Geschichtswissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_77">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_77">
+    <dc:title>APM Erweiternde Lehrveranstaltungen</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_78">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_78">
+    <dc:title>APM Schwerpunktvorbereitung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_81">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_81">
+    <dc:title>PM Theorien, Quellen und Methoden der Alten Geschichte und Altertumskunde</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_82">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_82">
+    <dc:title>PM Vertiefung 1: Griechische Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_83">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_83">
+    <dc:title>PM Vertiefung 2: Römische Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_84">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_84">
+    <dc:title>PM Angewandte Geschichte der Antike: Exkursion(en)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_85">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_85">
+    <dc:title>PM Altertumskunde</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_86">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_86">
+    <dc:title>PM Forschungsmodul Alte Geschichte und Altertumskunde</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_88">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_88">
+    <dc:title>PM Theorien, Quellen und Methoden: Analyse und Interpretation von Quellen zur mittelalterlichen Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_89">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_89">
+    <dc:title>PM Vertiefung 1: Mittelalter I (bis ca. 1200)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_90">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_90">
+    <dc:title>PM Vertiefung 2: Mittelalter II (ca. 1200 - ca. 1500)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_91">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_91">
+    <dc:title>PM Forschungsmodul Mittelalterliche Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_92">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_92">
+    <dc:title>PM Angewandte Mittelalterliche Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_93">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_93">
+    <dc:title>PM Historische Hilfswissenschaften der  mittelalterlichen Geschichte mit Exkursion</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_95">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_95">
+    <dc:title>PM Theorien, Quellen und Methoden der Geschichte der Neuzeit</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_96">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_96">
+    <dc:title>PM Vertiefung 1: Frühe Neuzeit (ca. 1500 bis ca. 1800)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_97">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_97">
+    <dc:title>PM Vertiefung 2: Späte Neuzeit ( Neueste Geschichte) (ca. 1800 bis heute)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_98">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_98">
+    <dc:title>PM Exkursion und transdiziplinäre Öffnung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_99">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_99">
+    <dc:title>PM Angewandte Geschichte der Neuzeit</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_100">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_100">
+    <dc:title>PM Forschungsmodul Geschichte der Neuzeit</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_102">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_102">
+    <dc:title>PM Theorien, Quellen und Methoden der Österreichischen Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_103">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_103">
+    <dc:title>PM Vertiefung 1: Österreichische Geschichte des Mittelalters und der Frühen Neuzeit</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_104">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_104">
+    <dc:title>PM Vertiefung 2: Österreichische Geschichte seit dem 19. Jahrhundert</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_105">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_105">
+    <dc:title>PM Forschungsmodul Österreichische Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_106">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_106">
+    <dc:title>PM Angewandte Österreichische Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_107">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_107">
+    <dc:title>PM Exkursion und transdiziplinäre Öffnung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_109">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_109">
+    <dc:title>PM Theorien, Quellen und Methoden der Wissenschaftsgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_110">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_110">
+    <dc:title>PM Vertiefung 1: Probleme und Themen der Wissenschaftsgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_111">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_111">
+    <dc:title>PM Vertiefung 2: Probleme der Wissenschaftsgeschichte und transdiziplinäre Öffnung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_112">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_112">
+    <dc:title>PM Themen der Wissenschaftsgeschichte mit Exkursion</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_113">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_113">
+    <dc:title>PM Angewandte Wissenschaftsgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_114">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_114">
+    <dc:title>PM Forschungsmodul  Wissenschaftsgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_118">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_118">
+    <dc:title>PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_119">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_119">
+    <dc:title>PM Fremdsprachen in der Geschichtswissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_121">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_121">
+    <dc:title>PM Einführung Europäische Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_122">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_122">
+    <dc:title>PM Theorien, Quellen und Methoden der Historisch-Kulturwissenschaftlichen Europaforschung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_124">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_124">
+    <dc:title>PM Vertiefung 1: Historisch-Kulturwissenschaftliche Europaforschung in regionaler Perspektive</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_125">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_125">
+    <dc:title>PM Vertiefung 2: Historisch-Kulturwissenschaftliche Europaforschung in raumübergreifender Perspektive</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_126">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_126">
+    <dc:title>PM Exkursion und transdiziplinäre Perspektive</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_127">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_127">
+    <dc:title>PM Forschungsmodul Historisch-Kulturwissenschaftliche Europaforschung in transnationaler Perspektive</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_128">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_128">
+    <dc:title>PM Angewandte Historisch-Kulturwissenschaftliche Europaforschung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_132">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_132">
+    <dc:title>PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_133">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_133">
+    <dc:title>PM Fremdsprachen in der Geschichtswissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_135">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_135">
+    <dc:title>APM Grundlagen der osteuropäischen Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_136">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_136">
+    <dc:title>APM Exkursion und transdiziplinäre Öffnung</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_138">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_138">
+    <dc:title>PM Hauptprobleme, Quellen und Methoden der russischen/ostslawischen Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_139">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_139">
+    <dc:title>PM Hauptprobleme, Quellen und Methoden der ostmitteleuropäischen Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_140">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_140">
+    <dc:title>PM Hauptprobleme, Quellen und Methoden der südosteuropäischen Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_142">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_142">
+    <dc:title>PM Vertiefung Osteuropäische Geschichte I</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_143">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_143">
+    <dc:title>PM Vertiefung Osteuropäische Geschichte II</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_144">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_144">
+    <dc:title>PM Forschung Osteuropäische Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_148">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_148">
+    <dc:title>PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_149">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_149">
+    <dc:title>PM Fremdsprachen in der Geschichtswissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_151">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_151">
+    <dc:title>APM Grundlagen der Wirtschafts- und Sozialgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_152">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_152">
+    <dc:title>APM Wirtschafts- und Sozialgeschichte im transdisziplinären Kontext</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_154">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_154">
+    <dc:title>PM Wirtschafts-, sozial- und kulturwissenschaftliche Theorien</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_155">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_155">
+    <dc:title>PM Qualitative und quantitative Methoden</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_157">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_157">
+    <dc:title>PM Vertiefung 1: Themen, Probleme und Methoden der Wirtschafts- und Sozialgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_158">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_158">
+    <dc:title>PM Vertiefung 2: Themen, Probleme und Methoden der Wirtschafts- und Sozialgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_159">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_159">
+    <dc:title>PM Forschungsmodul Wirtschafts- und Sozialgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_160">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_160">
+    <dc:title>PM Angewandte Geschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_164">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_164">
+    <dc:title>PM Aufbaumodul Geschichtswissenschaftliches Denken und Arbeiten</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_165">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_165">
+    <dc:title>PM Fremdsprachen in der Geschichtswissenschaft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_168">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_168">
+    <dc:title>PM Vertiefung 1: Fragestellungen und Themen der Zeitgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_169">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_169">
+    <dc:title>PM Vertiefung 2: Fragestellungen und Themen der Zeitgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_170">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_170">
+    <dc:title>PM Forschungsmodul Zeitgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_171">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_171">
+    <dc:title>PM Angewandte Zeitgeschichte</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_172">
+    <rdf:type rdf:resource="http://univie.ac.at/~a7901955/contents/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/id706_172">
+    <dc:title>PM Erweiternde Lehrveranstaltungen mit Exkursion</dc:title>
+  </rdf:Description>
+</rdf:RDF>

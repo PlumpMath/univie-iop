@@ -16,19 +16,12 @@ s:study
 
 s:modulegroup
 	s:german "Modulgruppe" ;
-	a s:moduleGroupOrSubgroup ;
 	rdfs:subClassOf  s:study ;
-    dc:title s:name .
-
-s:modulesubgroup
-	s:german "Moduluntergruppe" ;
-	a s:moduleGroupOrSubgroup ;
-	rdfs:subClassOf s:studybranch ;
     dc:title s:name .
 
 s:module 
 	s:german "Modul" ;
-	s:isGroupedBy s:moduleGroupOrSubgroup ;
+	rdfs:subClassOf s:modulegroup ;
     dc:title s:name .
 
 s:course

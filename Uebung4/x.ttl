@@ -21,7 +21,7 @@ s:modulegroup
 
 s:module 
 	s:german "Modul" ;
-	rdfs:subClassOf  s:study ;
+	rdfs:subClassOf s:modulegroup ;
     dc:title s:name .
 
 s:course
@@ -61,7 +61,6 @@ s:lecturer
     s:givenname rdf:value ;
     s:role rdf:value ;
     s:surname rdf:value .
-
 
 
     :id706_2 a :studybranch . 
