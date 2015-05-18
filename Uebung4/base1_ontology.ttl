@@ -534,6 +534,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070116_1 rdfs:subClassOf :id070116 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41203" ;
   s:livestream "No" ;
@@ -554,6 +555,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "LK" .
 :gr070281_1 rdfs:subClassOf :id070281 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41247" ;
   s:livestream "No" ;
@@ -572,6 +574,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070072_1 rdfs:subClassOf :id070072 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42105" ;
   s:livestream "No" ;
@@ -590,6 +593,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070075_1 rdfs:subClassOf :id070075 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37782" ;
   s:livestream "No" ;
@@ -610,6 +614,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070081_1 rdfs:subClassOf :id070081 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41198" ;
   s:livestream "No" ;
@@ -628,6 +633,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070090_1 rdfs:subClassOf :id070090 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39323" ;
   s:livestream "No" ;
@@ -646,6 +652,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070182_1 rdfs:subClassOf :id070182 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38767" ;
   s:livestream "No" ;
@@ -664,6 +671,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070193_1 rdfs:subClassOf :id070193 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39449" ;
   s:livestream "No" ;
@@ -682,6 +690,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070234_1 rdfs:subClassOf :id070234 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41062" ;
   s:livestream "No" ;
@@ -700,6 +709,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070258_1 rdfs:subClassOf :id070258 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41214" ;
   s:livestream "No" ;
@@ -718,6 +728,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070278_1 rdfs:subClassOf :id070278 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41246" ;
   s:livestream "No" ;
@@ -736,6 +747,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070076_1 rdfs:subClassOf :id070076 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37783" ;
   s:livestream "No" ;
@@ -756,6 +768,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070083_1 rdfs:subClassOf :id070083 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41534" ;
   s:livestream "No" ;
@@ -774,6 +787,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -792,6 +806,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -812,6 +827,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070279_1 rdfs:subClassOf :id070279 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41231" ;
   s:livestream "No" ;
@@ -830,6 +846,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -848,6 +865,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070110_1 rdfs:subClassOf :id070110 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40991" ;
   s:livestream "No" ;
@@ -864,6 +882,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070192_1 rdfs:subClassOf :id070192 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41236" ;
   s:livestream "No" ;
@@ -882,6 +901,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070197_1 rdfs:subClassOf :id070197 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37784" ;
   s:livestream "No" ;
@@ -902,6 +922,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070263_1 rdfs:subClassOf :id070263 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38960" ;
   s:livestream "No" ;
@@ -920,6 +941,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070280_1 rdfs:subClassOf :id070280 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41205" ;
   s:livestream "No" ;
@@ -938,6 +960,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070014_1 rdfs:subClassOf :id070014 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39264" ;
   s:livestream "No" ;
@@ -956,6 +979,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070066_1 rdfs:subClassOf :id070066 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40284" ;
   s:livestream "No" ;
@@ -976,6 +1000,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070191_1 rdfs:subClassOf :id070191 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41196" ;
   s:livestream "No" ;
@@ -996,6 +1021,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070272_1 rdfs:subClassOf :id070272 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42600" ;
   s:livestream "No" ;
@@ -1014,6 +1040,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070015_1 rdfs:subClassOf :id070015 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39850" ;
   s:livestream "No" ;
@@ -1032,6 +1059,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070092_1 rdfs:subClassOf :id070092 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37758" ;
   s:livestream "No" ;
@@ -1050,6 +1078,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070093_1 rdfs:subClassOf :id070093 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39479" ;
   s:livestream "No" ;
@@ -1068,6 +1097,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070036_1 rdfs:subClassOf :id070036 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1086,6 +1116,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1104,6 +1135,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VU" .
 :gr070241_1 rdfs:subClassOf :id070241 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1122,6 +1154,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VU" .
 :gr070242_1 rdfs:subClassOf :id070242 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1140,6 +1173,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VU" .
 :gr070247_1 rdfs:subClassOf :id070247 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1158,6 +1192,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VU" .
 :gr070253_1 rdfs:subClassOf :id070253 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38921" ;
   s:livestream "No" ;
@@ -1176,6 +1211,7 @@ s:lecturer
   s:hoursPerWeek "40"^^xsd:integer ;
   s:type "VU" .
 :gr070254_1 rdfs:subClassOf :id070254 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1194,6 +1230,7 @@ s:lecturer
   s:hoursPerWeek "60"^^xsd:integer ;
   s:type "VU" .
 :gr070240_1 rdfs:subClassOf :id070240 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1216,6 +1253,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070248_1 rdfs:subClassOf :id070248 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1234,6 +1272,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070255_1 rdfs:subClassOf :id070255 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1254,6 +1293,7 @@ s:lecturer
   s:hoursPerWeek "40"^^xsd:integer ;
   s:type "FS" .
 :gr070150_1 rdfs:subClassOf :id070150 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1274,6 +1314,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070244_1 rdfs:subClassOf :id070244 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1292,6 +1333,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VU" .
 :gr070256_1 rdfs:subClassOf :id070256 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38863" ;
   s:livestream "No" ;
@@ -1310,6 +1352,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VU" .
 :gr070246_1 rdfs:subClassOf :id070246 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1330,6 +1373,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VU" .
 :gr070251_1 rdfs:subClassOf :id070251 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1350,6 +1394,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070257_1 rdfs:subClassOf :id070257 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1372,6 +1417,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070084_1 rdfs:subClassOf :id070084 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1390,6 +1436,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070036_1 rdfs:subClassOf :id070036 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1408,6 +1455,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070138_1 rdfs:subClassOf :id070138 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1426,6 +1474,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1444,6 +1493,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070040_1 rdfs:subClassOf :id070040 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40543" ;
   s:livestream "No" ;
@@ -1464,6 +1514,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070230_1 rdfs:subClassOf :id070230 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41237" ;
   s:livestream "No" ;
@@ -1482,6 +1533,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr150074_1 rdfs:subClassOf :id150074 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39754" ;
   s:livestream "No" ;
@@ -1500,6 +1552,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070294_1 rdfs:subClassOf :id070294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42112" ;
   s:livestream "No" ;
@@ -1520,6 +1573,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070116_1 rdfs:subClassOf :id070116 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41203" ;
   s:livestream "No" ;
@@ -1540,6 +1594,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070117_1 rdfs:subClassOf :id070117 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42091" ;
   s:livestream "No" ;
@@ -1558,6 +1613,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070139_1 rdfs:subClassOf :id070139 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1576,6 +1632,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr030248_1 rdfs:subClassOf :id030248 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39499" ;
   s:livestream "No" ;
@@ -1594,6 +1651,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr120011_1 rdfs:subClassOf :id120011 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41059" ;
   s:livestream "No" ;
@@ -1612,6 +1670,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "TR" .
 :gr124011_1 rdfs:subClassOf :id124011 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1628,6 +1687,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140290_1 rdfs:subClassOf :id140290 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40333" ;
   s:livestream "No" ;
@@ -1646,6 +1706,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140294_1 rdfs:subClassOf :id140294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41191" ;
   s:livestream "No" ;
@@ -1666,6 +1727,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140369_1 rdfs:subClassOf :id140369 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38757" ;
   s:livestream "No" ;
@@ -1684,6 +1746,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070193_1 rdfs:subClassOf :id070193 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39449" ;
   s:livestream "No" ;
@@ -1702,6 +1765,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070211_1 rdfs:subClassOf :id070211 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41229" ;
   s:livestream "No" ;
@@ -1720,6 +1784,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070258_1 rdfs:subClassOf :id070258 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41214" ;
   s:livestream "No" ;
@@ -1738,6 +1803,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr140329_1 rdfs:subClassOf :id140329 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41268" ;
   s:livestream "No" ;
@@ -1756,6 +1822,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070001_1 rdfs:subClassOf :id070001 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38607" ;
   s:livestream "No" ;
@@ -1774,6 +1841,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070094_1 rdfs:subClassOf :id070094 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1792,6 +1860,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070096_1 rdfs:subClassOf :id070096 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38084" ;
   s:livestream "No" ;
@@ -1810,6 +1879,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1830,6 +1900,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070277_1 rdfs:subClassOf :id070277 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40994" ;
   s:livestream "No" ;
@@ -1846,6 +1917,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -1864,6 +1936,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140247_1 rdfs:subClassOf :id140247 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1882,6 +1955,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr140409_1 rdfs:subClassOf :id140409 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1900,6 +1974,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070184_1 rdfs:subClassOf :id070184 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41210" ;
   s:livestream "No" ;
@@ -1918,6 +1993,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1938,6 +2014,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070250_1 rdfs:subClassOf :id070250 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -1956,6 +2033,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140249_1 rdfs:subClassOf :id140249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41524" ;
   s:livestream "No" ;
@@ -1974,6 +2052,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140288_1 rdfs:subClassOf :id140288 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41516" ;
   s:livestream "No" ;
@@ -1992,6 +2071,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140366_1 rdfs:subClassOf :id140366 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41153" ;
   s:livestream "No" ;
@@ -2012,6 +2092,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr140368_1 rdfs:subClassOf :id140368 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40630" ;
   s:livestream "No" ;
@@ -2030,6 +2111,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr140401_1 rdfs:subClassOf :id140401 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41351" ;
   s:livestream "No" ;
@@ -2048,6 +2130,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr140409_1 rdfs:subClassOf :id140409 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2066,6 +2149,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070243_1 rdfs:subClassOf :id070243 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2086,6 +2170,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070245_1 rdfs:subClassOf :id070245 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41238" ;
   s:livestream "No" ;
@@ -2106,6 +2191,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO+UE" .
 :gr140314_1 rdfs:subClassOf :id140314 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41525" ;
   s:livestream "No" ;
@@ -2124,6 +2210,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070191_1 rdfs:subClassOf :id070191 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41196" ;
   s:livestream "No" ;
@@ -2144,6 +2231,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr140343_1 rdfs:subClassOf :id140343 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38270" ;
   s:livestream "No" ;
@@ -2162,6 +2250,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr140245_1 rdfs:subClassOf :id140245 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40946" ;
   s:livestream "No" ;
@@ -2180,6 +2269,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070036_1 rdfs:subClassOf :id070036 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2198,6 +2288,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070138_1 rdfs:subClassOf :id070138 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2216,6 +2307,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2234,6 +2326,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070040_1 rdfs:subClassOf :id070040 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40543" ;
   s:livestream "No" ;
@@ -2254,6 +2347,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070230_1 rdfs:subClassOf :id070230 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41237" ;
   s:livestream "No" ;
@@ -2272,6 +2366,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr150074_1 rdfs:subClassOf :id150074 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39754" ;
   s:livestream "No" ;
@@ -2290,6 +2385,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070294_1 rdfs:subClassOf :id070294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42112" ;
   s:livestream "No" ;
@@ -2310,6 +2406,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070019_1 rdfs:subClassOf :id070019 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40143" ;
   s:livestream "No" ;
@@ -2328,6 +2425,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070002_1 rdfs:subClassOf :id070002 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38530" ;
   s:livestream "No" ;
@@ -2348,6 +2446,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070088_1 rdfs:subClassOf :id070088 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39564" ;
   s:livestream "No" ;
@@ -2368,6 +2467,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070206_1 rdfs:subClassOf :id070206 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41187" ;
   s:livestream "No" ;
@@ -2386,6 +2486,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070262_1 rdfs:subClassOf :id070262 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40285" ;
   s:livestream "No" ;
@@ -2406,6 +2507,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KO" .
 :gr070285_1 rdfs:subClassOf :id070285 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2424,6 +2526,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070055_1 rdfs:subClassOf :id070055 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40282" ;
   s:livestream "No" ;
@@ -2444,6 +2547,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -2462,6 +2566,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070082_1 rdfs:subClassOf :id070082 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2480,6 +2585,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -2498,6 +2604,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -2516,6 +2623,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -2534,6 +2642,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -2554,6 +2663,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -2572,6 +2682,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070282_1 rdfs:subClassOf :id070282 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40815" ;
   s:livestream "No" ;
@@ -2590,6 +2701,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070284_1 rdfs:subClassOf :id070284 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2608,6 +2720,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070291_1 rdfs:subClassOf :id070291 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41862" ;
   s:livestream "No" ;
@@ -2626,6 +2739,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070055_1 rdfs:subClassOf :id070055 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40282" ;
   s:livestream "No" ;
@@ -2646,6 +2760,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -2664,6 +2779,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070082_1 rdfs:subClassOf :id070082 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2682,6 +2798,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -2700,6 +2817,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -2718,6 +2836,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -2736,6 +2855,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -2756,6 +2876,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -2774,6 +2895,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070282_1 rdfs:subClassOf :id070282 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40815" ;
   s:livestream "No" ;
@@ -2792,6 +2914,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070284_1 rdfs:subClassOf :id070284 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2810,6 +2933,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070291_1 rdfs:subClassOf :id070291 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41862" ;
   s:livestream "No" ;
@@ -2828,6 +2952,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070066_1 rdfs:subClassOf :id070066 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40284" ;
   s:livestream "No" ;
@@ -2848,6 +2973,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070036_1 rdfs:subClassOf :id070036 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2866,6 +2992,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070138_1 rdfs:subClassOf :id070138 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2884,6 +3011,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -2902,6 +3030,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070040_1 rdfs:subClassOf :id070040 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40543" ;
   s:livestream "No" ;
@@ -2922,6 +3051,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070230_1 rdfs:subClassOf :id070230 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41237" ;
   s:livestream "No" ;
@@ -2940,6 +3070,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr150074_1 rdfs:subClassOf :id150074 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39754" ;
   s:livestream "No" ;
@@ -2958,6 +3089,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070294_1 rdfs:subClassOf :id070294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42112" ;
   s:livestream "No" ;
@@ -2978,6 +3110,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070200_1 rdfs:subClassOf :id070200 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40160" ;
   s:livestream "No" ;
@@ -2996,6 +3129,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070300_1 rdfs:subClassOf :id070300 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42590" ;
   s:livestream "No" ;
@@ -3014,6 +3148,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070301_1 rdfs:subClassOf :id070301 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3030,6 +3165,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -3048,6 +3184,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -3066,6 +3203,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr090064_1 rdfs:subClassOf :id090064 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38039" ;
   s:livestream "No" ;
@@ -3084,6 +3222,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070193_1 rdfs:subClassOf :id070193 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39449" ;
   s:livestream "No" ;
@@ -3102,6 +3241,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070248_1 rdfs:subClassOf :id070248 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3120,6 +3260,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070082_1 rdfs:subClassOf :id070082 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3138,6 +3279,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070095_1 rdfs:subClassOf :id070095 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3156,6 +3298,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -3174,6 +3317,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -3192,6 +3336,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070259_1 rdfs:subClassOf :id070259 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3210,6 +3355,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070268_1 rdfs:subClassOf :id070268 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37875" ;
   s:livestream "No" ;
@@ -3228,6 +3374,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -3246,6 +3393,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -3264,6 +3412,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070082_1 rdfs:subClassOf :id070082 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3282,6 +3431,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070095_1 rdfs:subClassOf :id070095 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3300,6 +3450,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -3318,6 +3469,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -3336,6 +3488,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3356,6 +3509,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070259_1 rdfs:subClassOf :id070259 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3374,6 +3528,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070268_1 rdfs:subClassOf :id070268 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37875" ;
   s:livestream "No" ;
@@ -3392,6 +3547,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -3410,6 +3566,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -3428,6 +3585,7 @@ s:lecturer
   s:hoursPerWeek "30"^^xsd:integer ;
   s:type "KU" .
 :gr060023_1 rdfs:subClassOf :id060023 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3446,6 +3604,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070024_1 rdfs:subClassOf :id070024 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39515" ;
   s:livestream "No" ;
@@ -3464,6 +3623,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070248_1 rdfs:subClassOf :id070248 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3482,6 +3642,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr030314_1 rdfs:subClassOf :id030314 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3502,6 +3663,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070001_1 rdfs:subClassOf :id070001 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38607" ;
   s:livestream "No" ;
@@ -3520,6 +3682,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -3538,6 +3701,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070070_1 rdfs:subClassOf :id070070 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41223" ;
   s:livestream "No" ;
@@ -3558,6 +3722,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070085_1 rdfs:subClassOf :id070085 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3578,6 +3743,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -3596,6 +3762,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070094_1 rdfs:subClassOf :id070094 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3614,6 +3781,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070096_1 rdfs:subClassOf :id070096 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38084" ;
   s:livestream "No" ;
@@ -3632,6 +3800,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070107_1 rdfs:subClassOf :id070107 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3650,6 +3819,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -3668,6 +3838,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -3688,6 +3859,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -3706,6 +3878,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070235_1 rdfs:subClassOf :id070235 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42432" ;
   s:livestream "No" ;
@@ -3726,6 +3899,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3746,6 +3920,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070267_1 rdfs:subClassOf :id070267 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3764,6 +3939,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070268_1 rdfs:subClassOf :id070268 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37875" ;
   s:livestream "No" ;
@@ -3782,6 +3958,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -3800,6 +3977,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -3818,6 +3996,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070289_1 rdfs:subClassOf :id070289 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41248" ;
   s:livestream "No" ;
@@ -3838,6 +4017,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070295_1 rdfs:subClassOf :id070295 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3856,6 +4036,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070001_1 rdfs:subClassOf :id070001 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38607" ;
   s:livestream "No" ;
@@ -3874,6 +4055,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070055_1 rdfs:subClassOf :id070055 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40282" ;
   s:livestream "No" ;
@@ -3894,6 +4076,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -3912,6 +4095,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070070_1 rdfs:subClassOf :id070070 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41223" ;
   s:livestream "No" ;
@@ -3932,6 +4116,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070085_1 rdfs:subClassOf :id070085 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -3952,6 +4137,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -3970,6 +4156,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -3988,6 +4175,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070094_1 rdfs:subClassOf :id070094 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4006,6 +4194,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070096_1 rdfs:subClassOf :id070096 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38084" ;
   s:livestream "No" ;
@@ -4024,6 +4213,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070113_1 rdfs:subClassOf :id070113 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41185" ;
   s:livestream "No" ;
@@ -4042,6 +4232,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070114_1 rdfs:subClassOf :id070114 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41222" ;
   s:livestream "No" ;
@@ -4060,6 +4251,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -4078,6 +4270,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -4098,6 +4291,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -4116,6 +4310,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070184_1 rdfs:subClassOf :id070184 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41210" ;
   s:livestream "No" ;
@@ -4134,6 +4329,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070235_1 rdfs:subClassOf :id070235 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42432" ;
   s:livestream "No" ;
@@ -4154,6 +4350,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4174,6 +4371,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070267_1 rdfs:subClassOf :id070267 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4192,6 +4390,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070268_1 rdfs:subClassOf :id070268 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37875" ;
   s:livestream "No" ;
@@ -4210,6 +4409,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070277_1 rdfs:subClassOf :id070277 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40994" ;
   s:livestream "No" ;
@@ -4226,6 +4426,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070282_1 rdfs:subClassOf :id070282 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40815" ;
   s:livestream "No" ;
@@ -4244,6 +4445,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070289_1 rdfs:subClassOf :id070289 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41248" ;
   s:livestream "No" ;
@@ -4264,6 +4466,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070295_1 rdfs:subClassOf :id070295 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4282,6 +4485,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070297_1 rdfs:subClassOf :id070297 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4300,6 +4504,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -4318,6 +4523,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr030263_1 rdfs:subClassOf :id030263 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4338,6 +4544,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr030316_1 rdfs:subClassOf :id030316 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4356,6 +4563,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr030322_1 rdfs:subClassOf :id030322 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4376,6 +4584,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr030393_1 rdfs:subClassOf :id030393 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40898" ;
   s:livestream "No" ;
@@ -4394,6 +4603,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr030621_1 rdfs:subClassOf :id030621 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4412,6 +4622,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070084_1 rdfs:subClassOf :id070084 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4430,6 +4641,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070206_1 rdfs:subClassOf :id070206 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41187" ;
   s:livestream "No" ;
@@ -4448,6 +4660,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070237_1 rdfs:subClassOf :id070237 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37946" ;
   s:livestream "No" ;
@@ -4466,6 +4679,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070015_1 rdfs:subClassOf :id070015 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39850" ;
   s:livestream "No" ;
@@ -4484,6 +4698,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070092_1 rdfs:subClassOf :id070092 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37758" ;
   s:livestream "No" ;
@@ -4502,6 +4717,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070014_1 rdfs:subClassOf :id070014 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39264" ;
   s:livestream "No" ;
@@ -4520,6 +4736,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070082_1 rdfs:subClassOf :id070082 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4538,6 +4755,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070085_1 rdfs:subClassOf :id070085 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4558,6 +4776,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -4576,6 +4795,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -4594,6 +4814,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070113_1 rdfs:subClassOf :id070113 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41185" ;
   s:livestream "No" ;
@@ -4612,6 +4833,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070114_1 rdfs:subClassOf :id070114 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41222" ;
   s:livestream "No" ;
@@ -4630,6 +4852,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070235_1 rdfs:subClassOf :id070235 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42432" ;
   s:livestream "No" ;
@@ -4650,6 +4873,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070255_1 rdfs:subClassOf :id070255 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4670,6 +4894,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070269_1 rdfs:subClassOf :id070269 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4690,6 +4915,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070070_1 rdfs:subClassOf :id070070 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41223" ;
   s:livestream "No" ;
@@ -4710,6 +4936,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070082_1 rdfs:subClassOf :id070082 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4728,6 +4955,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070085_1 rdfs:subClassOf :id070085 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4748,6 +4976,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -4766,6 +4995,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -4784,6 +5014,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070113_1 rdfs:subClassOf :id070113 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41185" ;
   s:livestream "No" ;
@@ -4802,6 +5033,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070114_1 rdfs:subClassOf :id070114 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41222" ;
   s:livestream "No" ;
@@ -4820,6 +5052,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070235_1 rdfs:subClassOf :id070235 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42432" ;
   s:livestream "No" ;
@@ -4840,6 +5073,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070014_1 rdfs:subClassOf :id070014 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39264" ;
   s:livestream "No" ;
@@ -4858,6 +5092,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070066_1 rdfs:subClassOf :id070066 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40284" ;
   s:livestream "No" ;
@@ -4878,6 +5113,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070015_1 rdfs:subClassOf :id070015 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39850" ;
   s:livestream "No" ;
@@ -4896,6 +5132,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070002_1 rdfs:subClassOf :id070002 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38530" ;
   s:livestream "No" ;
@@ -4916,6 +5153,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070084_1 rdfs:subClassOf :id070084 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -4934,6 +5172,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070206_1 rdfs:subClassOf :id070206 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41187" ;
   s:livestream "No" ;
@@ -4952,6 +5191,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070262_1 rdfs:subClassOf :id070262 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40285" ;
   s:livestream "No" ;
@@ -4972,6 +5212,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070070_1 rdfs:subClassOf :id070070 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41223" ;
   s:livestream "No" ;
@@ -4992,6 +5233,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070085_1 rdfs:subClassOf :id070085 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5012,6 +5254,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -5030,6 +5273,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070113_1 rdfs:subClassOf :id070113 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41185" ;
   s:livestream "No" ;
@@ -5048,6 +5292,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070114_1 rdfs:subClassOf :id070114 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41222" ;
   s:livestream "No" ;
@@ -5066,6 +5311,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070235_1 rdfs:subClassOf :id070235 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42432" ;
   s:livestream "No" ;
@@ -5086,6 +5332,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070070_1 rdfs:subClassOf :id070070 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41223" ;
   s:livestream "No" ;
@@ -5106,6 +5353,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070085_1 rdfs:subClassOf :id070085 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5126,6 +5374,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -5144,6 +5393,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070113_1 rdfs:subClassOf :id070113 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41185" ;
   s:livestream "No" ;
@@ -5162,6 +5412,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070114_1 rdfs:subClassOf :id070114 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41222" ;
   s:livestream "No" ;
@@ -5180,6 +5431,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -5198,6 +5450,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -5218,6 +5471,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070235_1 rdfs:subClassOf :id070235 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42432" ;
   s:livestream "No" ;
@@ -5238,6 +5492,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070015_1 rdfs:subClassOf :id070015 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39850" ;
   s:livestream "No" ;
@@ -5256,6 +5511,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070092_1 rdfs:subClassOf :id070092 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37758" ;
   s:livestream "No" ;
@@ -5274,6 +5530,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070014_1 rdfs:subClassOf :id070014 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39264" ;
   s:livestream "No" ;
@@ -5292,6 +5549,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070036_1 rdfs:subClassOf :id070036 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5310,6 +5568,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070138_1 rdfs:subClassOf :id070138 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5328,6 +5587,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5346,6 +5606,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070040_1 rdfs:subClassOf :id070040 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40543" ;
   s:livestream "No" ;
@@ -5366,6 +5627,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070230_1 rdfs:subClassOf :id070230 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41237" ;
   s:livestream "No" ;
@@ -5384,6 +5646,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr150074_1 rdfs:subClassOf :id150074 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39754" ;
   s:livestream "No" ;
@@ -5402,6 +5665,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070294_1 rdfs:subClassOf :id070294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42112" ;
   s:livestream "No" ;
@@ -5422,6 +5686,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070075_1 rdfs:subClassOf :id070075 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37782" ;
   s:livestream "No" ;
@@ -5442,6 +5707,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070076_1 rdfs:subClassOf :id070076 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37783" ;
   s:livestream "No" ;
@@ -5462,6 +5728,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070083_1 rdfs:subClassOf :id070083 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41534" ;
   s:livestream "No" ;
@@ -5480,6 +5747,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070090_1 rdfs:subClassOf :id070090 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39323" ;
   s:livestream "No" ;
@@ -5498,6 +5766,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070197_1 rdfs:subClassOf :id070197 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37784" ;
   s:livestream "No" ;
@@ -5518,6 +5787,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "PS" .
 :gr070258_1 rdfs:subClassOf :id070258 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41214" ;
   s:livestream "No" ;
@@ -5536,6 +5806,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr030314_1 rdfs:subClassOf :id030314 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5556,6 +5827,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070055_1 rdfs:subClassOf :id070055 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40282" ;
   s:livestream "No" ;
@@ -5576,6 +5848,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -5594,6 +5867,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -5612,6 +5886,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070094_1 rdfs:subClassOf :id070094 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5630,6 +5905,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070096_1 rdfs:subClassOf :id070096 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38084" ;
   s:livestream "No" ;
@@ -5648,6 +5924,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5668,6 +5945,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070277_1 rdfs:subClassOf :id070277 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40994" ;
   s:livestream "No" ;
@@ -5684,6 +5962,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -5702,6 +5981,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -5720,6 +6000,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070295_1 rdfs:subClassOf :id070295 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5738,6 +6019,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070297_1 rdfs:subClassOf :id070297 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5756,6 +6038,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr030314_1 rdfs:subClassOf :id030314 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5776,6 +6059,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070055_1 rdfs:subClassOf :id070055 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40282" ;
   s:livestream "No" ;
@@ -5796,6 +6080,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -5814,6 +6099,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -5832,6 +6118,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070094_1 rdfs:subClassOf :id070094 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5850,6 +6137,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070096_1 rdfs:subClassOf :id070096 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38084" ;
   s:livestream "No" ;
@@ -5868,6 +6156,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5888,6 +6177,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr030621_1 rdfs:subClassOf :id030621 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -5906,6 +6196,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070088_1 rdfs:subClassOf :id070088 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39564" ;
   s:livestream "No" ;
@@ -5926,6 +6217,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070237_1 rdfs:subClassOf :id070237 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37946" ;
   s:livestream "No" ;
@@ -5944,6 +6236,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070014_1 rdfs:subClassOf :id070014 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39264" ;
   s:livestream "No" ;
@@ -5962,6 +6255,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070272_1 rdfs:subClassOf :id070272 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42600" ;
   s:livestream "No" ;
@@ -5980,6 +6274,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070015_1 rdfs:subClassOf :id070015 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39850" ;
   s:livestream "No" ;
@@ -5998,6 +6293,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070092_1 rdfs:subClassOf :id070092 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=37758" ;
   s:livestream "No" ;
@@ -6016,6 +6312,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070036_1 rdfs:subClassOf :id070036 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6034,6 +6331,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070138_1 rdfs:subClassOf :id070138 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6052,6 +6350,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6070,6 +6369,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070040_1 rdfs:subClassOf :id070040 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40543" ;
   s:livestream "No" ;
@@ -6090,6 +6390,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070230_1 rdfs:subClassOf :id070230 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41237" ;
   s:livestream "No" ;
@@ -6108,6 +6409,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr150074_1 rdfs:subClassOf :id150074 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39754" ;
   s:livestream "No" ;
@@ -6126,6 +6428,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070294_1 rdfs:subClassOf :id070294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42112" ;
   s:livestream "No" ;
@@ -6146,6 +6449,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070105_1 rdfs:subClassOf :id070105 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41208" ;
   s:livestream "No" ;
@@ -6164,6 +6468,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070124_1 rdfs:subClassOf :id070124 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41200" ;
   s:livestream "No" ;
@@ -6182,6 +6487,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070133_1 rdfs:subClassOf :id070133 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39640" ;
   s:livestream "No" ;
@@ -6200,6 +6506,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070137_1 rdfs:subClassOf :id070137 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41240" ;
   s:livestream "No" ;
@@ -6218,6 +6525,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070176_1 rdfs:subClassOf :id070176 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40988" ;
   s:livestream "No" ;
@@ -6236,6 +6544,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070229_1 rdfs:subClassOf :id070229 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40993" ;
   s:livestream "No" ;
@@ -6252,6 +6561,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070231_1 rdfs:subClassOf :id070231 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39554" ;
   s:livestream "No" ;
@@ -6270,6 +6580,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070286_1 rdfs:subClassOf :id070286 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6288,6 +6599,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "GR" .
 :gr070293_1 rdfs:subClassOf :id070293 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40618" ;
   s:livestream "No" ;
@@ -6306,6 +6618,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070088_1 rdfs:subClassOf :id070088 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39564" ;
   s:livestream "No" ;
@@ -6326,6 +6639,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070261_1 rdfs:subClassOf :id070261 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6344,6 +6658,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070110_1 rdfs:subClassOf :id070110 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40991" ;
   s:livestream "No" ;
@@ -6360,6 +6675,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070055_1 rdfs:subClassOf :id070055 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40282" ;
   s:livestream "No" ;
@@ -6380,6 +6696,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -6398,6 +6715,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070110_1 rdfs:subClassOf :id070110 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40991" ;
   s:livestream "No" ;
@@ -6414,6 +6732,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -6432,6 +6751,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070277_1 rdfs:subClassOf :id070277 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40994" ;
   s:livestream "No" ;
@@ -6448,6 +6768,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070282_1 rdfs:subClassOf :id070282 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40815" ;
   s:livestream "No" ;
@@ -6466,6 +6787,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070295_1 rdfs:subClassOf :id070295 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6484,6 +6806,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070297_1 rdfs:subClassOf :id070297 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6502,6 +6825,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -6520,6 +6844,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -6538,6 +6863,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -6556,6 +6882,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070110_1 rdfs:subClassOf :id070110 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40991" ;
   s:livestream "No" ;
@@ -6572,6 +6899,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -6590,6 +6918,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070277_1 rdfs:subClassOf :id070277 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40994" ;
   s:livestream "No" ;
@@ -6606,6 +6935,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070282_1 rdfs:subClassOf :id070282 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40815" ;
   s:livestream "No" ;
@@ -6624,6 +6954,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070295_1 rdfs:subClassOf :id070295 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6642,6 +6973,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070297_1 rdfs:subClassOf :id070297 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6660,6 +6992,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -6678,6 +7011,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -6696,6 +7030,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070138_1 rdfs:subClassOf :id070138 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6714,6 +7049,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6732,6 +7068,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070040_1 rdfs:subClassOf :id070040 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40543" ;
   s:livestream "No" ;
@@ -6752,6 +7089,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070230_1 rdfs:subClassOf :id070230 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41237" ;
   s:livestream "No" ;
@@ -6770,6 +7108,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr150074_1 rdfs:subClassOf :id150074 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39754" ;
   s:livestream "No" ;
@@ -6788,6 +7127,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070294_1 rdfs:subClassOf :id070294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42112" ;
   s:livestream "No" ;
@@ -6808,6 +7148,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UK" .
 :gr041010_1 rdfs:subClassOf :id041010 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42243" ;
   s:livestream "No" ;
@@ -6826,6 +7167,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070143_1 rdfs:subClassOf :id070143 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38393" ;
   s:livestream "No" ;
@@ -6844,6 +7186,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -6862,6 +7205,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -6880,6 +7224,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070184_1 rdfs:subClassOf :id070184 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41210" ;
   s:livestream "No" ;
@@ -6898,6 +7243,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6918,6 +7264,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070250_1 rdfs:subClassOf :id070250 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -6936,6 +7283,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -6954,6 +7302,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr080043_1 rdfs:subClassOf :id080043 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41943" ;
   s:livestream "No" ;
@@ -6972,6 +7321,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070291_1 rdfs:subClassOf :id070291 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41862" ;
   s:livestream "No" ;
@@ -6990,6 +7340,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "AR" .
 :gr070086_1 rdfs:subClassOf :id070086 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39480" ;
   s:livestream "No" ;
@@ -7008,6 +7359,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -7026,6 +7378,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070184_1 rdfs:subClassOf :id070184 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41210" ;
   s:livestream "No" ;
@@ -7044,6 +7397,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070249_1 rdfs:subClassOf :id070249 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7064,6 +7418,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070250_1 rdfs:subClassOf :id070250 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7082,6 +7437,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070306_1 rdfs:subClassOf :id070306 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41220" ;
   s:livestream "No" ;
@@ -7100,6 +7456,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr080043_1 rdfs:subClassOf :id080043 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41943" ;
   s:livestream "No" ;
@@ -7118,6 +7475,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070291_1 rdfs:subClassOf :id070291 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41862" ;
   s:livestream "No" ;
@@ -7136,6 +7494,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070272_1 rdfs:subClassOf :id070272 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42600" ;
   s:livestream "No" ;
@@ -7154,6 +7513,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070036_1 rdfs:subClassOf :id070036 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "EXTERN" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7172,6 +7532,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070236_1 rdfs:subClassOf :id070236 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7190,6 +7551,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070040_1 rdfs:subClassOf :id070040 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40543" ;
   s:livestream "No" ;
@@ -7210,6 +7572,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070230_1 rdfs:subClassOf :id070230 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41237" ;
   s:livestream "No" ;
@@ -7228,6 +7591,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr150074_1 rdfs:subClassOf :id150074 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39754" ;
   s:livestream "No" ;
@@ -7246,6 +7610,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "UE" .
 :gr070294_1 rdfs:subClassOf :id070294 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42112" ;
   s:livestream "No" ;
@@ -7266,6 +7631,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070001_1 rdfs:subClassOf :id070001 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38607" ;
   s:livestream "No" ;
@@ -7284,6 +7650,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -7302,6 +7669,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070065_1 rdfs:subClassOf :id070065 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38338" ;
   s:livestream "No" ;
@@ -7322,6 +7690,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070070_1 rdfs:subClassOf :id070070 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41223" ;
   s:livestream "No" ;
@@ -7342,6 +7711,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070071_1 rdfs:subClassOf :id070071 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42136" ;
   s:livestream "No" ;
@@ -7360,6 +7730,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -7378,6 +7749,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070113_1 rdfs:subClassOf :id070113 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41185" ;
   s:livestream "No" ;
@@ -7396,6 +7768,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070114_1 rdfs:subClassOf :id070114 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41222" ;
   s:livestream "No" ;
@@ -7414,6 +7787,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -7432,6 +7806,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -7452,6 +7827,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -7470,6 +7846,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070184_1 rdfs:subClassOf :id070184 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41210" ;
   s:livestream "No" ;
@@ -7488,6 +7865,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070277_1 rdfs:subClassOf :id070277 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40994" ;
   s:livestream "No" ;
@@ -7504,6 +7882,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070282_1 rdfs:subClassOf :id070282 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40815" ;
   s:livestream "No" ;
@@ -7522,6 +7901,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070291_1 rdfs:subClassOf :id070291 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41862" ;
   s:livestream "No" ;
@@ -7540,6 +7920,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070295_1 rdfs:subClassOf :id070295 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7558,6 +7939,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070297_1 rdfs:subClassOf :id070297 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7576,6 +7958,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -7594,6 +7977,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070001_1 rdfs:subClassOf :id070001 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38607" ;
   s:livestream "No" ;
@@ -7612,6 +7996,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070055_1 rdfs:subClassOf :id070055 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40282" ;
   s:livestream "No" ;
@@ -7632,6 +8017,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070062_1 rdfs:subClassOf :id070062 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41482" ;
   s:livestream "No" ;
@@ -7650,6 +8036,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070065_1 rdfs:subClassOf :id070065 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38338" ;
   s:livestream "No" ;
@@ -7670,6 +8057,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070070_1 rdfs:subClassOf :id070070 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41223" ;
   s:livestream "No" ;
@@ -7690,6 +8078,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070071_1 rdfs:subClassOf :id070071 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42136" ;
   s:livestream "No" ;
@@ -7708,6 +8097,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070089_1 rdfs:subClassOf :id070089 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40146" ;
   s:livestream "No" ;
@@ -7726,6 +8116,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070113_1 rdfs:subClassOf :id070113 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41185" ;
   s:livestream "No" ;
@@ -7744,6 +8135,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070114_1 rdfs:subClassOf :id070114 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41222" ;
   s:livestream "No" ;
@@ -7762,6 +8154,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070115_1 rdfs:subClassOf :id070115 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39324" ;
   s:livestream "No" ;
@@ -7780,6 +8173,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "KU" .
 :gr070146_1 rdfs:subClassOf :id070146 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39153" ;
   s:livestream "No" ;
@@ -7800,6 +8194,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070183_1 rdfs:subClassOf :id070183 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41373" ;
   s:livestream "No" ;
@@ -7818,6 +8213,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070184_1 rdfs:subClassOf :id070184 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41210" ;
   s:livestream "No" ;
@@ -7836,6 +8232,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070277_1 rdfs:subClassOf :id070277 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40994" ;
   s:livestream "No" ;
@@ -7852,6 +8249,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070282_1 rdfs:subClassOf :id070282 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40815" ;
   s:livestream "No" ;
@@ -7870,6 +8268,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070291_1 rdfs:subClassOf :id070291 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41862" ;
   s:livestream "No" ;
@@ -7888,6 +8287,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070295_1 rdfs:subClassOf :id070295 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7906,6 +8306,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070297_1 rdfs:subClassOf :id070297 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "" ;
   s:learningplatformurl "" ;
   s:livestream "No" ;
@@ -7924,6 +8325,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "VO" .
 :gr070404_1 rdfs:subClassOf :id070404 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40978" ;
   s:livestream "No" ;
@@ -7942,6 +8344,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070066_1 rdfs:subClassOf :id070066 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40284" ;
   s:livestream "No" ;
@@ -7962,6 +8365,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "SE" .
 :gr070272_1 rdfs:subClassOf :id070272 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=42600" ;
   s:livestream "No" ;
@@ -7980,6 +8384,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070002_1 rdfs:subClassOf :id070002 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=38530" ;
   s:livestream "No" ;
@@ -8000,6 +8405,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070088_1 rdfs:subClassOf :id070088 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=39564" ;
   s:livestream "No" ;
@@ -8020,6 +8426,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070206_1 rdfs:subClassOf :id070206 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=41187" ;
   s:livestream "No" ;
@@ -8038,6 +8445,7 @@ s:lecturer
   s:hoursPerWeek "20"^^xsd:integer ;
   s:type "EX" .
 :gr070262_1 rdfs:subClassOf :id070262 ; 
+  s:seqno "1"^^xsd:integer ;
   s:learningplatform "MOODLE" ;
   s:learningplatformurl "https://moodle.univie.ac.at/course/view.php?id=40285" ;
   s:livestream "No" ;

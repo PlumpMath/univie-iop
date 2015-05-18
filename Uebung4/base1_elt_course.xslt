@@ -16,6 +16,7 @@
         <xsl:variable name="courseid" select="@id" /> 
         <xsl:for-each select="group">
             <xsl:value-of select="concat('    :gr', $courseid, '_', @id, ' rdfs:subClassOf :id', $courseid, ' ;')"/> 
+  s:seqno "<xsl:value-of select="@id"/>"^^xsd:integer ;
   s:learningplatform "<xsl:value-of select="@learningplatform"/>" ;
   s:learningplatformurl "<xsl:value-of select="@learningplatformurl"/>" ;
   s:livestream "<xsl:value-of select="@livestream"/>" ;

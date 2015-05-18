@@ -4,9 +4,15 @@ PREFIX dc: <https://purl.org/dc/terms/>
 PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs: <https://www.w3.org/2000/01/rdf-schema#> 
 
-SELECT ?x, ?y
+# Geben Sie alle Gruppen aus, deren Unterrichtssprache NICHT Englisch ist. 
+
+SELECT ?course, ?course_title, ?seqno #, ?lang
 FROM <base1_ontology.ttl>
 WHERE {
-    ?x dc:title ?y .
+    ?groupid rdfs:subClassOf ?course .
+    ?groupid s:seqno ?seqno .
+    ?groupid s:lang ?lang .
+    ?course dc:subject ?course_title .
+    FILTER ( ?lang = "Deutsch" )
 }
 
