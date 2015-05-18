@@ -98,11 +98,10 @@
   </xs:element>
   <xs:element name="appointment">
     <xs:complexType>
-      <xs:attribute name="date" use="required" type="xs:NMTOKEN"/>
-      <xs:attribute name="end" use="required" type="xs:integer"/>
+      <xs:attribute name="end" use="required" type="xs:NMTOKEN"/>
       <xs:attribute name="location" use="required" type="xs:NCName"/>
       <xs:attribute name="room" use="required"/>
-      <xs:attribute name="start" use="required" type="xs:integer"/>
+      <xs:attribute name="start" use="required" type="xs:NMTOKEN"/>
       <xs:attribute name="street" use="required"/>
       <xs:attribute name="zip" use="required" type="xs:integer"/>
     </xs:complexType>

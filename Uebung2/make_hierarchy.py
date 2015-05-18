@@ -3,6 +3,7 @@ __author__ = 'r2h2'
 
 from xml.etree import ElementTree
 from xml.dom import minidom
+from datetime import datetime
 import re
 
 def prettifyXML(elem):
@@ -98,9 +99,13 @@ def add_appointments(parent, anchor, lvnr, group_id):
         for i, vb in enumerate(von_bis):
             ElementTree.SubElement(parent, 'appointment')
             apptmnt = parent[i]
-            apptmnt.set('date', vb.attrib.get('datum', '?')[:11])
-            apptmnt.set('start', vb.attrib.get('beginn', '?'))
-            apptmnt.set('end', vb.attrib.get('ende', '?'))
+            startdate = vb.attrib.get('datum', '?')[:11]
+            starttime = vb.attrib.get('beginn', '?')
+            startDatetime = datetime.strptime(startdate + ' ' + starttime, '%d-%b-%Y %H%M')
+            apptmnt.set('start', startDatetime.strftime('%Y-%m-%dT%H:%M'))
+            endtime = vb.attrib.get('ende', '?')
+            endDatetime = datetime.strptime(startdate + ' ' + endtime, '%d-%b-%Y %H%M')
+            apptmnt.set('end', endDatetime.strftime('%Y-%m-%dT%H:%M'))
             apptmnt.set('room', vb.attrib.get('kurzraumname', '?'))
             apptmnt.set('location', vb.attrib.get('ort', '?'))
             apptmnt.set('zip', vb.attrib.get('plz', '?'))
