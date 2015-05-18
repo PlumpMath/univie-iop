@@ -14,25 +14,38 @@
                                      '  s:hoursPerWeek &quot;', @hoursPerWeek, '&quot;^^xsd:integer ;','&#xA;',
                                      '  s:type &quot;', @type, '&quot; .', '&#xA;')"/>
         <xsl:variable name="courseid" select="@id" /> 
+
         <xsl:for-each select="group">
-            <xsl:value-of select="concat('    :gr', $courseid, '_', @id, ' rdfs:subClassOf :id', $courseid, ' ;')"/> 
+            <xsl:variable name="underscore" select="_" />
+            <xsl:variable name="groupid" select="concat($courseid, $underscore, @id)" /> 
+            <xsl:value-of select="concat('    :gr', $groupid, ' rdfs:subClassOf :id', $courseid, ' ;')"/> 
   s:seqno "<xsl:value-of select="@id"/>"^^xsd:integer ;
   s:learningplatform "<xsl:value-of select="@learningplatform"/>" ;
   s:learningplatformurl "<xsl:value-of select="@learningplatformurl"/>" ;
   s:livestream "<xsl:value-of select="@livestream"/>" ;
   s:signlanguage "<xsl:value-of select="@signlanguage"/>" ;
-          <xsl:for-each select="courselanguages/lang">
+             <xsl:for-each select="courselanguages/lang">
   s:lang "<xsl:value-of select="current()"/>" ;
-          </xsl:for-each>
-          <xsl:for-each select="lecturers/lecturer">
-              <xsl:if test="@role = 'V - Verantwortlicher Leiter'">
+             </xsl:for-each>
+        
+             <xsl:for-each select="lecturers/lecturer">
+                <xsl:if test="@role = 'V - Verantwortlicher Leiter'">
   s:lect_responsible "<xsl:value-of select="concat(@surname, ', ', @givenname)"/>" ;
-              </xsl:if>
-              <xsl:if test="@role = 'P - Mitanbieter'">
+                </xsl:if>
+                <xsl:if test="@role = 'P - Mitanbieter'">
   s:lect_auxiliary "<xsl:value-of select="concat(@surname, ', ', @givenname)"/>" ;
-              </xsl:if>
-          </xsl:for-each>
+                </xsl:if>
+             </xsl:for-each>
+
   s:block "<xsl:value-of select="@block"/>" .
+          
+             <xsl:for-each select="appointments/appointment">
+  s:ap<xsl:value-of select="concat($groupid, $underscore, position())" /> rdfs:subClassOf <xsl:value-of select="concat(':gr', $groupid)"/> ;
+    s:start "<xsl:value-of select="@start"/>"^^xsd:datetime ;
+    s:end "<xsl:value-of select="@end"/>"^^xsd:datetime ;
+    s:room "<xsl:value-of select="@room"/>" .
+             </xsl:for-each>
+             
         </xsl:for-each>
 
     </xsl:template>

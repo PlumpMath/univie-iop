@@ -11,12 +11,12 @@ start =
         element modulegroup {
           attribute id { xsd:NMTOKEN },
           attribute name { text },
-          (module*
-           | element modulesubgroup {
-               attribute id { xsd:NMTOKEN },
-               attribute name { text },
-               module+
-             }*)
+          (element modulesubgroup {
+             attribute id { xsd:NMTOKEN },
+             attribute name { text },
+             module+
+           }*
+           | module*)
         }+
       }+
     }
@@ -44,10 +44,11 @@ module =
         },
         element appointments {
           element appointment {
-            attribute end { xsd:NMTOKEN },
+            attribute date { xsd:NMTOKEN },
+            attribute end { xsd:integer },
             attribute location { xsd:NCName },
             attribute room { text },
-            attribute start { xsd:NMTOKEN },
+            attribute start { xsd:integer },
             attribute street { text },
             attribute zip { xsd:integer }
           }*
