@@ -6,7 +6,7 @@
 	<xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
 	
 	<xsl:template match="study">
-        <xsl:value-of select="concat(':id', @id, ' a :studybranch ; ','&#xA;',
+        <xsl:value-of select="concat(':st', @id, ' a s:Study ; ','&#xA;',
                                      '  dc:title &quot;', @name, '&quot; .' )"/>
     </xsl:template>
 </xsl:stylesheet>

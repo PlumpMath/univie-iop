@@ -5,61 +5,98 @@
 @prefix dc: <https://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-s:studybranch 
-	s:german "Studienrichtung" ;
-	rdfs:subClassOf s:lectureindex ;
+# begin schema
+
+
+s:hasStudy
+  a rdf:Property;
+  rdfs:label "gruppiert Curricula"@de ;
+  rdfs:label "groups studies"@en ;
+  rdfs:domain s:Studybranch ;
+  rdfs:range s:Study ;
+  
+s:Studybranch 
+  a rdfs:Class ;
+  rdfs:Label "Studienrichtung"@de ;
+  rdfs:Label "Studybranch"@en ;
     dc:title s:name .
     
-s:study 
-	s:german "Studium" ;
-	rdfs:subClassOf s:studybranch ;
+s:hasModulegroup
+  a rdf:Property;
+  rdfs:label "gruppiert Modulgruppen"@de ;
+  rdfs:label "groups modulegroup"@en ;
+  rdfs:domain s:Study ;
+  rdfs:range s:Modulegroup ;
+  
+s:Study 
+  a rdfs:Class ;
+  rdfs:Label "Studium"@de ;
+  rdfs:Label "Study"@en ;
+    rdfs:subClassOf s:studybranch ;
     dc:title s:name .
 
-s:modulegroup
-	s:german "Modulgruppe" ;
-	rdfs:subClassOf  s:study ;
+s:Modulegroup
+  a rdfs:Class ;
+  rdfs:Label "Modulgruppe"@de ;
+  rdfs:Label "Modulegroup"@en ;
+    rdfs:subClassOf  s:study ;
     dc:title s:name .
 
-s:module 
-	s:german "Modul" ;
-	rdfs:subClassOf s:modulegroup ;
+s:Module 
+  a rdfs:Class ;
+  rdfs:Label "Modul"@de ;
+  rdfs:Label "Module"@en ;
+    rdfs:subClassOf s:modulegroup ;
     dc:title s:name .
 
-s:course
-	s:german "Lehrveranstaltung" ;
-    s:continousassessment rdf:value ;
-    s:ects rdf:value ;
-    s:hoursPerWeek rdf:value ;
-    dc:subject s:name ;
-    s:type rdf:value ;
-    s:hasLanguages s:languages ;
-    s:hasLecturers s:lecturers .
+s:Course
+  a rdfs:Class ;
+  rdfs:Label "Lehrveranstaltung"@de ;
+  rdfs:Label "Course"@en ;
+  s:continousassessment rdf:value ;
+  s:ects rdf:value ;
+  s:hoursPerWeek rdf:value ;
+  dc:subject s:name ;
+  s:type rdf:value ;
     
-s:languages rdfs:range dc:language .
-	
-s:group
-	s:german "Gruppe" ;
+s:lect_responsible
+  a rdf:Property;
+  rdfs:label "Verantwortlicher Leiter"@de ;
+  rdfs:label "responsible Lecturer"@en ;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value ;
+  
+s:lect_auxiliary
+  a rdf:Property;
+  rdfs:label "Mitanbieter"@de ;
+  rdfs:label "auxiliary lecturer"@en ;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value ;
+  
+s:Group
+  a rdfs:Class ;
+  rdfs:Label "Gruppe"@de ;
+  rdfs:Label "Group"@en ;
     s:block rdf:value ;
     s:learningplatform rdf:value ;
     s:learningplatformurl rdf:value ;
     s:livestream rdf:value ;
-    s:signlanguage rdf:value .
+    s:signlanguage rdf:value ;
+    s:lang rdf:value ;
+    s:lect_responsible rdf:value ;
+    s:lect_auxiliary rdf:value .
 
-s:appointment
-	s:german "Termin" ;
-    s:date rdf:value ;
-    s:end rdf:value ;
-    s:location rdf:value ;
-    s:room rdf:value ;
+s:Appointment
+  a rdfs:Class ;
+  rdfs:Label "Termin"@de ;
+  rdfs:Label "Appointement"@en ;
+    s:german "Termin" ;
+    rdfs:subClassOf s:group ;
     s:start rdf:value ;
-    s:street rdf:value ;
-    s:zip rdf:value .
-
-s:lecturers rdfs:range s:lecturer .
-
-s:lecturer
-	s:german "Vortragender" ;
-    s:givenname rdf:value ;
-    s:role rdf:value ;
-    s:surname rdf:value .
-
+    s:end rdf:value ;
+    #s:location rdf:value ;
+    #s:street rdf:value ;
+    #s:zip rdf:value ;
+    s:room rdf:value .
+    
+# end schema    

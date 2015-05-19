@@ -6,7 +6,7 @@
 	<xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
 	
 	<xsl:template match="module">
-        <xsl:value-of select="concat(':id', @id, ' a :modulegroup ; ','&#xA;',
+        <xsl:value-of select="concat(':id', @id, ' a s:Module ; ','&#xA;',
                                      '  dc:title &quot;', @name, '&quot; .' )"/>
     </xsl:template>
 </xsl:stylesheet>

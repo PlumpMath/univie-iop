@@ -3,6 +3,9 @@
 @prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#>  .
 @prefix dc: <https://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# begin schema
 
 s:studybranch 
 	s:german "Studienrichtung" ;
@@ -34,50 +37,28 @@ s:course
     s:hasLanguages s:languages ;
     s:hasLecturers s:lecturers .
     
-s:languages rdfs:range dc:language .
-	
 s:group
 	s:german "Gruppe" ;
     s:block rdf:value ;
     s:learningplatform rdf:value ;
     s:learningplatformurl rdf:value ;
     s:livestream rdf:value ;
-    s:signlanguage rdf:value .
+    s:signlanguage rdf:value ;
+    s:lang rdf:value ;
+    s:lect_responsible rdf:value ;
+    s:lect_auxiliary rdf:value .
 
 s:appointment
 	s:german "Termin" ;
-    s:date rdf:value ;
-    s:end rdf:value ;
-    s:location rdf:value ;
-    s:room rdf:value ;
+	rdfs:subClassOf s:group ;
     s:start rdf:value ;
-    s:street rdf:value ;
-    s:zip rdf:value .
+    s:end rdf:value ;
+    s:room rdf:value ;
+    #s:location rdf:value ;
+    #s:street rdf:value ;
+    #s:zip rdf:value .
+    
+# end schema    
 
-s:lecturers rdfs:range s:lecturer .
-
-s:lecturer
-	s:german "Vortragender" ;
-    s:givenname rdf:value ;
-    s:role rdf:value ;
-    s:surname rdf:value .
-
-
-    :id706_2 a :studybranch . 
-:id706_2 dc:title "7.6.1 MA Geschichte 2014" .
-    :id706_16 a :studybranch . 
-:id706_16 dc:title "7.6.2 MA Geschichtsforschung, Historische Hilfswissenschaften und Archivwissenschaft" .
-    :id706_38 a :studybranch . 
-:id706_38 dc:title "7.6.3 MA Globalgeschichte & Global Studies" .
-    :id706_56 a :studybranch . 
-:id706_56 dc:title "7.6.4 MA Frauen- und Geschlechtergeschichte (auslaufend)" .
-    :id706_72 a :studybranch . 
-:id706_72 dc:title "7.6.5 MA Geschichte 2008 (auslaufend)" .
-    :id706_116 a :studybranch . 
-:id706_116 dc:title "7.6.6 MA Historisch-Kulturwissenschaftliche Europaforschung (auslaufend)" .
-    :id706_130 a :studybranch . 
-:id706_130 dc:title "7.6.7 MA Osteuropäische Geschichte (auslaufend)" .
-    :id706_146 a :studybranch . 
-:id706_146 dc:title "7.6.8 MA Wirtschafts- und Sozialgeschichte (auslaufend)" .
-    :id706_162 a :studybranch . 
-:id706_162 dc:title "7.6.9 MA Zeitgeschichte (auslaufend)" .
+    
+:st706_2 rdfs:subClassOf  s:study .
