@@ -2,8 +2,8 @@ PREFIX : <http://univie.ac.at/~a7901955/contents/>
 PREFIX s: <https://univie.ac.at/~a7901955/schema/>
 PREFIX dc: <https://purl.org/dc/terms/>
 
-SELECT ?x, ?y
-FROM <quelle1.ttl>
+SELECT ?x ?y
+FROM <base1_ontology.ttl>
 WHERE {
     ?x dc:title ?y .
 }

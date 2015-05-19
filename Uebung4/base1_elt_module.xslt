@@ -6,7 +6,12 @@
 	<xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
 	
 	<xsl:template match="module">
-        <xsl:value-of select="concat(':id', @id, ' a s:Module ; ','&#xA;',
-                                     '  dc:title &quot;', @name, '&quot; .' )"/>
+        <xsl:value-of select="concat(':m', @id, ' dc:title &quot;', @name, '&quot; ;&#xA;' )"/>
+            <xsl:for-each select="course">
+    s:hasCourse :c<xsl:value-of select="@id"/> ;
+            </xsl:for-each>
+    a s:Module .
+    
+    
     </xsl:template>
 </xsl:stylesheet>

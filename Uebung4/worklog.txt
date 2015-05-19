@@ -1,0 +1,15 @@
+VU Interoperabilität Übung 4
+Rainer Hörbe, a7901955 Gruppe 13
+Arbeitsprotokoll
+
+Update im eingenen XML-Clean input: appointment/@start, /@end auf xsd:datetime geändert
+course/@ects auf xsd:decimal korrigiert
+
+Für Abfragen erst roqet, dann arq (Jena) eingesetzt (genauere Fehlermeldungen)
+
+
+Abbildung der Hierarchie: 
+Liste der untergeordneten Klassen ("hasXxx") in der verkürzten Schreibweise bei der 
+übergeordneten Klasse hat den Vorteil, dass sich die Triplets mit XSLT einfach erzeugen lassen.
+Alternative könnte man die umgekehrte Beziehung ("isPartOf") bei der untergeordneten Klasse
+einfügen, aber es braucht etwas mehr Aufwand. 

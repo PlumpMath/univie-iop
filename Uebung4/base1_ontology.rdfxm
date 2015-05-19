@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="https://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#" xmlns:s="https://univie.ac.at/~a7901955/schema/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://univie.ac.at/~a7901955/contents/">
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasStudy">
+    <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasStudy">
+    <rdfs:label xml:lang="de">gruppiert Curricula</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasStudy">
+    <rdfs:label xml:lang="en">groups studies</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasStudy">
+    <rdfs:domain rdf:resource="https://univie.ac.at/~a7901955/schema/Studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasStudy">
+    <rdfs:range rdf:resource="https://univie.ac.at/~a7901955/schema/Study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Studybranch">
+    <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Studybranch">
+    <rdfs:Label xml:lang="de">Studienrichtung</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Studybranch">
+    <rdfs:Label xml:lang="en">Studybranch</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Studybranch">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModulegroup">
+    <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModulegroup">
+    <rdfs:label xml:lang="de">gruppiert Modulgruppen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModulegroup">
+    <rdfs:label xml:lang="en">groups modulegroup</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModulegroup">
+    <rdfs:domain rdf:resource="https://univie.ac.at/~a7901955/schema/Study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModulegroup">
+    <rdfs:range rdf:resource="https://univie.ac.at/~a7901955/schema/Modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Study">
+    <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Study">
+    <rdfs:Label xml:lang="de">Studium</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Study">
+    <rdfs:Label xml:lang="en">Study</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Study">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/studybranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Study">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModule">
+    <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModule">
+    <rdfs:label xml:lang="de">gruppiert Module</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModule">
+    <rdfs:label xml:lang="en">groups modules</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModule">
+    <rdfs:domain rdf:resource="https://univie.ac.at/~a7901955/schema/Modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/hasModule">
+    <rdfs:range rdf:resource="https://univie.ac.at/~a7901955/schema/Module"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Modulegroup">
+    <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Modulegroup">
+    <rdfs:Label xml:lang="de">Modulgruppe</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Modulegroup">
+    <rdfs:Label xml:lang="en">Modulegroup</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Modulegroup">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Modulegroup">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Module">
+    <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Module">
+    <rdfs:Label xml:lang="de">Modul</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Module">
+    <rdfs:Label xml:lang="en">Module</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Module">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/modulegroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Module">
+    <dc:title rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <rdfs:Label xml:lang="de">Lehrveranstaltung</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <rdfs:Label xml:lang="en">Course</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <s:continousassessment rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <s:ects rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <s:hoursPerWeek rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <dc:subject rdf:resource="https://univie.ac.at/~a7901955/schema/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Course">
+    <s:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/isAppointmentOfGroup">
+    <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/isAppointmentOfGroup">
+    <rdfs:label xml:lang="de">gehört zu LV</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/isAppointmentOfGroup">
+    <rdfs:label xml:lang="en">is part of lecture</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/isAppointmentOfGroup">
+    <rdfs:domain rdf:resource="https://univie.ac.at/~a7901955/schema/Group"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/isAppointmentOfGroup">
+    <rdfs:range rdf:resource="https://univie.ac.at/~a7901955/schema/Appointment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_responsible">
+    <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_responsible">
+    <rdfs:label xml:lang="de">Verantwortlicher Leiter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_responsible">
+    <rdfs:label xml:lang="en">responsible Lecturer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_responsible">
+    <rdfs:domain rdf:resource="https://univie.ac.at/~a7901955/schema/Group"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_responsible">
+    <rdfs:range rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_auxiliary">
+    <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_auxiliary">
+    <rdfs:label xml:lang="de">Mitanbieter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_auxiliary">
+    <rdfs:label xml:lang="en">auxiliary lecturer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_auxiliary">
+    <rdfs:domain rdf:resource="https://univie.ac.at/~a7901955/schema/Group"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/lect_auxiliary">
+    <rdfs:range rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <rdfs:Label xml:lang="de">Gruppe</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <rdfs:Label xml:lang="en">Group</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:block rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:learningplatform rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:learningplatformurl rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:livestream rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:signlanguage rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:lang rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:lect_responsible rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Group">
+    <s:lect_auxiliary rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <rdfs:Label xml:lang="de">Termin</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <rdfs:Label xml:lang="en">Appointement</rdfs:Label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <s:german>Termin</s:german>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <rdfs:subClassOf rdf:resource="https://univie.ac.at/~a7901955/schema/group"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <s:start rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <s:end rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://univie.ac.at/~a7901955/schema/Appointment">
+    <s:room rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/st706_2">
+    <dc:title>7.6.1 MA Geschichte 2014</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/st706_2">
+    <s:hasModulegroup rdf:resource="http://univie.ac.at/~a7901955/contents/mg706_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/st706_2">
+    <s:hasModulegroup rdf:resource="http://univie.ac.at/~a7901955/contents/mg706_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/st706_2">
+    <s:hasModulegroup rdf:resource="http://univie.ac.at/~a7901955/contents/mg706_10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/st706_2">
+    <s:hasModulegroup rdf:resource="http://univie.ac.at/~a7901955/contents/mg706_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/st706_2">
+    <s:hasModulegroup rdf:resource="http://univie.ac.at/~a7901955/contents/mg706_15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://univie.ac.at/~a7901955/contents/st706_2">
+    <rdf:type rdf:resource="https://univie.ac.at/~a7901955/schema/Study"/>
+  </rdf:Description>
+</rdf:RDF>

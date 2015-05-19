@@ -55,7 +55,7 @@ def add_course(newElem, e, anchor):
         lvnr = v.attrib.get('lvnr', '?')
         course.set('id', lvnr)
         course.set('type', v.attrib.get('typ', '?'))
-        course.set('ects', re.sub('\\s', '', v.attrib.get('ects', '?')))
+        course.set('ects', re.sub('\\s', '', v.attrib.get('ects', '?').replace(',', '.')))
         course.set('hoursPerWeek', v.attrib.get('wochenstunden', '?'))
         xYN = {'N':'No', 'Y':'Yes', '?':''}
         course.set('continousassessment', xYN[v.attrib.get('pruefungsimmanent', '?')])
