@@ -2,10 +2,38 @@ VU Interoperabilität Übung 4
 Rainer Hörbe, a7901955 Gruppe 13
 Arbeitsprotokoll
 
+
+== Vorarbeit, um später bessere Abfragen zu ermöglichen ==
 Update im eingenen XML-Clean input: appointment/@start, /@end auf xsd:datetime geändert
 course/@ects auf xsd:decimal korrigiert
 
-Für Abfragen erst roqet, dann arq (Jena) eingesetzt (genauere Fehlermeldungen)
+== Aufgabe Teil 1 ==
+- Erzeugen sie ein TURTLE file, das eine Ontologie analog zu den Schemas der XML Files enthaelt
+  Ergebnis: base1_ontology.ttl  build-Script: 
+Im File base3.xml sind die Datums- und Zeitformate nicht xsd-konform. Mit folgenden Regexp wurden sie für die Weekday-Funktion umformatiiert:
+1. Schritt
+match: date="(\d\d)\-(\w\w\w)\-20(\d\d) 00.00.00"
+replace: date="20\3-\2-\1"
+2. Schritt
+match: "20(\d\d)-Mar-(\d\d)"
+replace "20\1-03-\2"
+match: "20(\d\d)-Apr-(\d\d)"
+replace "20\1-04-\2"
+match: "20(\d\d)-May-(\d\d)"
+replace "20\1-05-\2"
+match: "20(\d\d)-Jun-(\d\d)"
+replace "20\1-06-\2"
+match: "20(\d\d)-Jul-(\d\d)"
+replace "20\1-07-\2"
+match: "20(\d\d)-Sep-(\d\d)"
+replace "20\1-09-\2"
+3. Schritt
+match: time="(\d{1,2})(\d\d)"
+replace: time="\1:\2"
+
+Welche Konzepte (Tags/Elemente) sind in Files?
+Welche Beziehungen haben Sie zueinander (z.b. 1 LV hat mehrere Gruppen)?
+Zusaetzlich: alle Konzepte auf Deutsch und ihre Verknuepfung mit den Englischen Konzepten.
 
 
 Abbildung der Hierarchie: 
@@ -13,3 +41,27 @@ Liste der untergeordneten Klassen ("hasXxx") in der verkürzten Schreibweise bei
 übergeordneten Klasse hat den Vorteil, dass sich die Triplets mit XSLT einfach erzeugen lassen.
 Alternative könnte man die umgekehrte Beziehung ("isPartOf") bei der untergeordneten Klasse
 einfügen, aber es braucht etwas mehr Aufwand. 
+
+=== Teil 2 SPARQL-Abfrage 1 ===
+Die Fragestellung nach alternativen Bezeichnungenist bei den vorliegenden Daten nicht sinnvoll, 
+da Termine keine Bezeichnungen haben, sondern nur die hierarchisch übergeordneten Elemente LV, Modul, etc.
+Die Frage aus welchen Begriffen ein Termin besteht wird mit einer Schemaabfrage gelöst.
+
+=== Teil 2 SPARQL-Abfrage 3 ===
+Im Prinzip einfach, nur fehlt in SPARQLdie Unterstützung für day-in-week(). Es gibt zwar Workarounds
+die Wochentagsfunktion in SPARQL-Syntax zu oimplementieren, aber so einen Hack sollte man dem 
+Abfrager nicht zumuten. 
+Habe daher Day-of-week mit xslt in die ttl-Datei als statement eingefügt (Verwendung von exslt).
+
+=== Teil 2 SPARQL-Abfrage 4 ===
+Laufzeit der Abfrage für base1: 0m46
+Laufzeit der Abfrage für base1+base2: 1m34
+
+Ergebnis für Montag: leer (Montags wird keine Geschichte gelesen) Laufzeit 68s, durch Umreihung der Statements 
+im WHERE nicht beeinflussbar.
+Ergebnis für Donnerstag: nicht leer. Mit roqet arq ist schneller, liefert aber kein Ergebnis :-(.
+
+== Lessons learned ==
+Für Abfragen teilweise roqet und Apache Jena/arq eingesetzt 
+Jena hat genauere Fehlermeldungen, liefert aber nicht immer korrekte Resultate
+roqet kann anscheinend keine RDFS-Interferenzen - ist aber für die Aufgabe egal.

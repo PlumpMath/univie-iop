@@ -1,0 +1,11 @@
+:sb706_1 rdfs:comment "7.6. Masterstudien Geschichte" ;
+    s:hasStudy :st706_2 ;
+    s:hasStudy :st706_16 ; 
+    s:hasStudy :st706_38 ; 
+    s:hasStudy :st706_56 ; 
+    s:hasStudy :st706_72 ; 
+    s:hasStudy :st706_116 ; 
+    s:hasStudy :st706_130 ; 
+    s:hasStudy :st706_146 ; 
+    s:hasStudy :st706_162 .
+    

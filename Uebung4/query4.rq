@@ -1,6 +1,5 @@
 PREFIX : <http://univie.ac.at/~a7901955/contents/>
 PREFIX s: <https://univie.ac.at/~a7901955/schema/>
-PREFIX dc: <https://purl.org/dc/terms/>
 PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs: <https://www.w3.org/2000/01/rdf-schema#> 
 
@@ -8,11 +7,13 @@ PREFIX rdfs: <https://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?course ?course_title  ?seqno 
 FROM <base1_ontology.ttl>
+FROM <base2_ontology.ttl>
+FROM <base3_ontology.ttl>
 WHERE {
     ?course s:hasGroup ?groupid .
     ?groupid s:seqno ?seqno .
     ?groupid s:lang ?lang .
-    ?course dc:subject ?course_title .
+    ?course rdfs:comment ?course_title .
     FILTER ( ?lang = "Deutsch" )
 }
 

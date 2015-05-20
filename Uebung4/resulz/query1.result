@@ -1,0 +1,7 @@
+result: [property=uri<https://univie.ac.at/~a7901955/schema/start>]
+result: [property=uri<https://univie.ac.at/~a7901955/schema/end>]
+result: [property=uri<https://univie.ac.at/~a7901955/schema/dayinweek>]
+result: [property=uri<https://univie.ac.at/~a7901955/schema/room>]
+result: [property=uri<https://univie.ac.at/~a7901955/schema/location>]
+result: [property=uri<https://univie.ac.at/~a7901955/schema/street>]
+result: [property=uri<https://univie.ac.at/~a7901955/schema/zip>]

@@ -1,0 +1,187 @@
+@prefix s: <https://univie.ac.at/~a7901955/schema/> .
+@prefix : <http://univie.ac.at/~a7901955/contents/> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#>  .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# begin schema
+
+# order: as in source hierarchy; related properties and classes clustered; 
+
+s:hasStudy
+  a rdf:Property;
+  rdfs:label "gruppiert Curricula"@de ;
+  rdfs:label "groups studies"@en ;
+  rdfs:domain s:Studybranch ;
+  rdfs:range s:Study .
+  
+s:Studybranch 
+  a rdfs:Class ;
+  rdfs:Label "Studienrichtung"@de ;
+  rdfs:Label "Studybranch"@en ;
+  rdfs:comment s:name .
+    
+s:hasModule
+  a rdf:Property;
+  rdfs:label "gruppiert Module"@de ;
+  rdfs:label "groups modules"@en ;
+  rdfs:domain s:Study ;
+  rdfs:range s:Module .
+  
+s:Study 
+  a rdfs:Class ;
+  rdfs:Label "Studium"@de ;
+  rdfs:Label "Study"@en ;
+  rdfs:comment s:name .
+
+s:hasCourse
+  a rdf:Property;
+  rdfs:label "hat LV"@de ;
+  rdfs:label "has courses"@en ;
+  rdfs:domain s:Module ;
+  rdfs:range s:Course .
+  
+s:Module 
+  a rdfs:Class ;
+  rdfs:Label "Modul"@de ;
+  rdfs:Label "Module"@en ;
+  rdfs:comment s:name .
+
+s:hasGroup
+  a rdf:Property;
+  rdfs:label "gehört zu LV"@de ;
+  rdfs:label "is part of lecture"@en ;
+  rdfs:domain s:Group ;
+  rdfs:range s:Appointment .
+
+s:Course
+  a rdfs:Class ;
+  rdfs:Label "Lehrveranstaltung"@de ;
+  rdfs:Label "Course"@en .
+
+s:continousassessment
+  a rdf:Property;
+  rdfs:label "prüfungsimmanent"@de ;
+  rdfs:label "continous assessment"@en ;
+  rdfs:domain s:Course ;
+  rdfs:range rdf:value .
+
+s:ects
+  a rdf:Property;
+  rdfs:domain s:Course ;
+  rdfs:range rdf:value .
+
+s:hoursPerWeek
+  a rdf:Property;
+  rdfs:label "Semesterwochenstunden"@de ;
+  rdfs:label "hours per week"@en ;
+  rdfs:domain s:Course ;
+  rdfs:range rdf:value .
+
+s:type
+  a rdf:Property;
+  rdfs:label "Art der LV"@de ;
+  rdfs:label "Course type"@en ;
+  rdfs:domain s:Course ;
+  rdfs:range rdf:value .
+        
+s:hasAppointment
+  a rdf:Property;
+  rdfs:label "hat Termin"@de ;
+  rdfs:label "has appointment"@en ;
+  rdfs:domain s:Group ;
+  rdfs:range s:Appointment .
+
+s:lect_responsible
+  a rdf:Property;
+  rdfs:label "Verantwortlicher Leiter"@de ;
+  rdfs:label "responsible Lecturer"@en ;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+  
+s:lect_auxiliary
+  a rdf:Property;
+  rdfs:label "Mitanbieter"@de ;
+  rdfs:label "auxiliary lecturer"@en ;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+  
+s:Group
+  a rdfs:Class ;
+  rdfs:Label "Gruppe"@de ;
+  rdfs:Label "Group"@en .
+  
+s:block
+  a rdf:Property;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+  
+s:learningplatform
+  a rdf:Property;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+
+s:learningplatformurl
+  a rdf:Property;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+
+s:livestream
+  a rdf:Property;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+
+s:signlanguage
+  a rdf:Property;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+
+s:lang
+  a rdf:Property;
+  rdfs:domain s:Group ;
+  rdfs:range rdf:Value .
+
+s:Appointment
+  a rdfs:Class ;
+  rdfs:Label "Termin"@de ;
+  rdfs:Label "Appointment"@en .
+  
+s:start
+  a rdf:Property;
+  rdfs:domain s:Appointment ;
+  rdfs:range rdf:Value .
+
+s:end
+  a rdf:Property;
+  rdfs:domain s:Appointment ;
+  rdfs:range rdf:Value .
+
+s:dayinweek
+  a rdf:Property;
+  rdfs:domain s:Appointment ;
+  rdfs:range rdf:Value .
+
+s:room
+  a rdf:Property;
+  rdfs:domain s:Appointment ;
+  rdfs:range rdf:Value .
+    
+s:location 
+  a rdf:Property;
+  rdfs:domain s:Appointment ;
+  rdfs:range rdf:Value .
+    
+s:street
+  a rdf:Property;
+  rdfs:domain s:Appointment ;
+  rdfs:range rdf:Value .
+    
+s:zip
+  a rdf:Property;
+  rdfs:domain s:Appointment ;
+  rdfs:range rdf:Value .
+    
+
+# end schema    
+
+

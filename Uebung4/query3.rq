@@ -1,0 +1,19 @@
+PREFIX : <http://univie.ac.at/~a7901955/contents/>
+PREFIX s: <https://univie.ac.at/~a7901955/schema/>
+PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <https://www.w3.org/2000/01/rdf-schema#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Geben Sie alle Verantwortlichen LV - Leiter aus, welche am Montag Lehre haben.
+#TODO Date Arithmetic
+
+SELECT ?instructor
+FROM <base1_ontology.ttl>
+WHERE {
+  ?appointment s:dayinweek ?dayinweek .
+  ?appointment s:start ?start .
+  ?group s:hasAppointment ?appointment .
+  ?group s:lect_responsible ?instructor .
+  FILTER ( ?dayinweek = 4)
+}
+LIMIT 200

@@ -1,6 +1,5 @@
 PREFIX : <http://univie.ac.at/~a7901955/contents/>
 PREFIX s: <https://univie.ac.at/~a7901955/schema/>
-PREFIX dc: <https://purl.org/dc/terms/>
 PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs: <https://www.w3.org/2000/01/rdf-schema#> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -11,11 +10,12 @@ SELECT ?c_title ?m_title ?start ?room
 FROM <base1_ontology.ttl>
 WHERE {
   ?m s:hasCourse ?c .
-  ?m dc:title ?m_title
+  ?m rdfs:comment ?m_title .
   ?c s:hasGroup ?gr .
-  ?c dc:subject ?c_title .
+  ?c rdfs:comment ?c_title .
   ?gr s:hasAppointment ?ap .
   ?ap s:start ?start .
   ?ap s:room ?room .
 }
+# LIMIT 200
 

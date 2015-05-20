@@ -1,0 +1,3 @@
+:sb1001 rdfs:comment "Platzhalter Studienrichtung import base2" ;
+    s:hasStudy :st1001_1 .
+    
