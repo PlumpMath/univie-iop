@@ -1,0 +1,22 @@
+1. Schritt
+match: date="(\d\d)\-(\w\w\w)\-20(\d\d) 00.00.00"
+replace: date="20\3-\2-\1"
+
+2. Schritt
+match: "20(\d\d)-Mar-(\d\d)"
+replace "20\1-03-\2"
+match: "20(\d\d)-Apr-(\d\d)"
+replace "20\1-04-\2"
+match: "20(\d\d)-May-(\d\d)"
+replace "20\1-05-\2"
+match: "20(\d\d)-Jun-(\d\d)"
+replace "20\1-06-\2"
+match: "20(\d\d)-Jul-(\d\d)"
+replace "20\1-07-\2"
+match: "20(\d\d)-Sep-(\d\d)"
+replace "20\1-09-\2"
+
+
+3. Schritt
+match: time="(\d{1,2})(\d\d)"
+replace: time="\1:\2"

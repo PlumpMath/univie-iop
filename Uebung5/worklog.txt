@@ -1,0 +1,32 @@
+VU Interoperabilität Übung 4
+Rainer Hörbe, a7901955 Gruppe 13
+Arbeitsprotokoll
+
+
+== Analyse der Aufgabe ==
+=== Frage: Was produzieren Sie (siehe Wiki)?
+* Annahme: Es ist die Zuweisung am cewebs unter "Teile" gemeint.
+* Antwort: Lautsprecher 
+
+=== Frage: Aus welchen Einzelteilen besteht der Teil (mindestens 7 Teile)? (1 JSON File das das Lager beschreibt, inklusive Anzahl der verfuegbaren Teile)
+* Annahme: In der Struktur können mehrere Teile enthalten sein, es wird aber nur ein einzelner Teil gezeigt
+* Antwort: output/lagerverwaltung.json
+
+=== Wie sieht eine Bestellung eines Endproduktes aus (mindestens 4 Parameter)? (1 JSON File das die Bestellung beschreibt).
+*
+
+=== 7 Fortschrittsberichte waehrend das Endprodukt produziert wird. (1 JSON File pro Fortschritt das den Fortschritt beschreibt).
+
+=== Schreiben sie 3 REST Services:
+* Einzelne Teile ins Lager LEGEN (PUT), und das Lager abfragen (GET).
+
+./lager_abfragen.sh [Lautsprecher [4711]]
+
+* Eine Bestellung abfragen (randomized parameters) (GET).
+* Fortschrittsbericht abfragen (welchen Bericht als integer parameter).
+
+=== Abzugeben: 1ZIP, die JSON Files, den Sourcecode der REST Services.
+
+===  Registrieren der Services unter der URL im Wiki.
+
+

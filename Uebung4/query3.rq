@@ -9,11 +9,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 SELECT ?instructor
 FROM <base1_ontology.ttl>
+FROM <base2_ontology.ttl>
+FROM <base3_ontology.ttl>
 WHERE {
   ?appointment s:dayinweek ?dayinweek .
   ?appointment s:start ?start .
   ?group s:hasAppointment ?appointment .
   ?group s:lect_responsible ?instructor .
-  FILTER ( ?dayinweek = 4)
+  FILTER ( ?dayinweek = 1)
 }
-LIMIT 200

@@ -8,6 +8,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 SELECT ?c_title ?m_title ?start ?room
 FROM <base1_ontology.ttl>
+FROM <base2_ontology.ttl>
+FROM <base3_ontology.ttl>
 WHERE {
   ?m s:hasCourse ?c .
   ?m rdfs:comment ?m_title .
@@ -17,5 +19,5 @@ WHERE {
   ?ap s:start ?start .
   ?ap s:room ?room .
 }
-# LIMIT 200
+
 
