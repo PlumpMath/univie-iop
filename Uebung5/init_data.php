@@ -9,38 +9,31 @@
 
 $stock_items = array(
     "Lautsprecher" => array(
-        array(
-            "part_no" => "4711",
+        "4711" => array(
             "part_desc" => "Chassis Tannoy 11 r99",
             "on_stock" => 1
         ),
-        array(
-            "part_no" => "4713",
+        "4713" => array(
             "part_desc" => "Membran Tannoy 11 r99",
             "on_stock" => 1
         ),
-        array(
-            "part_no" => "4715",
+        "4715" => array(
             "part_desc" => "Spule Tannoy 11 r99",
             "on_stock" => 0
         ),
-        array(
-            "part_no" => "4717",
+        "4717" => array(
             "part_desc" => "1 Paar Anschlussstücke Tannoy 11 r99",
             "on_stock" => 10
         ),
-        array(
-            "part_no" => "4719",
+        "4719" => array(
             "part_desc" => "Garantieerklärung",
             "on_stock" => 99999
         ),
-        array(
-            "part_no" => "4721",
+        "4721" => array(
             "part_desc" => "Beipacktext",
             "on_stock" => 999
         ),
-        array(
-            "part_no" => "4723",
+        "4723" => array(
             "part_desc" => "Kurzanleitung",
             "on_stock" => 99
         )
