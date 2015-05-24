@@ -18,7 +18,7 @@ Arbeitsprotokoll
 === 7 Fortschrittsberichte waehrend das Endprodukt produziert wird. (1 JSON File pro Fortschritt das den Fortschritt beschreibt).
 * uneindeutig: das kann heißen, dass (1) die Fortschrittsberichte für das gesamte Endprodukt erstellt und persistiert werden, und man dann die Historie abfragen kann, oder
   (2) es wird pro Teil ein aktueller Fortschrittsbericht erstellt.
-* Annahmen: Variante (2), und außerdem, dass der Fortschritt in der Veränderung des Backlogs im Berichtszeitraum besteht.
+* Annahmen: Variante (1), und außerdem, dass der Fortschritt in der Veränderung des Backlogs im Berichtszeitraum besteht.
 
 
 
@@ -35,10 +35,19 @@ URL-Parameter über ENV?
 HTTP custom error message
 
 * Eine Bestellung abfragen (randomized parameters) (GET).
+** unklar was mit randomisierten Parametern bezweckt wird.
+** Annahme: Treffer und Nicht-Treffer werden abgefragt, aber mit gezielten Testwerten. 
+
+
 * Fortschrittsbericht abfragen (welchen Bericht als integer parameter).
 
 === Abzugeben: 1ZIP, die JSON Files, den Sourcecode der REST Services.
 
 ===  Registrieren der Services unter der URL im Wiki.
 
-
+== sonstiges ==
+git push auf github.com war nicht möglich, weil Uebung4/resulz/query2.result zu groß war. Korrektur:
+Untersuchung der history:
+git log --graph --decorate --pretty=oneline --abbrev-commit --name-status
+Löschen des betroffenen Files in allen Commits:
+git filter-branch --prune-empty --index-filter "git rm --cached -f --ignore-unmatch Uebung4/resulz/query2.result" --tag-name-filter cat -- --all
