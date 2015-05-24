@@ -6,7 +6,6 @@
  * Time: 11:38
  */
 
-
 $stock_items = array(
     "Lautsprecher" => array(
         "4711" => array(
@@ -40,4 +39,9 @@ $stock_items = array(
     )
 );
 
-echo json_encode($stock_items);
+require_once('persistence.php');
+$p = new Persistence;
+$p->put_stock_items($stock_items);
+echo "stock items initialized with test data\n";
+
+?>

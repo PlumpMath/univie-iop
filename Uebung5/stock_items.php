@@ -6,14 +6,40 @@
  * Time: 18:13
  */
 
-require_once("response_writer.php");
-require_once("test_settings.php");
-require_once('persistence.php');
-$p = new Persistence;
-$stock_items = $p->get_stock_items();
+//test:
+$_GET['part_desc'] = 'neuer teil';
+$_GET['on_stock'] = 1;
+$_SERVER['REQUEST_METHOD'] = 'PUT';
 
-$pinf = explode('/', $_SERVER['PATH_INFO'], 4);
+$stock_items = json_decode(file_get_contents("lagerverwaltung.json"), true);
 
+$pinf = split('/', $_SERVER['PATH_INFO'], 4);
+
+function json_ok($out) {
+    header('Content-Type: text/json; charset=utf-8');
+    echo json_encode($out);
+    echo "\n";
+}
+
+function http404_notfound($msg) {
+    header("HTTP/1.1 404 $msg");
+    header('Content-Type: text/html; charset=utf-8');
+    //echo $pinf[0] . '|' . strtolower($pinf[1]) . '|' . $pinf[2] . ';';
+    //echo $msg . "\n";
+    exit();
+}
+
+function http405_request_method_not_allowed($method) {
+    header('HTTP/1.1 405 Request Method $method Not Allowed');
+    header('Content-Type: text/html; charset=utf-8');
+    exit();
+}
+
+function http422_unprocessable_request($msg) {
+    header('HTTP/1.1 422 $msg');
+    header('Content-Type: text/html; charset=utf-8');
+    exit();
+}
 
 function handle_get($stock_items, $pinf) {
     if ($pinf[1] == '') {
@@ -47,8 +73,8 @@ function handle_put($stock_items, $pinf) {
         "part_desc" => $_GET['part_desc'],
         "on_stock" => $_GET['on_stock'],
     );
-    //TODO: move json file handler into class
-    //file_put_contents(json_ok($stock_items), $STOCK_ITMES_FILE);
+    //TODO: replace json file
+    json_ok($stock_items);
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
